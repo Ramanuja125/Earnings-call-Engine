@@ -1,0 +1,76 @@
+17 Education & Technology Group Inc. (YQ) Q4 2025 Earnings Call March 24, 2026 9:00 PM EDT
+
+Company Participants
+
+Lara Zhao - Investor Relations Manager
+Sishi Zhou - Acting Chief Financial Officer
+
+Presentation
+
+Operator
+
+Good evening, and good morning, ladies and gentlemen, and thank you for standing by for 17EdTech's Fourth Quarter 2025 and Full Year Earnings Conference Call. [Operator Instructions] As a reminder, today's conference call is being recorded. I'll now turn the meeting over to your host for today's call, Ms. Lara Zhao, 17EdTech's Investor Relations Manager. Please proceed, Lara.
+
+Lara Zhao
+Investor Relations Manager
+
+Thank you, operator. Hello, everyone, and thank you for joining us today. Our earnings release was distributed earlier today and is available on our IR website. Joining us today are Ms. Sishi Zhou, Chief Financial Officer; and myself, Investor Relations Manager. Sishi will walk you through our latest business performance and strategies and I will discuss our financial performance in more detail. After the prepared remarks, Sishi will be available to answer your questions during the Q&A session.
+
+Before we begin, I'd like to remind you that this conference call contains forward-looking statements as defined in Section 21E of the Securities Exchange Act of 1934 and the U.S. Private Securities Litigation Reform Act of 1995. These forward-looking statements are based upon management's current expectations and current market and operating conditions and relate to events that involve known or unknown risks, uncertainties or other factors, all of which are difficult to predict and many of which are beyond the company's control. These risks may cause the company's actual results, performance or achievements to differ materially.
+
+Further information regarding these or other factors -- other risks, uncertainties or factors is included in the company's filings with the U.S. SEC. The company does not undertake any obligation to update any forward-looking statements as a result of new information, future events or otherwise, except as required under applicable law.
+
+I will now turn the call over to our Chief Financial Officer, to review some of our business development and strategic direction. Sishi?
+
+Sishi Zhou
+Acting Chief Financial Officer
+
+Thank you, Lara. Hello, everyone. Thank you all for joining us on our fourth quarter and full year 2025 earnings conference call. Before we begin, I would like to note that the financial information and the non-GAAP numbers in this release are presented on a continuing operational basis and in RMB, unless otherwise stated.
+
+Let me begin with our latest business update. In the fourth quarter of 2025, we continued to deliver steady progress in our core business with top line growth on a year-over-year and quarter-on-quarter basis. Our school-based subscription model business continued to expand, contributing a growing share in total revenue, emerging as a key contributor during the quarter. Meanwhile, we successfully launched our new consumer-facing product, [ ETIC, ] which is closely aligned with the National AI plus education initiative. Leveraging the brand recognition and user trust cultivated over the past decade. Our new AI membership products have achieved strong presale orders and received highly positive market feedback since its launch, demonstrating its robust growth prospects in the quarters ahead. Notably, the robust preseale demand for our new products generated a significant increase in free cash flow. At of quarter end, we maintained a healthy cash balance of RMB 407 million, reflecting the promising trajectory of our new AI-powered offering and the positive expectations for future cash flow.
+
+Now let me go into more details. In the fourth quarter of 2025, we recorded net revenues of RMB 38.9 million an increase of 94.6% on a quarter-on-quarter basis and a 6.4% growth on a year-over-year basis, driven by the growing contribution of recurring revenue under subscription model as well as our consistent commitment to cost control. Gross was restored to a normalized level of 46.1% in Q4, a 12.5 percentage point increase on a year-over-year basis, benefiting from sustained efficiency improvements, our net loss narrowed by 16.8% year-over-year. We also generated positive net operating cash inflow in the quarter driven by the strong momentum of our new [ CN ] business and continuous improvement in operational efficiency.
+
+During the quarter, our school-based subscription model business maintained positive progress, contributing a growing share of total revenue. The increase in net revenues from this segment reflects its recurring nature as it continues to scale effectively. The steady progress of our school-based subscription business has not only strengthened our financial health, including gross margin and other key metrics, but also helped us reach a broader base of potential users and enhanced brand influence, laying a solid foundation for the launch of our [ CN ] business.
+
+In response to the national initiative of embedding AI throughout the entire educational process and guided by our mission to make learning a wonderful experience, during the quarter, we successfully rolled out AI personalized learning membership product, [ ETIC ] targeting [ CN ] users. Levering to the user trust built over years, strong brand endorsement from our district level and school-based projects as well as mature smart hardware capabilities and solid AI foundation with new AI membership product has garnered a strong market enthusiasm and a robust preorder volume. In the design of this product, we are committed to enabling users to achieve a more personalized, effective and enjoyable learning experience in less time. It deeply integrates our hardware and software capabilities together with the exclusive content resources we have built over the past decade. Our Smart Pen captures full process writing data while respecting traditional play and paper habits. It efficiently digitalized handwritten notes and exercise responses, visualizing users thinking process rather than simply uploading final answers. By visualizing these thinking patterns, we are able to deliver personalized learning diagnostics, generate AI-powered customized practice nodes and intelligently recommend similar learning exercises, enabling highly efficient and focused learning practice. Users' own notes taken with this [indiscernible] with support for custom tag, categorization and quick search. As a result, users can quickly identify their learning areas for improvement without spending extra time manually organizing paper notes comparing practice notes or searching for relevant problems.
+
+In addition, our AI panel provides study supervision based on personalized diagnostics and over tailored learning plans aligned with the local learning schedules and individual progress. This allows users to focus on their growth areas and improve efficiently. These personalized practice and planning capabilities are backed by our 10 years of deep insight into local learning profiles supported by massive data from large-scale regular full scenario usage across our platform. The product also features interactive tools, including AI Q&A and AI transmission, et cetera, along with a suite of value-added learning resources. Notably, we have introduced Toby Smart Rabbit, an intelligent learning companion that provides emotional support through natural voice interaction. It reminds users to study, offers encouragement and makes the learning experience warmer and more engaging, helping users stay consistent with the personalized learning journeys.
+
+Looking ahead, we will continue to explore innovation practices in AI plus education and steadily reiterate and upgrade our products. Our business segments, serving [ GN, BN and CN ] users will grow in synergy as we further strengthen our brand influence and enhance user value. The above concludes the business update.
+
+Now I will turn the call over to Lara to walk you through our latest financial performance. Thank you.
+
+Lara Zhao
+Investor Relations Manager
+
+Thanks, Sishi, and thank you, everyone, for joining the call. I will now walk you through our financial and operating results. Please note that all financial data I talk about will be presented in RMB terms. We are pleased to announce healthy financial results for the first -- for the fourth quarter of 2025 with top line growth of 94.6% on a quarter-on-quarter basis. Gross margin for the fourth quarter of 2025 was 46.1%, representing a 12.5 percentage point increase on a year-on-year basis compared to the same period last year. Meanwhile, our continued focus on operational efficiency resulted in narrowing losses in the fourth quarter and the fiscal year of 2025. Despite an increase in sales and marketing expenses in support of the launch of our new AI-powered consumer business, we achieved a reduction in total operating expenses for the fourth quarter and full year of 2025 by 10.9% and 24.3%, respectively, resulting in narrowing losses by 16.8% and 20.0%, respectively, on a GAAP basis.
+
+Next, I will walk you through our fourth quarter financials in greater detail. Net revenues in the fourth quarter of 2025, we recorded net revenues of RMB 38.9 million compared with RMB 36.6 million in the fourth quarter of 2024, representing a 6.4% increase on a year-on-year basis which was primarily due to the increase in net revenues from the school-based subscription model business, which is demonstrating its recurring nature as it continues to scale.
+
+Cost of revenues for the fourth quarter of 2025 was RMB 21.0 million, USD 3.0 million, representing a year-over-year decrease of 13.6% and from RMB 24.3 million in the fourth quarter of 2024, which was mainly due to the fewer district level project deliveries for our teaching and learning SaaS offerings as a result of a new -- as a result of growing proportion of recurring revenue and the subscription model that requires fewer hardware and software deliveries.
+
+Gross profit for the fourth quarter of 2025 was RMB 17.9 million, USD 2.6 million compared with RMB 12.3 million in the fourth quarter of 2024. Gross margin for the fourth quarter of 2025 was 46.1% compared with 33.6% in the fourth quarter of 2024, representing a 12.5 percentage point increase on a year-on-year basis. The increase was largely attributable to higher contribution from the school-based subscription business with higher margins as well as enhanced operating leverage as our subscription model business growth.
+
+Total operating expenses for the fourth quarter of 2025 were RMB 72.5 million which is USD 10.4 million increased RMB 8.9 million of share-based compensation expenses representing a year-over-year decrease of 10.9% from RMB 81.4 million in the fourth quarter of 2024. Sales and marketing expenses for the fourth quarter of 2025 was RMB 40.2 million, including RMB 1.7 million of share-based compensation expenses, representing a year-over-year decrease of [ 99.0 ] from RMB 20.2 million in the fourth quarter of 2024. This was primarily attributed to the increased market workforce and related expenses in support of the launch of our new AI powered consumer business. Research and development expenses for the fourth quarter of 2025 were RMB 16.3 million, USD 2.3 million, including RMB 2.9 million of share-based compensation expenses representing a year-over-year decrease of 3.8% from RMB 17.0 million in the fourth quarter of 2024. The decrease was primarily due to the decrease in the share-based compensation compared with the same period last year. Generating and administrative expenses for the fourth quarter '25 were RMB 16.0 million, USD 2.3 million, including RMB 4.3 million of share-based compensation expenses, representing a year-over-year decrease of 63.8% from RMB 44.2 million in the fourth quarter of 2024. This was primarily due to the decrease in share-based compensation and the effect of one-off expenses in impairment loss provision in the fourth quarter of 2024.
+
+Loss from operations for the fourth quarter of 2025 was RMB 54.86 million, USD 7.8 million compared with RMB 69.1 million in the fourth quarter of 2024. Loss from operations as a percentage of net revenues for the fourth quarter of 2025 was negative 142 -- 140.2% compared with negative 188.8% in the fourth quarter of 2024. Net loss for the fourth quarter of 2025 was RMB 53 million compared with net loss of RMB 63.7 million in the fourth quarter of 2024. Net loss as a percentage of net revenues was negative 160 -- 136.1% in the fourth quarter of 2025 compared with negative 174.2% in the fourth quarter of 2024. Adjusted net loss non-GAAP for the fourth quarter of 2025 was RMB 44.1 million, which is USD 6.3 million compared with adjusted net loss non-GAAP of RMB 40.1 million in the fourth quarter of 2024. Adjusted net loss, non-GAAP, as a percentage of net revenues was negative [indiscernible] in the fourth quarter of 2025 compared with negative 109.5% of adjusted net loss as a percentage of net revenues in the fourth quarter of 2024.
+
+Please refer to the table captioned reconciliations of non-GAAP measures to the most comparable GAAP measures at the end of this press release, for reconciliation of net loss under U.S. GAAP to the adjusted net loss non-GAAP.
+
+Cash and cash equivalents, restricted cash and term deposits were RMB 407.0 million which is USD 58.2 million as of December 31, 2025, compared with RMB 359.3 million as of December 31, 2024. Going forward, we will continue to strengthen our core strength with the advancement of AI capabilities serving as a key driver of our sustainable growth. At the same time, we will further enhance cross-business synergies and reinforce our business resilience to support long-term development. These integrated efforts enable us to combine our respective strengths and deliver consumer-centric offerings that truly resonate, creating a sustainable growth pathway that generates lasting value for both learners and shareholders. With that, we conclude our prepared remarks. Thank you. Operator, we are now ready to begin the Q&A session.
+
+Question-and-Answer Session
+
+Operator
+
+[Operator Instructions] I'm showing no questions. I'll now turn the conference back to Ms. Lara Zhao for closing comments.
+
+Lara Zhao
+Investor Relations Manager
+
+Thank you, operator. In closing, on behalf of 17EdTech's management team, we'd like to thank you for your participation on today's call. If you require any further information, please feel free to reach out to us directly. Thank you for joining us today. This concludes...
+
+Operator
+
+Thank you for your participation in today's conference. This does conclude the program. You may now disconnect your lines.
