@@ -1,0 +1,564 @@
+Mettler-Toledo International Inc. (MTD) Q1 2025 Earnings Conference Call May 2, 2025 8:30 AM ET
+
+Company Participants
+
+Adam Uhlman - Head of IR
+
+Patrick Kaltenbach - CEO
+
+Shawn Vadala - CFO
+
+Conference Call Participants
+
+Dan Leonard - UBS
+Patrick Donnelly - Citi
+Jack Meehan - Nephron Research
+Dan Arias - Stifel
+Brandon Couillard - Wells Fargo
+Vijay Kumar - Evercore ISI
+Matt Sykes - Goldman Sachs
+Rachel Vatnsdal - JPMorgan
+Michael Ryskin - Bank of America
+Tycho Peterson - Jefferies
+Catherine Schulte - Baird
+Josh Waldman - Cleveland Research
+
+Operator
+
+Good morning, ladies and gentlemen. And thank you for standing by. My name is Kelvin and I will be your conference operator today. At this time, I would like to welcome everyone to the Mettler-Toledo First Quarter 2025 Earnings Call. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, there will be a question-and-answer session. [Operator Instructions] Thank you.
+
+I would now like to turn the call over to Adam Uhlman, Head of Investor Relations. Please go ahead.
+
+Adam Uhlman
+
+Hey, thanks, Kelvin, and good morning, everyone. I appreciate you joining us. On the call with me today is Patrick Kaltenbach, our Chief Executive Officer, and Shawn Vadala, our Chief Financial Officer.
+
+Let me cover some administrative matters. On the call -- this call will be webcast and available for replay on our website at mt.com, and a copy of the press release and presentation that we'll refer to on today's call is also available on our website.
+
+This call will include forward-looking statements within the meaning of the U.S. Securities Act of 1933 and the U.S. Securities Exchange Act of 1934. These statements involve risks, uncertainties, and other factors that may cause our actual results, financial condition, performance, and achievements to be materially different from those expressed or implied by any forward-looking statements. For a discussion of these risks and uncertainties, please see a recent annual report on Form 10-K and quarterly and current reports filed with the SEC. The company disclaims any obligation or undertaking to provide any updates or revisions to any forward-looking statement except as required by law.
+
+On today's call, we may use non-GAAP financial measures, and a reconciliation of these non-GAAP measures to the most directly comparable GAAP measure is provided in the 8-K and is available on our website.
+
+Let me now turn the call over to Patrick.
+
+Patrick Kaltenbach
+
+Thanks, Adam, and good morning, everyone. We appreciate you joining our call today. Last night, we reported our first quarter financial results, the details of which are outlined for you on Page 3 of our presentation. We had a good start to the year with solid growth in our laboratory business, excluding the recovery of delayed shipments in the first quarter of 2024. Additionally, the strong execution of our margin expansion strategies led to better-than-expected earnings for the quarter.
+
+However, the ongoing global trade disputes and tariffs have significantly increased uncertainty in global customer demand. We also estimate cross-incremental global tariff costs of approximately $115 million on an annual basis and are implementing mitigation actions this year that will fully offset these costs next year. We are confident that our strong culture of operational excellence and our highly agile team will continue to perform well in this dynamic environment, and we will benefit from the breadth of our innovative product portfolio and strategic programs.
+
+Let me now turn the call over to Shawn to cover the financial results and our guidance, and then I will come back with some additional commentary on the business and our outlook. Shawn?
+
+Shawn Vadala
+
+Hey, thanks, Patrick, and good morning, everyone. Sales in the quarter were $884 million, which represented a decrease in local currency of 3%. Excluding the impact of shipping delays from the fourth quarter of 2023 that were recovered in the first quarter of 2024, local currency sales grew 3%. On a U.S. dollar-reported basis, sales declined 5%.
+
+On slide number four, we show sales growth by region. Local currency sales declined 1% in the Americas, 7% in Europe, and 2% in Asia and the rest of the world. Local currency sales were flat in China during the quarter. Excluding the impact of shipping delay recoveries in the prior year, local currency sales grew 3% in the Americas, 4% in Europe, and 3% in Asia and the rest of the world, including 3% growth in China.
+
+On slide number five, we summarize local currency sales growth by product area. For the quarter, laboratory sales decreased 3% and industrial declined 1%, with core industrial down 6% and product inspection up 8%. Food retail declined 12% in the quarter. Excluding the impact of shipping recoveries last year, we estimate our laboratory sales grew 5%, industrial grew 2%, with core industrial down 2%, and product inspection up 8%, and food retail declined 5%. Service sales increased 6% in local currency in the first quarter.
+
+Let me now move to the rest of the P&L, which is summarized on slide number six. Gross margin was 59.5% in the quarter, an increase of 30 basis points, as positive price realization and benefits from our SternDrive program were offset in part by lower volume. We estimate gross margin expanded 90 basis points, excluding shipping delays.
+
+R&D amounted to $46 million in the quarter, which is a 2% increase in local currency over the prior year. SG&A amounted to $243 million, a 5% increase in local currency over the prior year, and includes sales and marketing investments and timing of expenses. Adjusted operating profit amounted to $237 million in the quarter, down 11% from the prior year. Adjusted operating margin was 26.8%, which represents a decrease of 210 basis points over the prior year. Excluding the impact of shipping delay recoveries in the prior year, our operating margin expanded 50 basis points on 3% sales growth in the quarter.
+
+A couple final comments on the P&L. Amortization amounted to $17 million in the quarter, interest expense was $17 million, and adjusted other income amounted to $3 million. Our effective tax rate was 19% in the quarter. This rate is before discrete items and is adjusted for the timing of stock option exercises.
+
+Fully diluted shares amounted to $20.9 million, which is approximately a 3% decline from the prior year. Adjusted EPS for the quarter was $8.19, an 8% decrease over the prior year. Adjusted EPS growth was 11%, excluding a headwind to EPS growth of approximately 18% from the recovery of delayed shipments and a 1% headwind from foreign exchange. On a reported basis in the quarter, EPS was $7.81, as compared to $8.24 in the prior year. Reported EPS in the quarter included $0.23 of purchased intangible amortization and $0.15 of restructuring costs.
+
+That covers the P&L, and let me now comment on adjusted free cash flow, which amounted to $180 million in the quarter, a 1% increase on a per share basis and was impacted by higher bonus payments of $36 million related to prior year performance. DSO was 35 days, while ITO was 4.2 times.
+
+Let me now turn to our guidance for the second quarter and for the full year 2025. As you review our guidance, please keep in mind the following factors. First, our guidance assumes U.S. import tariffs as well as the impact of retaliatory tariffs from other countries will remain in effect at current levels. Geopolitical tensions are elevated and include the potential for new tariffs or retaliatory tariffs that we have not factored into our guidance. As of today, we estimate our incremental global tariff costs at approximately $115 million on an annualized basis, which already includes initial actions we have taken to lower our gross exposure.
+
+Secondly, we are taking various actions to offset the impact of higher tariffs, including supply chain optimization, cost savings, price increases, and surcharges. Our actions are expected to fully offset tariff costs on an annualized basis, but we will have a headwind in our gross margin in 2025, especially Q2, until the full benefit is realized.
+
+Third, the U.S. administration's trade policies have created increased risk to the outlook for our core markets in the global economy. Our outlook assumes market conditions will be slower than previously expected, especially in China. This implies volume growth in the second half of the year is similar to the first half of the year, excluding the impact of shipping delays. We assume foreign currency at current rates, which would not material impact sales or adjusted EPS in 2025.
+
+Finally, please keep in mind that our third-party logistics provider delays negatively impacted our Q4 2023 results by $58 million, nearly all of which was recovered in our Q1 2024 results. For the full year 2025, this will reduce our sales by 1.5% and is a headwind to operating margin expansion of approximately 60 basis points and a headwind to adjusted EPS growth of approximately 4%.
+
+Now turning to our guidance, for the second quarter of 2025, we expect local currency sales to grow approximately zero percent to 1%. Operating margin is expected to decrease 170 basis points at the midpoint of our range or down 70 basis points, excluding the net impact of tariffs. We expect adjusted EPS to be in the range of $9.45 to $9.70, a growth rate of down 2% to up 1%. Included within the EPS guidance is a gross headwind of approximately 6% from higher tariff costs, and we expect to offset about half, resulting in a net headwind to EPS growth of 3%.
+
+For the full year 2025, our local currency sales growth forecast is 1% to 2% or up 2.5% to 3.5%, excluding the shipping delays.
+
+Operating margin is expected to decrease 130 basis points at the midpoint of our range and would be up slightly, excluding the net impact of tariffs and prior year shipping delays. We expect full year adjusted EPS to be in the range of $41.25 to $42 compared to our previous guidance of $42.35 to $43, which reflects EPS growth of zero percent to 2% or 4% to 6%, excluding the shipping delays. Included within the EPS guidance is a gross headwind of approximately 7% from higher tariff costs or a net headwind of 2%, including the benefits of our mitigating actions.
+
+Lastly, I'd like to share a few other details on our 2025 guidance to help you as you update your models. We expect total amortization, including purchased intangible amortization, to be approximately $72 million. Purchased intangible amortization is excluded from adjusted EPS and is estimated at $25 million on a pre-tax basis or $0.93 per share. Interest expenses forecast at $72 million for the year. Other income is estimated at approximately $9 million.
+
+We expect our tax rate before discrete items will remain at 19% in 2025. Free cash flow is expected to be approximately $860 million in 2025, and share repurchases are expected to be approximately $875 million.
+
+That's it from my side, and I'll now turn it back to Patrick.
+
+Patrick Kaltenbach
+
+Thanks, Shawn. Let me start with some comments on our operating businesses, which will exclude the impact from the recovery of delayed shipments in the first quarter of last year.
+
+I will start with Lab, which had solid growth in the quarter. We continue to benefit from recent innovations like our new line of laboratory balances, titrators, and thermal analysis instruments, and our sophisticated go-to-market approaches have helped us penetrate underserved market segments. We had strong growth in our process analytics business in this quarter, which continues to benefit from favorable biopharma market trends, especially in single-use technologies, and recent innovations like our digital sensors with intelligent sensor management that provide reliable inline measurement of critical analytical parameters.
+
+Precise analytics, monitoring, and control systems are crucial for optimizing bioprocess operations. By providing real-time data and feedback, our systems can help ensure ideal cell viability, nutrition feeding, and consistent productivity throughout the bioprocessing lifecycle, from R&D to manufacturing in both reusable and single-use formats.
+
+Turning to our industrial business, our underlying sales growth was led by our product inspection business, where our growth initiatives and new portfolio have offset challenging market conditions for the food manufacturing industry.
+
+Our innovation investments are well-received in the market. Our new innovations have low total cost of ownership and can significantly improve productivity, for example, by enabling much higher line speeds in production and reducing waste, which is more important than ever to protect margins in food manufacturing.
+
+Switching to core industrial, sales were down slightly, excluding the impact of prior year shipment delay recoveries, as industry conditions remain mixed across most end markets. Our team remains active in engaging with customers with cost-saving solutions, like our quality control software that improves process control and reduces waste in the manufacturing operations.
+
+Our suite of smart terminals helps customers transition manual processes to semi or fully-automated process control that includes full traceability for reliable reporting. These solutions are increasingly important for customers looking to expand manufacturing in higher-cost geographies and automate more of their production processes. And lastly, food retail declined as we had expected.
+
+Now let me make some additional comments by geography, which will also exclude the impact of last year's shipping recovery. Starting in the Americas, our underlying sales growth was led by strong growth in process analytics and product inspection. This growth was partially offset by lower core industrial sales against strong growth in the prior year.
+
+Turning to Europe, we had underlying sales growth across our businesses with the exception of retail. Our team continues to execute very well and we have benefited from our innovative portfolio and spinnaker programs. And finally, Asia and rest of the world results were about as expected and grew modestly against easy comparisons. Market conditions in China remain soft and economic uncertainty is increasing. We continue to leverage our Spinnaker program to identify growth opportunities and our team remains highly agile to take advantage of opportunities.
+
+In summary, we are pleased with a good start to 2025, although we recognize there's increased uncertainty due to tariffs and the potential impact to our end markets and global economic growth. During uncertain times, our strong culture of teamwork, collaboration and focused execution has been a critical asset that has helped our company successfully navigate uncertainty very well in the past.
+
+We also benefit from our business diversity and help customers across their entire value chain from research and development, scale up, quality control and production. We also serve a wide range of diverse end markets and over 70% of our sales are in core end markets of pharma, biopharma, food manufacturing and chemicals. No end customer is more than 1% of sales and we also benefit from our geographic diversity as we sell in over 140 countries around the world.
+
+We also have a broad and diverse product offering and have introduced new innovations across a wide range of our portfolio in the recent years that provide tangible benefits to customers, significantly enhancing our value proposition. Our automation and digitalization solutions help customers improve their productivity and reduce costs while enhancing compliance with relevant regulations.
+
+Additionally, our average price points are low and typically below $10,000 and our large installed base and replacement demand helps reduce cyclicality. Approximately 35% of our sales last year was service and consumables, and we are confident our dedicated growth initiatives in this area will remain accretive to our growth and profitability.
+
+Our go-to-market approach is also a competitive advantage during periods of increased uncertainty. Our sales and marketing excellence program, Spinnaker, ensures we are identifying and guiding our sales teams to the most attractive opportunities in the market. For example, we expect to see increased U.S. onshoring investment over the coming years, and we will benefit from these investments. Our strong direct sales force helps us to communicate our value proposition directly to end users.
+
+Our global supply chain is another important asset as we serve customers around the world with 21 manufacturing locations in seven countries. We also continue to increase the resilience of our manufacturing footprint, which allows us to produce products in multiple regions.
+
+U.S. import tariffs represent additional costs. We plan to offset with supply chain optimization actions, cost savings, price increases and surcharges. Our global pricing program is deeply ingrained throughout our organization and is based on a sophisticated set of data analytics and tools that help support our end-to-end pricing process. Our Blue Ocean program has also allowed us to have centralized price administration with robust processes so we can react quickly to changing conditions.
+
+Overall, we recognize the increased uncertainty in the economy, and we remain agile to respond to the changes in the market conditions as necessary. At the same time, we remain convinced in the long-term growth opportunity in our end markets and our ability to gain market share and grow faster than the market, especially in very dynamic market conditions. We remain focused on the things we can control and continue to implement strategies with a good balance of initiatives focused on growth, innovation and operational excellence.
+
+Now this concludes our prepared remarks. Operator, I'd like now to open the line to questions.
+
+Question-and-Answer Session
+
+Operator
+
+Thank you. Ladies and gentlemen, we will now begin the question-and-answer session. [Operator Instructions] Your first question comes from the line of Dan Leonard of UBS. Please go ahead.
+
+Dan Leonard
+
+Thank you very much. My first question is one on China. Can you update us with your new forecast for revenue growth in China in 2025 and maybe parse that between Industrial and Lab?
+
+Shawn Vadala
+
+Yeah, Dan, this is Shawn. I'll take that one. So for China, for 2025, for the full year, on a reported basis, we expect China to be down slightly. Maybe I'll comment on Q2, we expect Q2 to be down like low to mid-single digit. On the full year basis, we expect that to be kind of like up low single digit in terms of the Lab business and down low single digit in terms of the Industrial business. And for Q2, we expect Lab to be down low single digit and Industrial to be down mid-single digit.
+
+And hey, this probably is a good parlay into like a little bit our thoughts on guidance. When Patrick talks about uncertainty, clearly, China is probably higher on the list in terms of areas where there's uncertainty in terms of like where we're seeing maybe some caution in the market in terms of customers, maybe holding off in terms of investments. We see that a little bit here in the second quarter. So we're just a little bit more cautious here in Q2 and how we're thinking about kind of China developing for the rest of the year. But I think overall --, yeah, okay.
+
+Dan Leonard
+
+And maybe as a -- well, a follow-up. You mentioned onshoring, and there have been a lot of announcements lately. I don't know, Patrick, if there's any way you could help us better quantify the potential opportunity for Mettler from various manufacturing onshoring initiatives?
+
+Patrick Kaltenbach
+
+Sure, Dan. I'm happy to take that question. Look, I mean, the whole reshoring, homeshoring, onshoring whatever you will call it is definitely something that will be important for us moving forward. That said, as these companies are starting the reshoring programs and factories are, et cetera, we a bit later in the process. We are not in the initial construction phase et cetera, are involved with these companies. But we are, of course, talking to many customers out there, whether it's semiconductor or other areas who plan to make these relocations to make sure they understand the full benefit of our portfolio when they are ready to put in place their manufacturing control systems to help them with our industrial solutions, at the same time into QC with our QC products and of course, also in the R&D environment with the broad span of our research and development tools that we have for these customers.
+
+But so far, I would say the impact on our business from reshoring and homeshoring is not yet of any meaningful size but we expect it to be an upside in the, let's say, quarters and years to come.
+
+Shawn Vadala
+
+Yeah. And we just feel like we're very well positioned for this trend as a global company, but also with our Spinnaker program, which really helps us to identify these types of opportunities.
+
+Dan Leonard
+
+Okay. Thank you very much.
+
+Operator
+
+Your next question comes from the line of Patrick Donnelly of Citi. Please go ahead.
+
+Patrick Donnelly
+
+Hey, guys. Thanks for taking questions. Shawn, probably one for you on the tariff side. I appreciate all the color on the gross number and some of the mitigation. Can you just break down kind of where that impact is coming from? Obviously, China was a pretty big concern coming in just in terms of some of the import exports there. Can you talk about that impact? And then, again, the mitigation efforts that are ongoing, have you already started to move some things around?
+
+And then similarly, on the pricing side, how should we be thinking about that you guys are always quite nimble on pricing increases and surcharges, so would love to just talk through both the gross impact where it's coming from and then also the mitigation of the way here?
+
+Shawn Vadala
+
+Yeah. No, Patrick, great questions. So I think the first comment is, of course, we already started to want to have more flexibility in our global supply chain going back, coming out of COVID. So as part of that, we had kind of expanded in Mexico, which was part of an acquisition that we did a while back. And then with this need to have more flexibility in our supply chain, we started to build out Mexico.
+
+More recently with the global trade disputes kind of on the horizon, we've been accelerating a lot of our plans here. This is one example. Of course, we do a lot of things with our global supply chain. But we've been making a lot of progress in our optimization of our global supply chain processes here recently and made a lot of progress here already this year.
+
+And as a result, our exposure to imports from -- directly from China, we estimate that number is more in the range of about $50 million right now. So previously, we would have said that, that number was under $100 million. It was a little bit dynamic, and we wanted to see a little bit how things played out here with the timing of tariffs, but we're really pleased to make good progress in terms of that number. Of course, China -- of course, Mexico is now higher than China, but expect it to still be below $100 million.
+
+And then as we think about the rest of the world, we expect imports to the U.S. to be in the range of about $250 million with a significant portion of that coming out of Switzerland.
+
+Patrick Donnelly
+
+Okay. And then just the pricing offset, how you think about that?
+
+Shawn Vadala
+
+Yeah. I'm sorry, that's the impact, of course, and then the mitigation. So there's the supply chain. There is also some cost savings and then there's pricing. So pricing, we expect our pricing -- before we were communicating pricing to be kind of like in the range of about 2% for this year. Right now, we're thinking it's going to be 3% or so. It will depend a little bit on how the tariffs play out because some of our pricing is going to be price increases related to inflationary higher inflationary conditions that we expect from the trade war, but also a significant part of our mitigation actions also with surcharges, which gives us a little bit of flexibility as things can go up or down with the tariff rates. And so that could change a little bit going forward. But I think the flexibility will play out kind of well here as we kind of go forward.
+
+And then as we kind of go into next year, you'll see the mix changing a little bit as we continue to work on supply chain optimization to put us in a position where we really have a lot of confidence in terms of our ability to mitigate the gross tariff headwind at the current rates.
+
+Patrick Donnelly
+
+That's helpful. And then Patrick, maybe just on the industrial market overall, that's become for the group, a little more concerning just given the macro backdrop, all the volatility out there. What are you hearing from customers on the Core Industrial piece? What's the right way to think about how you guys are forecasting that today versus maybe a few months ago when things were, I guess, slightly different? Appreciate it.
+
+Patrick Kaltenbach
+
+Yeah, sure. I'll make a general comment on how I see the industrial end market and then let Shawn will break it down on how we see the growth forecast for the second quarter and the full year. Look, I mean I think we are exceptionally positioned with our product portfolio to serve the automation needs and digitalization needs in the industrial markets. And yes, we have seen recently some delays with customers that had larger projects that moved. That's also why we see a bit of a slower movement in Q2 right now industrial. But overall, we are confident in our solutions that we see the trend for automation, the need for automation, given an aging populations, reduction workforce worldwide will stay in place.
+
+And if you take also into account the whole reshoring and homeshoring activities that are coming, these customers will not start with a lot of manual processes that they will try to start to automate as much as possible given also the higher labor cost that they will face in the homeshoring countries. So I think that's while we're seeing currently some softness given the uncertainty, I think for the long term, we are very well positioned with the portfolio.
+
+And Shawn, can you break it down in terms of the industrial growth numbers for Q2 and the full year?
+
+Shawn Vadala
+
+Yeah. On the Industrial side for Q2 for Core Industrial, we expect Core Industrial to be flat, and we expect Product Inspection to be up mid-single digit. And for the full year, we expect Core Industrial to be flattish, and we expect Product Inspection to be mid-single digit.
+
+Patrick Donnelly
+
+Helpful, thank you guys.
+
+Operator
+
+Your next question comes from the line of Jack Meehan of Nephron Research. Please go ahead.
+
+Jack Meehan
+
+Hey, good morning, everyone. To continue on the topic of tariffs, but just in terms of customer behavior. I was curious if you saw any evidence of pull forward in the first quarter or in any of like the April trends that you've seen so far?
+
+Patrick Kaltenbach
+
+Yeah. Thanks, Jack. We have not seen a significant or any meaningful pull forward actually in the quarter. I don't know if there was something in the news in the car industry, but I would say in our industry, we have not seen customers highlighting. They're placing orders earlier because they are concerned about the tariffs. We are serving markets that are not really concerned about this very short-term moves and they also don't make short-term planning. That's what I see. But from what I'm hearing from the sales force, there has been not an acceleration of orders given the tariff impact.
+
+Jack Meehan
+
+Okay. And then within Lab, I was curious just for some more color on the Process Analytics business, had some encouraging commentary from some of your peers in the bioprocessing world. Just curious how you feel that the set up there. Thank you.
+
+Patrick Kaltenbach
+
+Exactly, yes. And we have seen also some really nice growth in Process Analytics, also driven by some of the comments, of course, that you have heard from a lot of the biopharma customers that they really increased manufacturing. We see a good increase of both single-use but also multiple use sensors in the space, but there has been a very healthy recovery also on the portfolio of single-use sensors, which have been over the last years subdued and there was also kind of overstocking issues in last year that has been fully resolved and now we see some really healthy old income again.
+
+Jack Meehan
+
+Awesome. Thank you.
+
+Operator
+
+Your next question comes from the line of Dan Arias of Stifel. Please go ahead.
+
+Dan Arias
+
+Hey, good morning, guys. Thank you. Shawn, just a follow-up on manufacturing. The capabilities in Mexico, I think that's through biotech, if I remember right. And it used to be pet tips and life sciences reagents that you made down there. Have you expanded the production breadth beyond that at this point? Or is it still focused on a sub segment of Lab and so that's where the gross margin gains would be focused?
+
+Shawn Vadala
+
+No, it's significantly expanded. We literally added on to the facility a few years ago. And we've been moving a wide range of products throughout the portfolio, which will include Lab, Industrial and also on the food retailing side.
+
+Dan Arias
+
+Okay. Helpful. And then just when it comes to the tariff offsets. Obviously, you're implementing the plan today. If you were to get some de-escalation here like it's possible, do you see the chance for some stickiness that could kind of leave the door open for a benefit relative to where things are today? Just in the sense that, to your point, you have a low ASP portfolio, if you were to raise some price in response to tariffs and then sort of align to a cost structure for a particular scenario, but then not have that scenario be the way that it plays out, would you not necessarily have to pull it all the way back, and so you could be left with some upside? Or is the idea really to just sort of flex back down on pricing and surcharges as situation changes?
+
+Shawn Vadala
+
+And hey, we'll see how things play out, right? I mean there's a lot of different scenarios that could happen. I mean, things have changed so much here in the last two to three months more than what we would have expected in terms of the surcharges. Of course, yes, they would -- we'd have to pull them back if rates change, but I think we'll just see how things play out here.
+
+Patrick Kaltenbach
+
+Yes, of course, but also on the manufacturing side. And as we have now really increased our manufacturing footprint, for example, in Mexico. We also have put a lot of effort into really making sure we step a very strong local supply chain there as well, and that is there to stay. I mean we have a very competitive setup there to serve, especially in the North American market that is to some extent, redundant to the Chinese operation that we have as well. But again, given that we are almost two years into the whole relocation or redundancy building, that will not pull that back --
+
+Shawn Vadala
+
+Yeah. I was thinking more in terms of pricing. But I think that's like probably a key outcome from all of this is, because when we talk about Mexico, we're still going to have a very significant manufacturing footprint in China -- for China and for the rest of the world. We are just building some redundancies here, which just increases our flexibility. And I just think that is a longer-term strategy that's going to be a good strength for the organization going forward.
+
+Dan Arias
+
+Got it. Okay, thank you.
+
+Operator
+
+Your next question comes from the line of Brandon Couillard of Wells Fargo. Please go ahead.
+
+Brandon Couillard
+
+Hey, good morning. Shawn, I just want to clarify. When you're talking about seeing some orders being delayed, some pushouts for projects, is that isolated to Core Industrial? Was that a China-specific comment or more global comment?
+
+Shawn Vadala
+
+My comment was specific to China that we sense that there's a little bit more if you talk to the different regions, if you talk directly to the sales organization, there's actually still a lot of optimism in the Western markets, just given really good customer activity. But we were a little more cautious from the top down here, just recognizing the situation. But when we talk to maybe the Chinese organizations, they're optimistic for the -- like going out a little bit, but they're a little bit more cautious in terms of just timing in the short term if you kind of look at their Q2 outlook.
+
+So that's an area where we're feeling a little bit more hesitation from customers to delay things a little bit here, kind of a wait-and-see mode, kind of makes sense, right? When you look at the significant level of tariffs that are going on. I'm sure some companies are going to try to take a wait-and-see approach just to see how it plays out a little bit.
+
+Fortunately, for us, Brandon, though, maybe it's a good point to comment on is, if you look at our customers in China, we're not typically selling to the exporters. A very significant part of our business there is still our core markets, which are serving the local market. We've talked a lot in the past about I think something like 15% or less of our business is actually sold to multinationals. And then within that Chinese portion of most of it's private companies, and like I said, most of -- a very small portion of that relates to actually exporters. And a lot of what we're doing is actually supporting them with their own strategic initiatives to build up their own life science industry, et cetera.
+
+Brandon Couillard
+
+Okay. That's helpful. And then so it doesn't look like your free cash flow guide actually changed at all. How do you just, I guess, approach managing working capital in this environment and are you taking down or pushing out your own CapEx just so the free cash flow number is actually the same?
+
+Shawn Vadala
+
+Yeah. I think we still feel good about it. We'll revisit it as we go along. We felt like we did pretty good here in the first quarter, especially if you exclude the timing of the bonus payments year-on-year related to prior year performance. I think we were up, was it like 17% on a per share basis or something like that. And so I feel like we had a good first quarter. Of course, we're looking at things to kind of optimize things in terms of how we think about other types of line items on the cash flow statement, too, that will allow us to continue to reinvest in our business as we expect, but also just maybe optimize things in terms of how we can benefit from this year in this environment. But we'll see how things play out here a little bit.
+
+Brandon Couillard
+
+Thanks.
+
+Shawn Vadala
+
+Yeah, thanks.
+
+Operator
+
+Your next question comes from the line of Vijay Kumar of Evercore ISI. Please go ahead.
+
+Vijay Kumar
+
+Hey, guys, thanks for taking my question. Shawn, maybe my first one on the guidance cadence here. Q1 ex the shipping delays, based up 3% low singles, Q2 zero to 1%. What drives that step down in revenues? Are you assuming some demand destruction because of tariffs here in 2Q? And I think like the back half sort of assumes you step back to 3 plus [ph] to hit the annual -- so maybe just talk about this cadence for 2Q and back half?
+
+Shawn Vadala
+
+Yeah. I mean I think if you kind of like cut through our guidance and you look at price versus volume, you're right, Q2 will be kind of the low point of the year. I think it's very much related to these comments on uncertainty in the short term, with maybe more optimism in the medium term. And part of that caution in the short term is going to be China. But I think maybe just to kind of like look at the regions here. I mean we are expecting kind of flattish results here in Lab and Industrial. We already talked about mid-single digit in Product Inspection. We expect retail to be down a little bit in Q2. But then from a regional perspective, we expect the Americas to be flattish to up low single digits. So it's probably another area where there's a little bit of caution.
+
+And then with Europe up low single digit. We already talked about China being like down low to mid-single digits. So maybe the two areas that jumped out a little bit was the China comments and then maybe just a little bit more cautious on the Americas in the short term.
+
+Vijay Kumar
+
+Understood. And my follow-up here on tariffs. I think you said $50 million was China. The overall $115 million when you said annualized, what is the impact for fiscal '25? Is that something lesser because you're using annualized comments in that thing?
+
+Shawn Vadala
+
+So yeah, so maybe 1 way to think about it, not to put an exact number on it is about -- would probably be about a 7% gross headwind to EPS in terms of the tariff impact this year. And we expect to offset probably 75% or more of that this year, which would result in a net headwind to EPS of about 2%.
+
+Vijay Kumar
+
+So I just had a follow-up on like the -- I think you used tariffs at current levels in your prepared remarks. So are we assuming the current, I guess, rates to sustain? Or are you -- is the guide assuming post a 90-day pause for rates to -- tariff rates to creep back up? Like what is the guidance you are making on tariffs?
+
+Shawn Vadala
+
+Yeah. No, good question. We assume it's at current rates. We assume it's at current rates. And recognizing it can go up or down. So -- and we'll see.
+
+Vijay Kumar
+
+Understood. Thanks, guys.
+
+Operator
+
+Your next question comes from the line of Matt Sykes of Goldman Sachs. Please go ahead.
+
+Matt Sykes
+
+Good morning. Thanks for taking my questions. Maybe taking the China question in a different angle. Do you think that if this tariff situation lasts a little bit longer than expected, maybe beyond Q2, there could be some shifts in the competitive landscape in China, meaning the local players would maybe prefer local substitution, if possible, from a technology performance standpoint because of pricing and that could shift things if this lasts longer than expected? Do you feel pretty comfortable with your competitive positioning to kind of penetrate through these near-term issues?
+
+Patrick Kaltenbach
+
+Yeah. Thanks, Matt. Look, I mean, first, I think you want to appreciate that most of the products that we sell in China, we actually manufacture in China. So we import very little from the U.S. to China. So while there is a bit of a tariff headwind there as well, it's much, much smaller than the other direction because most of the products that we sell in China, we manufacture in China, at very, very competitive -- in a very competitive situation, but also ourselves being in a very, very good position there. Because we source locally, we have manufacturing locally. We have a strong local marketing team and from many perspectives, our customers see us almost like a Chinese company. Because we are fully emerged there with the customers. We are very quick at to do local application demand changes, et cetera. We have a strong R&D and marketing team there that helps us to really understand customer rules.
+
+So we think we can continue to compete very effectively in the local market. We've out there. And the few products that we still manufacture in the U.S. or in Germany or in Switzerland, and ship them to China, we are looking also into options to localize some of them, but it, of course, depends on other priorities and also on IP questions, et cetera. But the exposure of that tariff in China for U.S. product is for us rather small. And if we think really we are set up for long-term good competitive position in the market.
+
+Matt Sykes
+
+Got it. Thank you for that. And maybe just two quick ones. Patrick, one for you just on Services growth. You said 6% in the quarter, a little bit below kind of the run rate you were doing last year, if I recall correctly. I'm sure some of this is comps but just maybe talk about the underlying strength that you continue to have confidence in that Services growth. And then, Shawn, just did you just -- I'm sorry if I missed this, but just any FX assumptions in the EPS guide over the course of the year that might have offset some of the tariff impact?
+
+Patrick Kaltenbach
+
+Thanks, Matt. I'll start with the Services question. Yeah, Q1 was a bit of a tougher compare compared to last year, but we are still pretty pleased with 6% growth that we have seen in Q1. For the full year, we forecast mid to high single-digit growth in 2025. We have invested a lot also last year into a growth program in Services to make sure that we really can tap deeper in the installed base that is currently not serviced by our team. So we have implemented more marketing and telesales resources to reach out to customers, have real sales programs in place and also added a significant number of new service people in the field.
+
+So I think that whole growth program is still a long runway. And I'm actually quite pleased with the outlook and what I'm hearing from the team also. I want to recognize the team here for having really outstanding feedback from our customers in terms of net promoter scores. They are higher than ever. But it also tells me that our customers are really pleased with the service that we provide.
+
+Shawn Vadala
+
+Maybe the second part of your question, Matt. So we reduced our full year EPS guidance by 2% at the high end of our range and 2.5% at the midpoint. At the midpoint, about two thirds of that relates to the gross tariffs offset by our mitigation actions. The other third reflects the lower sales volume for the year, offset by better operating performance and more favorable foreign currency. So currency, we expect from an EPS perspective to be at current rates, flattish or neutral for the year. And then last quarter, we were expecting it to round to like a 2% kind of a headwind.
+
+Matt Sykes
+
+Thank you, very helpful.
+
+Patrick Kaltenbach
+
+Welcome.
+
+Operator
+
+Your next question comes from the line of Doug Schenkel of Wolfe Research. Please go ahead.
+
+Unidentified Analyst
+
+Good morning. This is Avery on for Doug. Thank you for the question. Just looking at your margin for the quarter, obviously, we have the shipping impact, but gross margin was up 30 basis points. Just wondering if there's any favorable mix there?
+
+And then looking at the OpEx line, it seems like that number was a bit elevated in dollar terms, specifically SG&A. So just wondering if you could give any color there? Was that preparation being done in advance of the tariffs? And then going forward through the balance of this year, would it make sense to expect that level of OpEx as a percentage of sales to be somewhat elevated relative to last year?
+
+Shawn Vadala
+
+Yeah. Hey, so in terms of the gross margin for the quarter, we were actually very pleased with our gross margin, certainly a little bit better than what we had expected. It was up 30 bps. But if you exclude the impact of the shipping delays from a year ago, it was up 90 bps. We had good performance in pricing. It came in about in the 2% kind of a range. But we also saw some good progress continued on our SternDrive program and productivity initiatives in the company.
+
+In terms of mix, there might have been -- I think there was a little bit of favorable mix there as well too in the quarter as well. But otherwise, we feel good about the performance. And then if you kind of like look through the year, there's a lot of moving parts this year. But if you kind of like kind of exclude the shipping delay topic, you exclude the tariff net of our mitigation actions, our gross margin is probably up in the big 30 basis points kind of a range, which given the top line, not having the volume that maybe we expected at the beginning of the year. We feel actually pretty good about that.
+
+In terms of SG&A. Of course, there's always going to be -- we are investing in the business. This was an important topic for us to as we enter the year in terms of continuing to drive growth in the business. We have a lot of great programs, a lot of great ideas, and we're going to continue to do that. But when you look at one quarter versus another, there can always be a little bit of timing. And so I wouldn't try to over read from one quarter to another quarter. And of course, we're going to look at non-sales activities for the rest of the year and try to be a little bit more cautious until we get a little bit more clarity on the top line. But I think if you just kind of cut through everything and you look at our operating margin for the full year and you kind of exclude the shipping delay topic from last year, which is, I think, a headwind of about 60 basis points.
+
+And if you -- so on a reported basis, maybe we're going to be down by about like 130 bps. But if you exclude the shipping delay topic, which is about a 60 basis point headwind, and if you exclude the tariff costs and the mitigation activities, our operating margin is probably up slightly for the full year.
+
+Unidentified Analyst
+
+Got it, thank you. And then just one on Industrial. So Core industrial was down 6%, while PI was up 8%. Are you seeing a fundamental difference in customer trends between the two businesses? And what's really driving the strength in PI?
+
+Shawn Vadala
+
+Well, I mean, PI is 70% or so of that business is sold in food manufacturing, where our Industrial business has a broader mix our Core Industrial business also has a broader geographic mix with a large China element disproportional to not only product inspection, but to other parts of the world.
+
+On the Product Inspection side, I mean, food manufacturers are still under pressure, but we're very pleased with our team's performance. We've come out with some new products in the last few years that have addressed needs in the mid-market. They tend -- they're very well received in the marketplace. And we're just competing really well. And so I think the market is still a challenging market, but we're having some good success here.
+
+Operator
+
+Your next question comes from the line of Rachel Vatnsdal of JPMorgan. Please go ahead.
+
+Rachel Vatnsdal
+
+Thanks, good morning. And thanks so much for taking my question. First off, I just wanted to dig into Vijay's question earlier on the second quarter guide and the implied back half range. You highlighted some of the customer caution primarily impacting the second quarter. Can you just walk us through why do you think most of this customer caution in light of the macro environment is mainly going to impact the second quarter? And which segments are you expecting to see the most improvement as we get into the back half of the year on that customer caution as well?
+
+Shawn Vadala
+
+Yeah. So if you kind of look at the second half, just to keep in mind, Rachel, the second half will benefit from pricing relative to like Q1. So I think if we kind of just like look at volume in the second half versus volume in the first half, and when I say the first half, I mean excluding the shipping delay in Q1, they're probably pretty similar. And so our view is that at the beginning of the year, our guidance assumed that things were going to improve in the second half of the year. Right now, we're kind of taking that off the table for the moment. And we're just saying that we think things will probably be more consistent for the second half of the year on a volume basis. But we do have some benefit a little bit on pricing in the second half relative to the first half.
+
+Rachel Vatnsdal
+
+Great. And then just in terms of the tariff offsets. You highlighted supply chain optimization, price increases and surcharges as well. Can you bucket how much of the $150 million is offset by each of those drivers? And then a follow-up to one of the earlier questions just in terms of the gross margin impact. Can you just walk us through the timing of implementing those mitigation efforts? Really, how should we think about the cadence of gross margins ramping from the second quarter through fourth quarter?
+
+Shawn Vadala
+
+Yeah, we're -- it's a little bit early for us to give Q3 and Q4 guidance. We did our best to provide Q2 and the full year. But of course, we do have our internal thoughts on that. But let's see how -- let's get through Q2 first, and we'll give you an update on Q3.
+
+In terms of the pieces, of course, I understand where your question is coming from, but it's pretty dynamic. I mean, probably the one number I'll provide is that our pricing assumption for the year was 2% we expect it to be more at 3% or so now for the full year. So that kind of gives you maybe some context for what we're doing. Of course, pricing is something we can do quicker than on the supply chain side. That pricing will have an element, like I mentioned before, price increases and surcharges, so it might go up or down on the surcharge side. So that's a little bit -- something that could be a little bit fluid as we kind of go through the year.
+
+As we kind of get to the end of the year, we -- or maybe even better said, as we go into 2026, we're going to see a lot of the supply chain optimization kicking a lot kind of going into next year. And precise timing, things will happen throughout the year, but the reality is, is that we're accelerating a lot of things. And it's probably best just to think of them as like being in place by the end of this year, as we kind of go into next year. And if we go a little bit faster, maybe there's a little bit of upside, but it's going to take some time to do some of these things.
+
+And the other thing is like, hey, we've already done a lot on the supply chain optimization side in terms of already mitigating the gross tariff headwind, which we actually feel quite good about with our supply chain processes.
+
+Operator
+
+Your next question comes from the line of Michael Ryskin of Bank of America. Please go ahead.
+
+Michael Ryskin
+
+Hey, thanks for taking my question, guys. For my first one, you touched on a lot of these things earlier. You talked about Industrial, talked about China. I'm just kind of hoping to get it in one place and maybe bring all those topics together. In terms of the fiscal year '25 guide, the reduction of 1.5% local currency from 3% to 1% to 2% now. Any way you could just sort of bridge that for us, how much of that 150 bps reduction is China? How much is the Lab, Industrial, just whatever way you think makes the most sense just so we can see sort of what's changed, obviously, and where you're signing those cuts?
+
+Shawn Vadala
+
+Yeah. So I think you could probably do the math with me a little bit here. But before we're saying China was going to be up low single digit for the full year and now we're saying it's down slightly. So that might be about a point in itself.
+
+And then in terms of other changes, we're taking down both the Americas and Europe were at mid-single digit before and on a reported basis. And that was, I'm sorry, excluding the shipping delay topic. And so now Americas is down more like low single digit, excluding the shipping delay. So it would be actually both on a reported and excluding shipping delay. And then the Europe is maybe just slightly lower than expected.
+
+And then in terms of like the divisional, you can kind of see probably the one thing that kind of jumps out is before on an adjusted for the shipping delay basis, we were saying might be mid to high. Now we're saying it's like more like mid. And then we were saying Industrial would be up low single digit on and excluding the shipping delay, and now we would say it will be more like flattish.
+
+Michael Ryskin
+
+Okay. That's a great summary of all that. And then I guess, I'll keep it with one follow-up. You haven't directly addressed NIH U.S. government. I know it's a relatively small part of your exposure, but still there's some there, especially if you think about sort of the lab type pet, some of those more -- some balances. Just what's been going on in that end market? Have you seen any meaningful change from customer behavior? Somebody asked about stocking a role, it sounds like it hasn't happened, but just sort of your thoughts on U.S. A&G, U.S. NIH?
+
+Shawn Vadala
+
+Yeah. So I mean, of course, our direct exposure to NIH is closer to zero than it is to 1. But if you look at our broader academic exposure in the U.S. and you just look at our U.S. academic exposure, it's about 2% of our global sales. And then if we add in government, it probably gets to about 3%. So it's and I'm talking specifically the U.S. A&G as a percentage of our total sales. So a smaller part of our business, but certainly a part of the business that is we are seeing under pressure. And it doesn't have a big impact on our numbers, but certainly, it's adding to a little bit of the headwind that we see in the Americas here, especially in the short term.
+
+Michael Ryskin
+
+Okay, thanks. I’ll leave it there.
+
+Operator
+
+Your next question comes from the line of Tycho Peterson with Jefferies. Please go ahead.
+
+Tycho Peterson
+
+Hey, thanks. Maybe just to kind of round it out on the Lab. I'm just pharma a little bit. You touched on bioprocess earlier to Jack's question, but Pharma specifically, can you maybe talk about what you're hearing from your customers there? Any concerns about them leaning on you guys on prices, they have to respond to tariffs? How do you think about replacement cycle because you've talked about that as an opportunity as well?
+
+Patrick Kaltenbach
+
+Yeah good. Thanks. I'll take one. We are actually not hearing from our pharma customers yet any big impact in terms of their pricing concerns. We have very healthy engagement with pharma as a molecule and large molecule customers right now. I think they are excited about the lab portfolio we have, including the automation features. So I would say not a negative impact yet. I mean we'll see what -- if there's anything else coming up. But right now, I'm hearing from the sales force, very strong positive engagement with pharma customers.
+
+Tycho Peterson
+
+Okay. Maybe another angle on China manufacturing. Some of your large multinational competitors, including your biggest one in balances and scales doesn't do a lot in China. And so is there an opportunity to gain share here for you guys, given your manufacturing footprint within the country?
+
+Patrick Kaltenbach
+
+Yeah, maybe. Look at our team is very close to the customers there. But also, I want to remind you of the total exposure to customers there in China is about 60% is actually local companies and only 15% are multinationals and 25% of government and state-owned companies. So yeah, we are talking to customers there. If there's more happening with companies in that space, we will definitely use on a worldwide footprint and the references we have from other countries.
+
+Shawn Vadala
+
+Tycho, if I understand your question, I think you mean like our competitiveness in China versus other competitors that --
+
+Tycho Peterson
+
+I think of your other multinational competitors that don't manufacture in China where -- so you have a competitive advantage in China.
+
+Shawn Vadala
+
+Yeah, exactly. So I agree. I think we do have a competitive advantage in China versus a lot of our competition. And as you know, we've been there for a long time since the '80s. We not only manufacture mostly in China for China, but we actually develop a lot of products in China for China. So we really have a good sense in the strength of what the market expectations are at the right price points. And because of that, we've been very much perceived as a Chinese company over the years.
+
+And if we're not making it in China, we tend to import from Europe like specifically Switzerland. So yeah, we feel good about our posture there in China. And frankly, we feel like we're competing well globally in general against competition.
+
+Tycho Peterson
+
+Okay. Are you seeing any stimulus there?
+
+Shawn Vadala
+
+Not really.
+
+Patrick Kaltenbach
+
+Not a big change. I mean there's talk about stimulus and in the last times program was sales team was quite engaged with customers, helping them bundling products together to combine with benefit guidelines. But not right now any new stimulus that we would be aware of.
+
+Tycho Peterson
+
+Okay, thank you.
+
+Operator
+
+Your next question comes from the line of Catherine Schulte, Baird. Please go ahead.
+
+Catherine Schulte
+
+Hey, guys. Thanks for the question. Maybe first just on tariffs. For the $100 million or maybe a little more of imports into the U.S. that aren't coming from China and Mexico, how much of that is coming from Switzerland. I'm just trying to think about what the incremental growth impact could be if the country-specific tariffs go into effect in July as proposed? Just given your exposure and how much of that you think could be offset if necessary?
+
+Shawn Vadala
+
+Yeah, Catherine. So if you look at our exposure, we've been very specific about our Chinese exposure, especially given the nature of the rates. So we expect it now to be more in the $50 million range. We've also given some color on Mexico given that such a significant moving piece and it relates to the China situation.
+
+In terms of the rest of the world, we prefer not to go into every single country, but we would say that we are importing about, I mean, sorry, $250 million into the U.S. from Europe and the rest of the world and a significant portion of that is coming out of Switzerland.
+
+Catherine Schulte
+
+Got it. And then maybe just on capital deployment. Any appetite to do more on the buyback side, just given where the stock is today?
+
+Shawn Vadala
+
+No, we're very consistent here, right? We don't try to time the market, and we try to stick to exactly what we say at the beginning of the year. So our assumptions are the same for the year.
+
+Catherine Schulte
+
+Thank you.
+
+Operator
+
+Your next question comes from the line of Josh Waldman of Cleveland Research. Please go ahead.
+
+Josh Waldman
+
+Good morning, guys. Thanks for squeezing me in. First, Patrick, a follow-up on Core Industrial. I think you mentioned softness in the U.S. in the prepared remarks. Is this primarily where you're lowering your outlook in core or are there other areas that are tracking below?
+
+Patrick Kaltenbach
+
+No, I'll take that, Josh. Look, it's more in China than we did the outlook on Core Indus trial in the U.S., what I referred to in Q2 was some delays of larger products, but these are really large projects, projects, industrial, automation projects. And they not always really close with any time. We know that the field initially things that will close. We saw the forecast so we recently saw some forecast we made in Q2. But overall, the biggest takedown in industrial in the growth rate compared to what we said in the last earnings call is definitely China.
+
+Josh Waldman
+
+Got it. Okay. Patrick, can you remind us what portion of the business is sales to bioproduction OEMs? Maybe how business is tracking there? And then if you're seeing any signs of onshoring in that business?
+
+Shawn Vadala
+
+And you're talking about Core industrial. So we don't break that out, Josh. But we -- what we've said in the past is that about 60% of Core Industrial is a combination of pharma, biopharma, food manufacturing and chemical. And for us, chemical means more specialty chem.
+
+Josh Waldman
+
+Thank you.
+
+Operator
+
+There are no further questions at this time. And with that, I will now turn the call back over to Adam Uhlman for closing remarks. Please go ahead.
+
+Adam Uhlman
+
+Okay. Great. Thanks. Hey, everybody. If you have any questions, feel free to reach out to me, and I hope everybody has a great weekend, and take care. Bye.
+
+Operator
+
+Ladies and gentlemen, this concludes your conference call. We thank you for participating and ask that you please disconnect your lines.

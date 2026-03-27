@@ -1,0 +1,325 @@
+Motorola Solutions, Inc. (MSI) Q4 2024 Results Conference Call February 13, 2025 5:00 PM ET
+
+Company Participants
+
+Tim Yocum - Vice President of Investor Relations
+Greg Brown - Chairman and Chief Executive Officer
+Jason Winkler - Executive Vice President and Chief Financial Officer
+Jack Molloy - Executive Vice President and Chief Operating Officer
+Mahesh Saptharishi - Executive Vice President and Chief Technology Officer
+
+Conference Call Participants
+
+Alyssa Ann Shreves - Barclays
+Joseph Cardoso - JPMorgan
+Keith Housum - Northcoast Research
+Louie DiPalma - William Blair
+Tomer Zilberman - Bank of America
+
+Operator
+
+Good afternoon, and thank you for holding. Welcome to the Motorola Solutions Fourth Quarter 2024 Earnings Conference Call. Today's call is being recorded, if you have any objections, please disconnect at this time. The presentation material and additional financial tables are posted on the Motorola Solutions Investor Relations website.
+
+In addition, a webcast replay of this call will be available on our website within three hours after the conclusion of the call. The website address is www.motorolasolutions.com/investor. All participants have been placed in a listen-only mode. You will have an opportunity to ask questions after today's presentation. [Operator Instructions]
+
+I would now like to introduce Mr. Tim Yocum, Vice President of Investor Relations. Mr. Yocum, you may begin your conference.
+
+Tim Yocum
+
+Good afternoon. Welcome to our 2024 fourth quarter earnings call. With me today are Greg Brown, Chairman and CEO; Jason Winkler, Executive Vice President and CFO; and Jack Molloy, Executive Vice President and COO; and Mahesh Saptharishi, Executive Vice President and CTO. Greg and Jason will review our results along with commentary, and Jack and Mahesh will join for Q&A.
+
+We've posted an earnings presentation and news release at motorolasolutions.com/investor. These materials include GAAP to non-GAAP reconciliations for your reference. And during the call, we reference non-GAAP financial results, including those in our outlook, unless otherwise noted. A number of forward-looking statements will be made during this presentation and during the Q&A portion of the call. These statements are based on current expectations and assumptions that are subject to a variety of risks and uncertainties. Actual results could differ materially from these forward-looking statements.
+
+Information about factors that could cause such differences can be found in today's earnings news release and the comments made during this conference call in the Risk Factors section of our 2023 Annual Report on Form 10-K or any quarterly report on Form 10-Q and in our other reports and filings with the SEC. We do not undertake any duty to update any forward-looking statements.
+
+And with that, I will turn it over to Greg.
+
+Greg Brown
+
+Thanks, Tim, and good afternoon, and thanks for joining us today. I'm going to start off by sharing a few thoughts about the overall business before Jason takes us through results and our outlook.
+
+First, Q4 was another exceptional quarter. We achieved record revenue in both segments and all three technologies, including double-digit growth in Video and Command Center, highlighting the depth and breadth of our safety and security ecosystem that helps us protect people, property and places.
+
+Additionally, we generated Q4 record operating earnings in both segments and ended the year with record backlog of $14.7 billion up $438 million, inclusive of $226 million of unfavorable currency rates.
+
+Second, our full year results were outstanding. In product and SI, revenue was up 10% and driven by growth in both LMR and video. We also expanded operating margins in the segment by 380 basis points, driven in part by continued favorable mix to our feature-rich devices and lower material costs.
+
+In Software and Services, revenue was up 5% or 13% excluding U.K. Home Office, driven by strong growth in Video, Command Center and our LMR services businesses outside of the U.S. We also grew earnings per share 16% operating cash flow by 17% and strengthened our safety and security offerings with four acquisitions in our Video and Command Center technologies.
+
+And subsequent to quarter end, we announced that we've entered into a definitive agreement to acquire Theatro, a maker of AI and voice-powered communication and digital workflow software for frontline workers.
+
+And finally, as we enter 2025, the continued robust demand for our solutions, coupled with our record backlog and healthy balance sheet positions us well for another year of strong revenue, earnings per share and cash flow growth.
+
+And with that, I'll now turn the call over to Jason.
+
+Jason Winkler
+
+Thanks, Greg. Revenue for the quarter grew 6% and was above our guidance with growth in both segments and all three technologies. Revenue from acquisitions was $37 million, and the impact of favorable foreign currency rates was $6 million.
+
+GAAP operating earnings were $814 million or 27% of sales, up from 25.9% in the year-ago quarter driven primarily by a recovery related to the Hytera litigation. Non-GAAP operating earnings were $916 million, up 5% from the year ago quarter and non-GAAP operating margin was 30.4%, and versus 30.5% in the year ago quarter.
+
+GAAP earnings per share was $3.56, up from $3.47 in the year ago quarter. Non-GAAP EPS was $4.04 and up 4% from $3.90 last year, driven by higher sales and favorable mix. OpEx in Q4 was $652 million, up $55 million versus the prior year, primarily due to higher employee incentives investments in video and higher expenses from acquisitions.
+
+For the full year 2024, revenue was $10.8 billion, up 8%, with strong growth in both segments rose all three technologies. Revenue from acquisitions was $95 million, and the impact of unfavorable foreign currency rates was $2 million. GAAP operating earnings were $2.7 billion or 24.8% of sales versus 23% in the prior year.
+
+Non-GAAP operating earnings were $3.1 billion, up $358 million and non-GAAP operating margins were 29% of sales, up from 27.9% of sales in the prior year, driven by higher sales, favorable mix, and lower direct material costs, partially offset by the Airwave Charge Control and the impact of acquisitions.
+
+GAAP earnings per share was $9.23, down from $9.93 in the prior year primarily due to the $3.42 per share pretax loss booked in Q1 related to the accounting treatment for the settlement of the Silver Lake convertible notes. Non-GAAP EPS was $1.84, up 16% from $11.95 in 2023, driven primarily by higher earnings.
+
+For the full year, OpEx was $2.4 billion, up $197 million versus 2023, primarily driven by higher employee incentives, higher expenses associated with acquisitions and higher legal costs inclusive of the CMA appeal, and the effective tax rate for 2024 was 22% compared to 21.9% in the prior year.
+
+Turning to cash flow. Q4 operating cash flow was $1.1 billion, down from $1.2 billion in the prior year as the linearity of cash generation improved and resulted in full year record operating cash flow of $2.4 billion and record free cash flow of $2.1 billion. The 17% year-over-year operating cash flow increase was driven by higher earnings and marks the second consecutive year of double-digit operating cash flow growth.
+
+Capital allocation in ‘24 included $654 million in dividends, $282 million for acquisitions $244 million in share repurchases and $257 million of CapEx. We also used $593 million of cash to settle the Silver Lake convertible premium in Q1 and increased our dividend by 11% in November, which was our 14th consecutive year of double-digit increases.
+
+Moving to segment results and products. Q4 sales were up 3% versus last year, driven by growth in LMR and video. Revenue from acquisitions was $11 million in the quarter, while the impact of favorable foreign currency rates was $1 million. Operating earnings were $594 million or 30.5% of sales, up from 30% in the prior year, driven by higher sales, favorable mix and lower direct material costs.
+
+Some notable wins and achievements in this segment include a $53 million P25 device order from a U.S. state and local customer, a $52 million P25 system and device order for a Canadian customer a $36 million P25 device order for Broward Sheriff’s Office in Florida, a $33 million P25 system order from the Kentucky State Police, a $32 million P25 device order for the City of Phoenix, Police and Fire and a $16 million fixed video order for Duke Energy.
+
+And for the full year, Products and SI revenue was $6.9 billion, up 10% from the prior year, driven by higher sales in LMR and video. Revenue from acquisitions was $43 million, and the impact of unfavorable foreign currency rates was $2 million. Full year operating earnings were $1.9 billion or 28.1% and of sales, up from 24.3% in the prior year on higher sales, favorable mix and lower direct material costs.
+
+In Software and Services, Q4 revenue was up 11%, driven by growth in all three technologies. Revenue from acquisitions was $26 million, while the impact of favorable foreign currency rates was $5 million. Q4 operating earnings. In this segment were $322 million and operating margins were 30.3% of sales, down from 31.6% last year, primarily driven by acquisitions.
+
+Some notable Q4 highlights in this segment include a $329 million earnest renewal for Melbourne, Australia's LMR network. As 160 million five-year LMR managed services renewal from Norway's nationwide public safety network a $68 million LMR services order from a U.S. state and local customer, a $40 million command center order from the Scottish service, and finally, a $16 million fixed video order for the Sao Paolo State Government in Brazil.
+
+For the full year, S&S revenue was $3.9 billion, up 5% compared to last year. When excluding the U.K. Home Office, revenue grew 13% with the growth in all three technologies. Revenue from acquisitions was $52 million during the year. Full year operating earnings were $1.2 billion or 30.8% of sales, down 310 basis points versus the prior year driven by the Airwave Charge Control and higher expenses associated with acquired businesses during the year.
+
+Looking at regional results. North America revenue was $2.2 billion, in Q4, up 9% and $7.8 billion for the full year, up 13%, driven by growth in both segments and in all three technologies. International Q4 revenue was $807 million, down 3% and versus last year, primarily driven by lower Ukraine revenue in the current year and our exit from ESN, which was in the year ago quarter, offset by growth in Video and Command Center. For the full year, international revenue was $3 billion, down 2%. Excluding the U.K. Home Office, International revenue was up mid-single digits, driven by growth in all three technologies.
+
+Moving next to backlog. Ending backlog for Q4 was $14.7 billion, up $438 million versus last year, inclusive of $226 million of foreign currency headwinds. Sequentially, backlog was up $602 million, inclusive of $319 million of foreign currency headwinds. And in the Products and SI segment, ending backlog was down $858 million, driven primarily by strong LMR shipments during the year.
+
+Sequentially, backlog was down $46 million, primarily driven by unfavorable FX. In Software and Services backlog increased $1.3 billion from last year and $648 million sequentially. The growth was driven by strong demand in all three technologies, inclusive of foreign currency headwinds of $195 million year-over-year and $281 million sequentially.
+
+Turning next to our outlook. We expect Q1 sales to be up between 5% and 5.5% and with non-GAAP EPS between $2.98 and $3.03 per share. This assumes approximately $25 million in foreign exchange headwinds, 170 million -- $171 million diluted shares and a non-GAAP effective tax rate of approximately 21%. And for the full year, we expect revenue growth of approximately 5.5%.
+
+And inclusive of our expectations for $120 million of FX headwinds driven by the U.S. dollar strength over the last few months. And for non-GAAP earnings per share between $14.64 and $14.74 per share. The full year outlook also assumes $171 million shares and a non-GAAP effective tax rate of approximately 23%. Additionally, the outlook assumes tariff rates that are in effect today.
+
+And finally, with respect to cash flow, we expect to generate $2.7 billion in OCF, which we would expect to make 2025 our third consecutive year of double-digit operating cash flow growth. And before I turn it over to Greg, I wanted to share just a few other things.
+
+First, with the U.K. home office headwinds behind us on a full year basis, and the strong momentum we are seeing in cloud adoption and SaaS, we expect our S&S segment growth to be high single digits or double digits when normalized for FX. And on the product segment, we are expecting low to mid-single-digit growth coming off a record 2024.
+
+Secondly, I would provide you with some color on the technology growth expectations as well. In video, we're planning for another strong year of approximately 10% to 12% growth, inclusive of the increased cloud adoption we're seeing from our customers.
+
+In Command Center, we're planning for 12% growth driven in part by continued strong adoption for our SaaS offerings there. And in LMR, we expect low to mid-single-digit growth, inclusive of the majority of the FX headwinds that I mentioned earlier.
+
+And finally, I'd highlight the strength of our balance sheet, which includes over $2 billion in cash at year-end a fixed rate debt maturity profile with no significant maturities until 2028 and a solid investment-grade credit rating, all of which gives us significant flexibility in capital allocation.
+
+Greg, I'd like to turn it back to you.
+
+Greg Brown
+
+Thanks, Jason. And let me just end with some final thoughts. First, 2024 was another exceptional year for the Company. We achieved record sales in both segments and all three technologies, significantly expanded operating margins, grew EPS by 16% and generated record operating cash flow of $2.4 billion, up 17% from the prior year. And we also returned almost $1.5 billion to our shareholders through dividends, share repurchases and the settlement of the Silver Lake convertible note at less than $320 a share, and we added four acquisitions within our Video and Command Center technologies.
+
+Second, the investments we're making in Software and Services continue to drive strong recurring revenue growth for the Company. Software and Services revenue was up 13% during the year, excluding U.K. home office driven in part by accelerating demand for our software solutions in command center, video and our suite of applications running on our APX NEXT family of devices. We also finished the year with S&S backlog of $10.6 billion, up 14%, including record backlog in all three technologies, which is informing our guide for another strong year of growth in 2025.
+
+And finally, as we enter this year, we're very well positioned for another outstanding year. Our customers are continuing to invest in LMR for the long term, highlighted by the numerous large multiyear contracts that we received over the last year. We're also seeing strong interest in our latest generation D-Series ASTRO infrastructure, which is creating a healthy pipeline of upgrade opportunities and is a further testament to the foundational longevity of this technology.
+
+And additionally, the upgrade cycle to our APX NEXT family of devices continues to drive product and recurring revenue growth via the applications that are on each device. And in Video and Command Center, we continue to see robust demand and are expecting another year of double-digit growth in both of those technologies as well.
+
+Finally, our healthy cash generation and strong balance sheet with a net debt-to-EBITDA ratio of 1.1, probably the lowest we've seen in almost a decade, provides us with significant flexibility to deploy capital opportunistically and drive value for our shareholders in our total addressable market, which is now approximately $72 billion.
+
+So now, I'll give the call back to Tim, and we can take your questions.
+
+Tim Yocum
+
+Thank you, Greg. Before we begin taking questions, I'd like to remind callers to limit themselves to one question, one follow-up to accommodate as many participants as possible.
+
+Operator, would you please remind our callers on the line how to ask a question?
+
+Question-and-Answer Session
+
+Operator
+
+[Operator Instructions]. The first question is from Tim Long with Barclays. Your line is now open.
+
+Alyssa Shreves
+
+This is Alyssa on for Tim. I just wanted to quickly touch base on with all the recent Trump administration, federal spending shifts and DOGE. Are you guys seeing any impact in terms of customer behavior or timing of deployment? Then I had one follow-up to that.
+
+Greg Brown
+
+No, we're not. I think that my view and our view of DOGE, we like the opportunity where the government is deploying that organization to get after kind of frivolous and wasteful spending which I think is a good thing overall. But in direct answer to your question, we're not seeing any changes in customer behavior as a result of that effort at this point in time.
+
+Alyssa Shreves
+
+Okay. That's helpful. And then just one follow-up on the video piece, given the 10% to 12% is inclusive of customers move to the cloud. How many -- how should we think about if there wasn't a move to the cloud, would the growth be a point or two higher if we didn't count headwinds if customers move to the call? How should we think about the growth rate for video with the move to cloud?
+
+Greg Brown
+
+We love the fact that customers are moving to the cloud, you know we offer solutions for both prem and cloud. We talked about it last year that there was pretty good acceleration to the cloud. We are seeing a continuation of that, which is a good thing. And we love the fact that we're still able to grow double digits, 10% to 12%, even with the cloud adoption which, of course, kind of smooths out revenue rec. So, we see it as a favorable trend. We like the continued momentum and we think we're well positioned.
+
+Jason Winkler
+
+And the cloud adoption continues in other parts of the portfolio like Command Center and the work that Mahesh has done there. So -- and with the further integration of video and command center on and the likes, we view that the cloud adoption of our customers to be a strength indicator across really the entire platform.
+
+Operator
+
+Our next question comes from Meta Marshall with Morgan Stanley. Your line is now open.
+
+Unidentified Analyst
+
+This is Mary on for Meta. Another question on federal. What are you seeing in terms of the federal budget approval and any upside from immigration efforts? And any expectation of Ukraine revenue in this year?
+
+Greg Brown
+
+Yes. By the way, just as it relates to Ukraine, really no revenue expectation for this year. We had about $80 million last year. So, we don't have expectations for really any Ukrainian revenue at this point in 2025.
+
+Jason Winkler
+
+Most of the Ukraine revenues were in PCR. That's true.
+
+Jack Molloy
+
+And Mary, most of our engagement with the federal government is DOJ, DHS in DoD, and I would say DoD, it's base security and take enterprise security-based security operations. Multiyear pipeline, we've got P25 both systems and device opportunities.
+
+I think it's important to highlight that yesterday, we were given a go ahead and FedRAMP high classification, which enables us to sell APX NEXT. Our application services on APX NEXT, we're excited about that because actually, that will open up incremental opportunities to sell high-tier devices into set agencies.
+
+And then the last thing I'd highlight is video engagement. Government has outpaced video security growth for the Company, and federal government has certainly been an area of brightness for us. And I think the engagement with our customers with the new administration continues to look very positive.
+
+Greg Brown
+
+And if you think about video all in, all in, for us, it was a little over $550 million last year in the government vertical. The government vertical remains our largest for video, and we expect in 2025 all-in video growth to grow faster than the 10% to 12% for the technology as a whole.
+
+Operator
+
+Our next question comes from Joseph Cardoso with JPMorgan. Your line is now open.
+
+Joseph Cardoso
+
+I guess maybe just wanted to follow up on that last one and just maybe it's more of a clarification. But Craig, we saw some interviews towards the end of the year, where essentially post the election, you're something a little bit more positive about the operating environment. Highlighting some of the topics and focus around police and border patrol obviously. And obviously, we see the rhetoric out there, but just curious like could you just dimensionalize like how tangible this is today in terms of potentially maybe upside to like spending across maybe some of those areas of focus? And if you're actually seeing it in orders? Or at least, is there any early discussions with customers that is kind of tied into maybe that upside around that? And then I have a quick follow-up for Jason.
+
+Greg Brown
+
+Sure, Joe. Well, so let's start with kind of since we last talked in November, and I gave high-level color of 5% to 6% all-in for the firm. We guided obviously at 5.5%. But when you incorporate the expectations for $120 million of FX, it's actually a stronger view today in February than I had in 2025 that I had in November.
+
+So, I think the -- also the positive feeling about the year is informed not just by the record backlog, but by the pipeline. The pipeline continues to grow. So, with the pipeline growing, and the setup for this year, I feel pretty good about where we are. I think that in addition to growing the top line, 5.5% absorbing expectations for FX. We expect gross margins to be comparable to slightly up. We still expect operating margin expansion.
+
+And that -- that's inclusive of about $25 million of headwind associated with higher interest and a little bit of a higher tax rate. So, all in, Joe, I kind of like the setup. I think the Trump administration's continued orientation around public safety, around border security and the work they've done tactically since then, since election and to now is generally favorable.
+
+And they're looking at -- and I got an earlier question about those, look, they're looking about efficiencies and workflow. And a lot of what we do in public safety and security speaks to workflow efficiencies and doing more with less. So, I feel good about where we are, and we'll operate accordingly with this administration.
+
+Joseph Cardoso
+
+No. That's great, Greg. And then maybe just a quick one for Jason on the tariffs. Can you maybe just quantify how much of a headwind you're embedding from a tariff impact. And then, the second part of that is any way you can kind of help us think about if you're more biased to any of the particular regions that are under the scope here?
+
+Jason Winkler
+
+Sure. Thanks. So clearly, supply chain is an ever-changing environment, having tackled semiconductor challenges over the last two years, now it's tariffs. We like our footprint, the flexibility of it and where we're positioned. Outside the U.S.A., we're in Mexico, Malaysia and then Canada, in that order. China is not a risk for us. The 301 tariffs, we've navigated with minimal impact because we don't have operations or manufacturing there.
+
+So, as we looked in the guide, we gave was reflective of the tariff rates that we're paying today. We'll continue to monitor and navigate with flexibility in the footprint we have ROI-based decisions with facts on the ground as they present themselves. So, we'll continue to be nimble in that regard.
+
+Greg Brown
+
+And Joe, just an adder even though it's a tariff kind of supply chain question, Jason's team and Chad Werkema did a great job over the last year or two. We did end up benefiting $65 million to $70 million of PPV benefit, which we said we would achieve last year. Baked into the forward-looking guidance for this year, we're expecting PPV benefit of about $25 million that would help you to kind of dimensionalize the current trend in that regard.
+
+Operator
+
+Our next call question comes from Keith Housum with Northcoast Research. Your line is now open.
+
+Keith Housum
+
+Hopefully, Jason, can you guys unpack the Theatro acquisition a little bit more for us in terms of what it brings to the table in terms of capabilities and how you plan on expanding the business from here?
+
+Jason Winkler
+
+Yes, Keith. So, in terms of revenue contributions, we expect to close this year. It will be pretty small. We will record it and will be part of our command center offer. We're really excited about the technology that it represents. And I think Mahesh is best positioned to give you some insights as to why.
+
+Mahesh Saptharishi
+
+Keith, for frontline workers, eyes up, hands-free is important, but they would like to benefit from AI as well. And audio ends up being a very significant interface into AI and Theatro has an entire solution that is turnkey today specifically optimized for frontline worker workflows. They're very strong in retail, and we feel like we can expand them into other markets as well. So, we're pretty excited.
+
+Keith Housum
+
+Great. Appreciate it. And if I can just expand, Jason, on the tariff question from before. I noticed your commentary was things that tariff are in place today. But it sounds like Canadian and Mexico tariffs could be on the coming year really quick. Is it possible to kind of give some context of what that perhaps would mean for you guys?
+
+Jason Winkler
+
+I think with the flexible footprint, Keith, we would, first of all, need to understand what the tariffs are. We're working through that as well as what -- where and how we would switch positioning.
+
+So, the tariffs that have been discussed, we're working through them. In terms of what's in our guide, it's the tariffs that are in effect right now. And as early as today, there was mention of more. We'll continue to work through those and see what options we have to navigate the footprint we have.
+
+We -- as you know, we use a global manufacturing footprint across EMSs that can afford us flexibility, could take some investment, could take a little time. But we'll continue to monitor this. But what's reflected now is what's on in paper right now.
+
+Operator
+
+[Operator Instructions]. Our next question comes from Louie DiPalma with William Blair. Your line is now open.
+
+Louie DiPalma
+
+Greg, Jason, Jack, Mahesh and Tim, good afternoon. There has been a lot of questions on DOGE, which relates to federal spending and efficiency. But I was wondering, how is the local and state spending environment right now in the U.S.? I think it was a year or two years ago, you said it was the strongest spending environment that you've ever seen, Greg, but how do you categorize it now two years later?
+
+Jack Molloy
+
+Yes. Louie, it's Jack. First of all, I think the most important point here is what's happening in urban American cities across the country. Public safety, public safety technology continues to get prioritized.
+
+So that's the overarching narrative, as it applies to funding, it's still a very good -- I would say it's a great funding environment because if you think about it, local revenues essentially come from income, sales and property taxes, there's been a tale and actually inflation has put more money into state and local coffers as it relates to that.
+
+In addition, 911 funding, the environment is strong there. So, 2025 looks to be historically, and I've been in doing business in state and local for 25 years. It's as good as an environment, as Greg articulated two, two years ago.
+
+Greg Brown
+
+I agree.
+
+Jack Molloy
+
+I think the point is we look at a lot of things. Our pipeline, as Jason and Greg indicated, continues to be strong, but we're also looking at bottom of funnel things, quoting and activity, which is up substantially year-over-year. And I think that's a measure not only of sales activity, but customer demand and what they need to keep their municipality safe.
+
+Louie DiPalma
+
+And on several earnings calls and for fireside chat, Mahesh, you have discussed a motor role of robust investments in AI for like video preventive alerts and 911 transcription and many other applications. I was wondering on the LMR side, Apple has launched Apple Intelligence at the edge. And does Motorola have plans to also bring AI apps to your edge radio beyond what you already have? Is that like a big focus area for the Company?
+
+Mahesh Saptharishi
+
+So, if I maybe take a step back there, Louie. Today, like you take a generative AI model, a large language model of some sort, you can get it to summarize, you can chat with it, et cetera. It's pretty easy to implement those capabilities. But taking it to the mission-critical problem set is quite different and it's much harder, specifically because you are not catering to the typical circumstances, you're actually catering to the somewhat typical and atypical circumstances. And oftentimes, those atypical circumstances are actually the life-critical problems that we deal with.
+
+When it comes to AI for us, we actually already play not just in the cloud, but also at the edge. The majority of our video platforms today, over 90% of our cameras actually have edge intelligence built into them. Most of them run vision transformers and other AI technologies, both -- mainly for computer vision type of applications. So, as we think about what we do on the radio side, we introduced Vicki quite a few years ago, along with APX NEXT.
+
+And we feel like that, combined with generative AI capabilities gets us more capabilities, and we are thinking about that, and we are planning for it. Audio quality ends up being a very significant part of it and that we believe is a significant strength of APX NEXT and our radio products as a whole. So, there's a lot to be excited about that.
+
+Louie DiPalma
+
+Great. And are you using like AI to improve the existing high audio quality of your LMR network?
+
+Mahesh Saptharishi
+
+We use AI actively for background noise cancellation, and we also use it to improve the audio codec itself, along with a beam steering for the multiple microphones we have on our RSMs.
+
+Operator
+
+Our next question comes from Tomer Zilberman with Bank of America. Your line is now open.
+
+Tomer Zilberman
+
+Sorry, I joined a little bit late, so apologies if these questions have already been asked. But looking at the P&L, it looks like your -- the product portion of your video security business actually ticked up this quarter. I just wanted to see what the trends were there, specifically around video security products.
+
+Jason Winkler
+
+So, you're picking up on it, right? It did grow in Q4. And as we mentioned last quarter, the solution in video is not only products, but also software and the software rate of growth within video has for the entirety of '24 grew faster than that of products. So, the product growth we're pleased with in Q4 represents a bit more cameras and contribution towards products and the software that's embedded with them follows.
+
+Tomer Zilberman
+
+Understood. And maybe as a follow-up asking about backlog, I guess more philosophically, where do you think the product portion of your backlog, not where it ends up, but this year, but going forward over the next few years, do you get back to a roughly $3 billion historical level or because there's an increased video security portion, does that have elevated levels versus historical?
+
+Jason Winkler
+
+Of the video part of our business, which is growing, and we expect this year to be over $2 billion is largely a quick turn business and doesn't come from backlog. So, that is changing the mix of what we would expect to do. But I think stepping back, demand continues to be strong. It's reflective in not only our backlog position, but also a growing pipeline. And this quick turner in year orders is something that in any year is important to be a contributor to our outlook expectations. So, it's both backlog and pipeline.
+
+Operator
+
+This concludes our question-and-answer session. I will now turn the floor over to Mr. Greg Brown, Chairman and Chief Executive Officer for any additional comments or closing remarks.
+
+Greg Brown
+
+So, I just want to say thank you to all the people and the partners and Motorola Solutions that made this past year a great year. I appreciate everything you do.
+
+As importantly or more importantly, I appreciate what you continue to do as we start this year with a growing pipeline, a strong balance sheet and operating the Company where safety and security remains prioritized with a lot of our end user customers. And I think that informs our excitement about the year informs our prudent guide. But it leads me to anticipate another year of record revenue of record earnings, and I love the fact that we're set up, and we expect a third consecutive year of double-digit operating cash flow.
+
+I also do want to point out and thank all the people associated with the L.A. fires and the terrorist attack in New Orleans. By the way, there are some employees that were impacted within our company by those tragedies, but every single time something like that occurs. Inevitably, I hear from Jack and the team about countless examples of selfless employees who go above and beyond. And I'm reminded around the criticality of our -- the solutions that we sell in all things, public safety and mission-critical communications. And I appreciate that.
+
+Thank you for joining us today. I look forward to talking to you all again with our team in May, and I appreciate you. Thanks.
+
+Operator
+
+This does conclude today's teleconference. A replay of this call will be available over the Internet within three hours. The website address is www.motorolasolutions.com/investor.
+
+We thank you for your participation and ask that you please disconnect your lines at this time.

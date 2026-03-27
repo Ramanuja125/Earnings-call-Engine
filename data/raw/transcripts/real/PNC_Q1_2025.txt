@@ -1,0 +1,505 @@
+The PNC Financial Services Group, Inc. (PNC) Q1 2025 Earnings Conference Call April 15, 2025 10:00 AM ET
+
+Company Participants
+
+Bryan Gill - EVP and Director of IR
+Bill Demchak - Chairman and CEO
+Rob Reilly - EVP and CFO
+
+Conference Call Participants
+
+John Pancari - Evercore
+Bill Carcache - Wolfe Research
+Betsy Graseck - Morgan Stanley
+Scott Siefers - Piper Sandler
+Ebrahim Poonawala - Bank of America
+Mike Mayo - Wells Fargo
+Ken Usdin - Autonomous Research
+Erika Najarian - UBS
+Gerard Cassidy - RBC Capital Markets
+John McDonald - Truist Securities
+Matt O'Connor - Deutsche Bank
+
+Operator
+
+Greetings, and welcome to The PNC Financial Services Group First Quarter 2025 Earnings Conference Call. At this time all participants are in a listen-only mode. A question-and-answer session will follow the formal presentation. [Operator Instructions] As a reminder, this conference is being recorded.
+
+I would now like to turn the conference over to your host, Bryan Gill, Executive Vice President and Director of Investor Relations. Thank you. You may begin.
+
+Bryan Gill
+
+Well, good morning. Welcome to today's conference call for The PNC Financial Services Group. I am Bryan Gill, the Director of Investor Relations for PNC and participating on this call are PNC's Chairman and CEO, Bill Demchak; and Rob Reilly, Executive Vice President and CFO.
+
+Today's presentation contains forward-looking information. Cautionary statements about this information, as well as reconciliations of non-GAAP measures are included in today's earnings release materials as well as our SEC filings and other investor materials. These are all available on our corporate website, pnc.com, under Investor Relations. These statements speak only as of April 15, 2025, and PNC undertakes no obligation to update them.
+
+Now I'd like to turn the call over to Bill.
+
+Bill Demchak
+
+Thank you, Bryan, and good morning, everyone. As you've seen, PNC had a strong first quarter of 2025 and but before we go into the results, I want to spend a second just on the current environment. Obviously, there's been an increased level of volatility due to uncertainty regarding tariffs that has dominated the headlines over the past two weeks, roiling the markets and raising concerns of a potential recession. As you would expect, we continue to monitor and evaluate the situation, communicating with our clients to gauge their understanding of the potential impact on their businesses in daily lives. However, it's still very early, and the fluidity of the news coming out of Washington makes it difficult to narrow the range of potential outcomes for the broader economy at this point.
+
+Irrespective of that outcome, we have demonstrated time and again that we will perform well in periods of uncertainty. The foundation of our success has been built upon the strength of our balance sheet, client selection, our interest rate risk positioning our diversified business mix, leading technology and our people, and that has not changed. As always, we will continue to focus on the things we can control with an emphasis on providing superior products and services to meet the needs of our customers while executing on the organic growth opportunities in front of us. And we saw that play out this quarter, as we grew customers and deepened relationships across our coast-to-coast franchise.
+
+We delivered another quarter of strong results, generating net income of $1.5 billion or $3.51 per share. While loan growth remained challenging for the industry, we were pleased to see 3% growth in our spot C&I loans, as well as strong new commitments during the quarter. As expected, total revenue this quarter was primarily impacted by lower day count and seasonality, but expenses were well controlled and our net interest margin expanded. Importantly, we remain on track to deliver positive operating leverage and achieve record NII for the year.
+
+Credit quality is strong, and we remain well reserved. Rob is going to cover that in some more detail in a few minutes. Finally, we continue to build our capital levels during the quarter, while also providing significant shareholder returns through dividends and share repurchases. In summary, we delivered strong results in the quarter, and we remain well-positioned to deliver on our strategic priorities.
+
+Before I turn it over to Rob for more detail on our financial results, I'd like to welcome Mark Wiedman who we appointed to the role of President last week. I'm thrilled Mark has joined us in this role. Mark brings deep experience in financial services that will complement the strength of our existing team. I have known Mark for 20 years, and we are fortunate that the timing was right for him to join our team. I'd also like to thank our employees for everything they do for our company and our customers.
+
+And with that, I'll turn it over to Rob to take you through the quarter.
+
+Rob Reilly
+
+Thanks, Bill, and good morning, everyone. Our balance sheet is on Slide 3 and is presented on an average basis. For the linked quarter, loans of $317 billion declined $2 billion or 1%. Notably, on a spot basis, loans increased $2 billion or 1% compared to December 31. Investment securities of $142 billion decreased by $2 billion, and our cash balance at the Federal Reserve was $34 billion, a decrease of $3 billion or 9%. Deposit balances declined $5 billion or 1% and average $421 billion. Borrowings of $65 billion were lower primarily due to a reduction in FHLB advances. And at quarter end, AOCI was negative $5.2 billion, an improvement of $1.3 billion or 20% compared with December 31.
+
+Our tangible book value increased to $100.40 per common share, which was a 5% increase linked quarter and a 17% increase compared to the same period a year ago. We remain well capitalized with an estimated CET1 ratio of 10.6% as of March 31. We estimate our CET1 ratio inclusive of AOCI to be 9.4% at quarter end. And during the first quarter, we returned approximately $800 million of capital to shareholders through both common dividends and share repurchases.
+
+Slide 4 shows our loans in more detail. Average loan balances of $317 billion declined $2 billion or 1% driven by lower commercial real estate and consumer loans. Importantly, on a period-end basis, total loans grew more than $2 billion or 1% as strong growth in C&I loans was partially offset by continued runoff in the CRE office portfolio and lower consumer balances. C&I loans were $181 billion on March 31, an increase of $5 billion or 3%, reflecting broad growth across loan categories. This represented the largest increase in C&I balances since the fourth quarter of 2022 and was driven by higher utilization rates and new loan production.
+
+Regarding utilization, we saw positive trends in the first quarter with increases in each consecutive month and ending the quarter at 50.3% or 80 basis points higher than year-end. Slide 5 details our investment securities and swap portfolios. Average investment securities decreased $2 billion to $142 billion as prepayments and maturities outpaced purchases. During the first quarter, our securities yield was stable at 3.17%. And as of March 31, approximately 20% of the portfolio was floating rate and our duration was estimated to be 3.4 years. Our active received fixed rate swaps totaled $39 billion on March 31, and the weighted average receive rate increased 27 basis points linked quarter to 3.49% and up from 2.2% this time last year.
+
+Our forward starting swaps now total $20 billion, including $9 billion that were added during the first quarter, which will roll on through 2026. With the addition of these swaps, we've reduced our interest rate sensitivity and further locked in a portion of our fixed rate asset repricing.
+
+Slide 6 covers our deposit balances in more detail. Average deposits decreased $5 billion or 1% to $421 billion. Consumer and commercial deposits followed seasonal trends Consumer deposits of $210 billion increased $4 billion or 2% and commercial deposits of $206 billion declined $5 billion or 2%. Lastly, we have a small amount of brokered CDs, totaling $5 billion, which declined $3 billion as part of our funding plan. Our rate paid on interest-bearing deposits declined 20 basis points during the first quarter to 2.23% and our cumulative deposit beta through March was 51%.
+
+Turning to Slide 7. We highlight our income statement trends this quarter. First quarter net income was $1.5 billion or $3.51 per share. Compared to the same period a year ago, we've demonstrated strong momentum across our franchise. Total revenue increased $307 million or 6%, driven by higher net interest income and fee growth. Noninterest expense increased $53 million or 2%, reflecting increased business activity, technology investments and higher marketing spend. And net income grew $155 million, resulting in EPS growth of 13% year-over-year. Comparing the first quarter to the fourth quarter, total revenue of $5.5 billion decreased $115 million or 2% in large part due to seasonality.
+
+Noninterest expense of $3.4 billion declined $119 million or 3%. Provision was $219 million, reflecting changes in macroeconomic factors and portfolio activity, and our effective tax rate was 18.8%.
+
+Turning to Slide 8, we detail our revenue trends. First quarter revenue of $5.5 billion declined $115 million or 2% linked quarter. Net interest income of $3.5 billion decreased $47 million or 1%. The decline was driven by two fewer days in the quarter, partially offset by the benefit of lower funding costs and fixed rate asset repricing. And our net interest margin was 2.78%, an increase of 3 basis points. Fee income of $1.8 billion decreased $30 million or 2% linked quarter.
+
+Looking at the details. Asset management and brokerage income increased $17 million or 5% driven by higher brokerage client activity and positive net flows. Capital Markets and advisory fees decreased $42 million or 12%, reflecting lower M&A advisory and trading revenue. Card and Cash Management was stable as higher treasury management revenue was offset by seasonally lower consumer spending. Lending and deposit services revenue decreased $14 million or 4% in part due to seasonality.
+
+Mortgage revenue increased $12 million or 10%, reflecting higher MSR hedging activity. And our other noninterest income of $137 million decreased $38 million and included $40 million of negative Visa derivative adjustments, primarily related to litigation escrow funding. As a reminder, PNC owns 1.8 million Visa Class B shares with an unrecognized gain of approximately $950 million as of March 31.
+
+Turning to Slide 9, we detail our noninterest expense trends. On a linked quarter basis, noninterest expense declined $119 million or 3% as a result of fourth quarter asset impairments as well as seasonality. We remain focused on expense management. And as we've previously stated, we have a goal to reduce costs by $350 million in 2025 through our continuous improvement program. As you know, this program funds a significant portion of our ongoing business and technology investments, and we're confident we will achieve our full year target.
+
+Our credit metrics are presented on Slide 10. Nonperforming loans of $2.3 billion were stable quarter-over-quarter with a small decrease in consumer. Total delinquencies of $1.4 billion were up $49 million or 4% compared with December 31, which included approximately $55 million of California wildfire forbearance activity. Net loan charge-offs were $205 million, down $45 million representing a net charge-off ratio of 26 basis points. The decline was largely driven by lower CRE office charge-offs related to the timing of resolution on certain office properties and we expect the level to vary quarter-to-quarter as we work through these loans.
+
+Importantly, our overall credit quality remains strong across our portfolio, and our allowance for credit losses totaled $5.2 billion or 1.64% of total loans at the end of the first quarter. This level of reserves includes an increase in the downside weightings of our CECL economic scenarios along with some considerations for tariffs.
+
+As you know, the proposed tariffs on April 2 were more severe than anticipated. If these tariffs are implemented as proposed and remain in effect for an extended period, it's quite possible the probability of a recession will go up. We're actively assessing our portfolios and analyzing a wide range of factors, both positive and negative, that could impact our commercial and consumer exposures. However, we view the current environment is too fluid to reasonably change our estimates at this time.
+
+In summary, PNC reported a solid first quarter, and we're well positioned for the remainder of 2025. Our full year guidance is unchanged. However, given the uncertainty of the proposed tariffs and the potential for disruption and client activity, our noninterest income could be pressured throughout the balance of the year and we'll obviously closely monitor this, as these factors continue to develop. For the full year 2025 compared to the full year 2024, we expect average loans to be stable which equates to spot loan growth of 2% to 3%.
+
+We expect full year net interest income to be up 6% to 7%. We expect noninterest income to be up approximately 5%. Taking the component pieces of revenue together, we expect total revenue to be up approximately 6%. We expect noninterest expenses to be up approximately 1%, and we expect our effective tax rate to be approximately 19%. For the second quarter of 2025 compared to the first quarter of 2025, we expect average loans to be up approximately 1%. Net interest income to be up 1% to 2%, and fee income to be up 1% to 3%, other noninterest income to be in the range of $150 million and $200 million.
+
+Taking the component pieces of revenue together, we expect total revenue to be up 1% to 3%. We expect noninterest expense to be stable, and we expect second quarter net charge-offs to be approximately $300 million.
+
+And with that, Bill and I are ready to take your questions.
+
+Question-and-Answer Session
+
+Operator
+
+Thank you. At this time, we'll be conducting a question-and-answer session. [Operator Instructions] Our first question comes from John Pancari with Evercore. Please proceed with your question.
+
+John Pancari
+
+Good morning. On the loan growth front, solid end of period loan growth in C&I as you cited. And I know you cited higher line utilization and improved loan production. Can you just give us a little more color around the drivers and what specific areas in C&I? And is there any of that transient in terms of potential line draws just to fund some inventory buildup ahead of tariffs? And therefore, more of a pull forward or anything like that? And is any of it maybe precautionary line draws given the recessionary backdrop? Thanks.
+
+Rob Reilly
+
+Oh, you want me, oh, I'm sorry. Bill's is going to [enter] (ph). Hey, John, good morning it's Rob. Yes. So we were encouraged by the increase in the outstanding through the quarter. And when you look at our financial supplement, you'll see it was pretty broad-based across most of our loan categories. We have been calling for this for some time in terms of increased utilization, which we saw in the quarter. So that tracks to what we thought at the beginning of the year.
+
+As far as some of this defensive or these tariff-driven, it's hard to say. It's not all of it for sure. Maybe there is a little bit of it in there. But generally speaking, we didn't see -- we saw growth, we didn't see massive growth or a massive shift. So 80 basis points -- or I'm sorry, 80 on the utilization isn't huge, but it was in-line with gradual normalization.
+
+Bill Demchak
+
+Yes. It is interesting. In all the dialogue that I've kind of had with clients, nobody is saying they're purposely building inventory in advance of the tariffs. Having said that, most of our lines finance working capital. So almost definitionally, there's some inventory build going on.
+
+John Pancari
+
+Got it. Okay. That’s helpful. And then separately, on the capital markets front, understandably trends there are pressured given the backdrop and you saw that pressure this quarter. Can you talk maybe perhaps about pipelines that you expect? Are you seeing any erosion in any of the pipelines either on the M&A side or capital market side, just given the uncertainty, any deals getting pulled or the pipelines remaining robust and it's just a matter of getting it paid through the pipeline?
+
+Rob Reilly
+
+Yes, sure. The capital markets was a little lighter than what we expected, although still pretty good. For us, 40% of our capital markets categories, Harris Williams, our M&A advisory and they actually had a very good quarter, in-line with expectations where it was a little softer was in some of our foreign exchange and just some of our client activity. So when we look forward, Harris Williams in particular, their pipeline right now is close to 20% higher than it was this time last year. So the pipelines look good, John.
+
+Bill Demchak
+
+And a good year last year.
+
+Rob Reilly
+
+And they had a very good year last year. So we're encouraged by that.
+
+John Pancari
+
+Okay, great. Thank you.
+
+Operator
+
+Our next question comes from Bill Carcache with Wolfe Research. Please proceed with your question.
+
+Bill Carcache
+
+Thank you. Good morning Bill and Rob, I appreciate your commentary around the uncertain environment leading you to keep your reserve rate relatively flat. If we were to go down the mild recession path and unemployment rose, say slightly above 5%, can you speak to how you're thinking about the level of expense leverage that you have? And what are the areas where you would look to achieve efficiencies should you need to?
+
+Rob Reilly
+
+I can answer that. I mean in terms of our expenses, we feel really great about the way that we've lined up the year. We've got positive operating leverage expenses up 1% of the '24 print. Naturally, if we get into a scenario where there is lower activity, some of that's self-correcting in terms of expenses associated with revenue that you would have had. But we are disciplined. We won't back off the investments, Bill, that we've lined up, but there could be some opportunities if we get there, which we're not expecting to.
+
+Bill Demchak
+
+The other offset under some presumption that we actually went into a mild recession and the forward curve is correct, and there's four cuts this year. We actually have -- with more cuts -- an amount of upside in our NII just at the margin. So I don't know that a mild recession dramatically changes our outcome here.
+
+Bill Carcache
+
+That's helpful. Thank you. And it's interesting in light of all the commentary around how companies are putting investments on hold given the uncertain environment to see your spot utilization has been increasing since the beginning of the year. Could you speak to perhaps the potential for increased opportunities in loan growth, if credit spreads were to continue to widen as capital markets become a less attractive option for some of your clients?
+
+Bill Demchak
+
+Yes, I'm going to go back, I've been saying this for a year. It's not clear to me what caused utilization to go down. It's not entirely clear to me as to why it's going up. If there is sort of some offset where capital markets new issue and slows down, that's probably in the loan book. But one of the reasons we leave it largely out of our forecast in terms of being a main driver. It's been a bit confusing for the last year or so.
+
+Bill Carcache
+
+Thank you for taking my questions, Bill and Rob.
+
+Operator
+
+Our next question comes from Betsy Graseck with Morgan Stanley. Please proceed with your question.
+
+Betsy Graseck
+
+Hi, good morning.
+
+Bill Demchak
+
+Hi, Betsy.
+
+Betsy Graseck
+
+Bill, I did want to just ask a few questions regarding the President role. And I wanted to understand a little bit more about what you are expecting Mark to be doing for PNC and I know there's many of us on the call who know Mark well with what he's been doing over at BlackRock for many years, but there might be others who are a little bit less familiar with him. So maybe you could help us understand why Mark is the right person for this role. And does this have -- and how you anticipate he will be growing the business as President. Thank you.
+
+Bill Demchak
+
+No. Thank you for the question, Betsy. I've known Mark for a lot of years going back to being on the Board of BlackRock, and we actually had -- he and his financial advisory team come in here at one point shortly after the crisis, just to double check everything we are doing on the balance sheet. Mark is going to come in and be the President, he's going to run our businesses. He comes in with a broad-based skill set, he's managed through crisis, he's advised on balance sheet, he's a student of the market, he's tech forward, he's been with a fast-growing company and he's a great talent. And it was kind of serendipity that he was available. We have a super strong team here, but when you see talent like that available, you add it and I don't know if it is any more complicated than that.
+
+Betsy Graseck
+
+Just also wondering about the opportunities for doing more with private credit. I don't know if that's part of the equation here as well given what you're doing already with private credit side and what Mark brings to the table there?
+
+Bill Demchak
+
+No. It's -- Mark is a well-rounded student of finance and markets and management and leadership. It was interesting, we were talking to the press about this. We got questions on, does this mean we're going to go big into asset management or private credit or private equity or something else and the answer to that is no, we're going to do exactly what we're doing and he is adding skill sets to what we are doing today. There's no change in our strategy. There's no change in what we want to be or how we're going to execute. He's just going to help us with our game plan.
+
+Betsy Graseck
+
+Okay. Thanks very much.
+
+Operator
+
+Our next question comes from Scott Seifers with Piper Sandler. Please proceed with your question.
+
+Scott Siefers
+
+Good morning guys. Thanks for taking my question. Rob, I think in the past, you've talked about a 3% margin by the end of the year. It kind of feels to me like based on the first quarter result, maybe you got out of the gate a bit quicker than you would have thought, which is helpful. But just sort of given all the moving parts these days, maybe if you could sort of refresh your thoughts on that number and anticipated path to get there. I can put together a couple of the pieces with what Bill had said about the forward curve, more rate cuts, et cetera, I would be curious to hear your thoughts.
+
+Rob Reilly
+
+Yes, sure, Scott. We talked about this on every earnings call that we don't give official NIM guidance, but then I give NIM guidance.
+
+Bill Demchak
+
+So what that means is -- if he's wrong.
+
+Rob Reilly
+
+Yes, that's right. Thanks, Bill. So yes, so we got out of the gate pretty good there at the 2.78% that you saw in the first quarter. we said at the beginning of the year, we still feel that we can approach 3%. So I think the 2.90% range is reasonable in the fourth quarter.
+
+Scott Siefers
+
+Okay. And then maybe just a little bit of a ticky tack one, the slightly higher net charge-off expectation into the second quarter. I mean it is not huge by any means, but it's a little higher than you've run recently. Anything in particular driving that? Or is that just kind of standard normalization?
+
+Rob Reilly
+
+No, there is something in particular that, Scott -- so thanks for that question. It's really the lumpiness of the CRE office charge-offs. So when you look at our information, they were down pretty good in the first quarter, but that's a situation where it's a handful of deals that can either sort of fall timing-wise into one quarter or another quarter. So we'd expect those charge-offs to go back to the levels that we were experiencing in the third and fourth quarter, and that's part of the [300] (ph) guidance.
+
+Bill Demchak
+
+The important stuff is reserved.
+
+Rob Reilly
+
+That's right.
+
+Scott Siefers
+
+Okay, perfect. All right. Thank you very much.
+
+Operator
+
+Our next question comes from Ebrahim Poonawala with Bank of America. Please proceed with your question.
+
+Ebrahim Poonawala
+
+I guess maybe -- so you talked about loan growth and sort of client sentiment there. Just talk to us around the fragility across the customer base, be it consumer or commercial, given concerns, maybe we are in a recession, we could fall into a recession. I'm just wondering how you look at the balance sheets for your customers. And like how bad do things need to go where the credit outlook deteriorates in a meaningful way.
+
+Bill Demchak
+
+The easiest way to think about this maybe is between today and three weeks ago, nothing has changed. What's happened though is everyone's trying to figure out what the steady state will be with tariffs and how they need to, if at all change the business model to succeed inside of the world with tariffs. So it is without question slowed down activity in the near-term as people try to figure this out, but it hasn't yet turned into any sort of credit deterioration or just given the quality of our book, nor do I think it's a dramatic outcome for clients unless those very tariffs drive us into a steep recession and then we're going to have a standard credit cycle.
+
+Ebrahim Poonawala
+
+And I guess maybe, Rob, for you, so you mentioned the where the NIM may exit, I guess, '25. Just talk to us about how you're thinking about balance sheet management from an ALCO perspective. You took some actions, I guess, middle or late last year to lock in the NII or the record NII for 2025. I'm just wondering how are you thinking about like from a cash or the bond book, are things that you're doing as you think about just the forward outlook beyond '25?
+
+Rob Reilly
+
+Yes, sure. So as we said, '25 is pretty locked in, and that's why we are confident in terms of our guidance. I will remind everybody that our NII guidance for the full year doesn't have a whole lot of loan growth. So if that happens, that will be on top of that. So you're right, where our eyes are now as sort of the outer years in the 26th and beyond and we have taken some actions to lock in that, which is the continuation of the fixed rate asset repricing that we are on. So that's where our heads are and that's where the focus is.
+
+Ebrahim Poonawala
+
+Good luck, thank you.
+
+Operator
+
+Our next question comes from Mike Mayo with Wells Fargo. Please proceed with your question.
+
+Mike Mayo
+
+I had a follow-up on the question about the new President, Mark Wiedman, you described. So I think you said exactly what you are doing currently at PNC is what you'll still be doing so my question to you is, how do you get them? I mean, there are so many people leaving the bank industry for private equity and nonbanks and fintech and sometimes anywhere they can get to. And so why is he coming to such a heavily regulated industry with so much oversight, with so much skepticism, with so much cynicism, with so much questioning, it's a slog being in the banking industry, and he's choosing to come. So what in the world was your sales pitch to him to get him to come to keep PNC doing exactly what it's doing.
+
+Bill Demchak
+
+I mean you'll get to ask him that question at some point, Mike. But I think it is as simple as saying that what's going on in banking today is fascinating, right? It's not my dad's bank. It's driven by technology. There is scale matters. We have new entrants coming in all sides of what we do which could be exciting or dangerous depending on how you look at it, you think through crypto and private credit and payment engines and all the other things that are happening. It's a very dynamic place withstanding all the oversight we get. And I'm sure Mark is listening to this call. I'm now wondering what he got himself [into] (ph). Right.
+
+Mike Mayo
+
+You mentioned scale matters, and you've not -- the first time you said that, what's your current appetite for getting that greater scale? You said scale matters more than ever before, I think in the history of banking. We have not seen that much consolidation. I imagine -- so where do you stand?
+
+Bill Demchak
+
+I don't think you're going to see it in the near future either. A couple of things. Scale matters. We can get that through organic growth, and we are executing on that. I talk too much about the long-term future, and people want to seem to think about next quarter. In the long run, I think there's going to be big consolidation in the banking industry. We see how the speed of growth of the very giant banks. And so I think scale matters. I think in the course of that consolidation, if we outperform in our organic growth, we will have the right to be an acquirer. In today's world, for a variety of different reasons, not the least of which is we wouldn't issue our shares at these price at these relative prices. Nobody is a seller. And to try to do a deal with the volatility going on in rates right now and the potential mark on credit makes it impossible. So I need to just shut up about doing deals because I kind of talk about what happens over the next 10 years and everybody thinks it's next quarter.
+
+Rob Reilly
+
+10 months, yes.
+
+Bill Demchak
+
+And it isn't. In the meantime, we're growing just fine. We have lots of capital and ability to support our clients and we are likely going into an environment where being a bank is a pretty important thing for the U.S. economy and we'll take advantage of that.
+
+Mike Mayo
+
+Last short follow-up, you said you would not issue shares at this price. So does that mean you would be accelerating share buybacks?
+
+Bill Demchak
+
+It's a pretty good assumption.
+
+Mike Mayo
+
+All right. Thank you.
+
+Operator
+
+Our next question comes from Ken Usdin with Autonomous Research. Please proceed with your question.
+
+Ken Usdin
+
+Hi, good morning. I was just wondering, obviously, you talked about in the first quarter, we saw a little bit softer capital markets, M&A and trading. And there is an obviously expectation in the guide that things get better from here, albeit with the uncertainty. So can you just talk us through like just how that advisory outlook fields. And I guess maybe if you flesh out the fees a little bit more, just what expectations drive that second -- that kind of from here improvement that's in the full year guide. Thanks.
+
+Rob Reilly
+
+Yes. Sure, Ken, it's Rob. So in regard to the full year fee guide, just in terms of our categories the way that we report them, they are largely similar to what we thought at the beginning of the year, albeit in the first quarter. Asset management did a little better than we thought, capital markets a little bit less. But when we look at the full year, it still sort of holds Asset Management mid-single digits, capital markets, mid-single digits, maybe a little bit better if the pipelines all pull through. Card and Cash Management, which is our [steady Eddie] (ph), is solidly mid-single to high single digits. Lending and deposit services, low single digits and mortgage, as we said, we expect to be down maybe as much as 10% or more. So when you put all that together, you get the mid-single digits that we were expecting at the beginning of the year.
+
+Ken Usdin
+
+Okay, great. Thank you. And then just one question on the deposit side, getting to this point of stability of DDAs and such. But when you think about the new rate environment, what do you see as far as your ability to continue to ratchet down deposit pricing and what do you think the mix of deposits looks like as well? Thank you.
+
+Rob Reilly
+
+Well, I'd say I'd start with the second part of that question first. As far as the mix goes, we're at 22% of noninterest bearing. And we've been pretty stable there for a while and expect that to continue. All else being equal, we do expect that our rate paid will be going down over the course of the year, not dramatically, but gradually and steady that we've been on for some time. So that's still our thinking.
+
+Ken Usdin
+
+Okay, thanks Rob.
+
+Operator
+
+Our next question comes from Erika Najarian with UBS. Please proceed with your question.
+
+Erika Najarian
+
+Hi, good morning. Just a few follow-up questions. So Bill, nobody really asked this question much until we saw the Mike Lyons announcement. But to follow up with all the questions about Mark, how much time are you going to give PNC in your current role, do you think as we think about the succession planning?
+
+Bill Demchak
+
+You mean how long am I going to be here?
+
+Erika Najarian
+
+Yes. I mean, I guess -- I mean, it's a very direct question clearly, but Jamie Dimon often talks about being around for a few more years. I often have to look up your age as you always look so much younger than your actual age. I always think you're like 52.
+
+Bill Demchak
+
+I'm only at 62, I'm going to be around for a while.
+
+Erika Najarian
+
+Okay. That's great. That's the answer I think your investors wanted to hear because given the announcement of Mark coming in, right, I think that question ramped back up. So that was the first question. Okay, you'll be around for a while, fair. Second question is a quick follow-up, Rob. I'm sorry if I missed this during prepared remarks, but what is the unemployment rate that your reserve is implying in terms of what it's built on?
+
+Rob Reilly
+
+Yes. Right now, Erika, in terms of our economic scenarios, we're just at 5%. But recall, we've got some reserves that are beyond that for things such as tariffs on top of those modeled outputs.
+
+Erika Najarian
+
+Got it. Okay, thanks guys.
+
+Operator
+
+Our next question comes from Gerard Cassidy with RBC Capital Markets. Please proceed with your question.
+
+Gerard Cassidy
+
+Thank you, hi, Bill. Hi Rob. Can you share with us -- you guys have done a good job in attacking your commercial real estate challenges and working through that portfolio. And at the same time, you've been able to keep your noninterest expense growth in check. Can you carve out of that, what is it costing you to work through these commercial real estate problems? So none of us expect them to end anytime real soon. But are there some expense savings coming once you get through that process in a couple of years, maybe?
+
+Rob Reilly
+
+Well, maybe a little on the margin, Gerard, but that's not a big driver. We've got some pretty talented bankers that when we work through that, we'll have other things for them to do.
+
+Gerard Cassidy
+
+And then a broader question, Bill, on your comment about share repurchases. Can you give us your thoughts and opinions about what's going on in regulatory environment, we have a number of nominees for the different regulatory agencies. The Treasury Secretary has been quite outspoken about having the regulations eased up a bit. What are your thoughts on that? And could that influence even more buybacks once you get to know what your CET1 ratio could be after Basel III endgame comes out?
+
+Bill Demchak
+
+My guess at the margin is our capital need will be less in the future than it is today, all else equal. I think the immediate changes we're likely to see in regulation, a lot of talk on the SLR, which you call the treasury markets down a little bit. Some refocus from all the regulators on the core risk in a bank. So that's a supervision thing that doesn't change capital but rather changes behavior. And at the margin, that's a good thing for us, maybe save a little bit of money on some of the things we're doing that frankly don't be done. But I don't know that there's a massive change that's headed for us.
+
+Gerard Cassidy
+
+Okay. And can you just remind us obviously, your CET1 ratio is similar to your regional peers in terms of the minimum. And what kind of buffer do you guys like to keep above that required level?
+
+Rob Reilly
+
+Hi, Gerard, it's Rob. So a couple of things on that. Just to finish up on that answer that Bill gave. Obviously, once things settle down in terms of where all the rules come, we can then take an assessment in terms of where our actual targets are. So we've got a lot of capital flexibility. We continue to build capital. We need to see those things settle down and then we can zero in on a target.
+
+Gerard Cassidy
+
+Very good. Thank you Rob.
+
+Bill Demchak
+
+So just before we jump to another question, the comment kind of where we are -- where our peers are. I mean I would just remind everybody that our drawdown in CCAR has been, through time, less than basically anybody in the peer group. So we're starting from a point with the SCB that, in effect, penalizes us when we build our capital ratio versus others, and that's unlikely to change the way we run our bank.
+
+Rob Reilly
+
+And Gerard, that goes back to a few years ago, when we were all focused on this the correct peer comparison in our view is the post-stress capital ones.
+
+Gerard Cassidy
+
+Very, good. Thank you.
+
+Operator
+
+[Operator Instructions] Our next question comes from John McDonald with Truist Securities. Please proceed with your question.
+
+John McDonald
+
+Hi guys. A couple of quick clarifications. Just -- sorry, one more on the buyback. So the idea is buybacks accelerating, Rob, but within the context of your capital ratio still growing a bit near term until you get more clarity?
+
+Rob Reilly
+
+Yes, that's right. In regard to the share buyback, so we bought more in the first quarter than we had in the previous quarters. It is our expectation in the second quarter that we'll do more to Bill's point because we really like the share price. But we are not talking about a step change some more, but nothing that sort of breaks the current path.
+
+John McDonald
+
+Okay, got it. And then on the fee income outlook for the year. You mentioned in the beginning comments, we just pointing out the obvious risk that you've got some market-sensitive fees in there, and it kind of depends on the macro.
+
+Rob Reilly
+
+Yes, that's right.
+
+John McDonald
+
+Okay. And then maybe just a quick update strategy-wise, just how things are going on the national expansion and some of the consumer initiatives, the new card product?
+
+Rob Reilly
+
+Do you want to answer that, Bill, on the new markets and then I can circle back on the capital?
+
+Bill Demchak
+
+We're having a side bar. Let me ask you to re-ask that question.
+
+Rob Reilly
+
+So Bill would like to buy more shares, which we're going to definitely do. The answer to your question was, it doesn't break the build at our capital levels, though.
+
+Bill Demchak
+
+Yes. So it's -- you'll see a level change in what we have been buying, but we'll still track on growing capital, particularly the AOCI pull in that's -- Basel capital. I'm sorry, ask your question.
+
+Rob Reilly
+
+The new markets and expansion markets, how are they going?
+
+Bill Demchak
+
+We're driving our growth across all lines of business. Our DDA customer growth, that customer growth is coming from markets. Our net inflows in wealth basically were driven by new markets, and they've continued to outproduce on a relative basis, our legacy markets even as our legacy markets grow, it's really working.
+
+Rob Reilly
+
+And also DHE and our corporate bank. So that gets to these, John, where we continue to grow loan commitments even though they're not funded which bodes well for future loan growth. The majority of that was coming through the expansion markets this quarter.
+
+John McDonald
+
+Got it. That’s helpful Rob. And you were going to just make a comment on the card book and how that's going with the new product and credit card?
+
+Rob Reilly
+
+Oh, credit yes, it's going great. Yes. going great. We continue to grow customer count there. So excited about the trajectory there.
+
+Operator
+
+The next question comes from Matt O'Connor with Deutsche Bank. Please proceed with your question.
+
+Matt O’Connor
+
+Good morning. Just to follow up on the rate sensitivity. I think you said little impact from if rates are a little bit higher or lower than what you expected. But just conceptually, how is the balance sheet positioned here for movements on both the short and long-end as you think about more medium term? And then kind of what's the goal? Like you talked about locking in some of the fixed rate assets you priced in the next couple of years, but which way are you trying to lean? Thanks.
+
+Bill Demchak
+
+There's a lot embedded in that question. We are at the margin better off if there are more cuts in the front end that we currently have in our forecast, which I think is a [2] (ph), and we're going to probably increase that. So at the margin better off this year is a function of more cuts. Ultimately, where the trajectory of NII continues to grow '25, '26 even '27 is a function of term rates staying high. At the moment they're higher than we had assumed in our forecast. So what we've been doing in the four starting swaps this quarter is locking in some of that known outcome in '26 and that's kind of the way we're -- like if everything stayed just where it was with the forward curve, we'd be great. So let's realize that because it's a big improvement over the course of the next several years. And that's how we're running the balance sheet today.
+
+Rob Reilly
+
+Obviously, taking low yielding.
+
+Matt O’Connor
+
+Yeah, that’s helpful. And then just on the short end, like I assume more types is helpful to a certain point, not that the market is predicting this now. But like what's that point where you're like, hey, if we get below [3%] (ph) or whatever it is, then we kind of run out of room to price deposits, for example? Like what's that to the point?
+
+Bill Demchak
+
+I'm not sure there is one as long as the back -- as long as [5 to 10] (ph), it depends -- if the curve gets steeper as they cut. Still -- this in my head, but I think we're fine.
+
+Rob Reilly
+
+Yes, that's right.
+
+Matt O’Connor
+
+Okay, thank you.
+
+Operator
+
+We have reached the end of the question-and-answer session. I'd now like to turn the call back over to Bryan Gill for closing comments.
+
+Bryan Gill
+
+Well, thank you all for joining our call and for your interest in PNC. And please feel free to reach out to the IR team if you have any additional questions.
+
+Bill Demchak
+
+Thanks, everybody.
+
+Rob Reilly
+
+Thank you.
+
+Operator
+
+This concludes today's conference. You may disconnect your lines at this time, and we thank you for your participation.

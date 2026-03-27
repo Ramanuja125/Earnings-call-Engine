@@ -1,0 +1,403 @@
+Nasdaq, Inc. (NDAQ) Q1 2025 Earnings Conference Call April 24, 2025 8:00 AM ET
+
+Company Participants
+
+Ato Garrett - SVP and IR Officer
+Adena Friedman - Chair and CEO
+Sarah Youngwood - EVP and CFO
+
+Conference Call Participants
+
+Simon Clinch - Redburn Atlantic
+Craig Siegenthaler - Bank of America
+Alexander Blostein - Goldman Sachs
+Patrick Moley - Piper Sandler
+Benjamin Budish - Barclays
+Ashish Sabadra - RBC
+Kyle Voigt - KBW
+Dan Fannon - Jefferies
+Brian Bedell - Deutsche Bank
+Alex Kramm - UBS
+Owen Lau - Oppenheimer
+
+Operator
+
+Good day, and thank you for standing by. Welcome to Nasdaq First Quarter 2025 Results Conference Call. At this time, all participants are in a listen-only mode. After the speakers' presentation, there will be a question-and-answer session. [Operator Instructions] Please be advised that today's conference is being recorded.
+
+I would now like to hand the conference over to your first speaker, Ato Garrett, Senior Vice President and Investor Relations Officer. Please go ahead.
+
+Ato Garrett
+
+Good morning, everyone, and thank you for joining us today to discuss Nasdaq's first quarter 2025 financial results. On the line are Adena Friedman, our Chair and Chief Executive Officer; Sarah Youngwood, our Chief Financial Officer; and other members of the management team. After prepared remarks, we will open the line for Q&A. The press release and earnings presentation accompanying this call can be found on our Investor Relations website.
+
+I would like to remind you that we will be making forward-looking statements on this call that involve risks. A summary of these risks is contained in our press release, and a more complete description in our Annual Report on Form 10-K. We will discuss our financial performance on a non-GAAP basis and adjusted for the prior year impact on the AxiomSL as if we recognize revenue ratably for on-prem contracts and excluding the impact of FX and the previously announced one-time revenue benefit in Index in the first quarter of 2024. Definitions and reconciliations of US GAAP to non-GAAP plus adjustments can be found in our earnings presentation as well as in a file located in the financials section of our Investor Relations website at ir.nasdaq.com.
+
+I will now turn the call over to Adena.
+
+Adena Friedman
+
+Thank you, Ato, and good morning, everyone. Thank you for joining us. This morning, I will start with a review of Nasdaq's financial and operational performance for the quarter. I'll then provide an update on our outlook on the current operating environment before handing the call to Sarah to walk through the financial results in more detail.
+
+The year began with favorable business conditions as the global economy maintained solid performance. However, as the quarter progressed, we experienced a market increase in uncertainty driven by changing trade policies and heightened geopolitical tensions. Nasdaq entered the year in a position of strength, and we remained laser-focused on delivering for our clients despite the dynamic nature of the operating environment. The trust that we have built with our clients, the mission-critical nature of our solutions and the diversification of our platform has served us well in these times of heightened uncertainty and volatility. As a result, we've been able to enhance our competitive position, execute our strategy, and create value for our clients and for our shareholders.
+
+We delivered double-digit growth across all three divisions with net revenues of $1.2 billion, representing a 12.5% increase from the prior year period. Solutions revenues were $947 million, representing 11% growth year-over-year and ARR rose to $2.8 billion, up 9% year-over-year. First quarter operating income rose 17% and EPS grew 24%, benefiting from strong revenue performance and expense management, while we continue to invest in our products and capabilities to serve our clients over the long term.
+
+At the divisional level, Capital Access Platforms generated 5% ARR growth and 11% revenue growth, driven by continued strength in both net inflows and new product innovation in our Index business. Financial Technology delivered 10% revenue growth. ARR growth was 12%, which included 21% growth for Financial Crime Management Technology, 11% growth for Regulatory Technology, and 9% growth for Capital Markets Technology. Market Services delivered 19% net revenue growth, driven by record US cash equities and derivatives revenue and growth in European equity derivatives volumes in capture.
+
+Beyond our excellent financial results, we continue to make progress on our strategic priorities. After achieving our target of $80 million in net synergies from the Adenza transaction, we expanded our efficiency program to target $140 million, inclusive of our original synergy program, and we're on pace to achieve it by year end with over $100 million actioned as of the end of the first quarter.
+
+Our strong free cash flow of $674 million in the first quarter supported continued deleveraging and share repurchases to offset dilution from employee vesting. Finally, we will remain on-track to surpass $100 million in run rate revenue from cross-sells by the end of 2027 as we have delivered 19 cross-sells since the Adenza acquisition, including two in the first quarter.
+
+Turning to our operational highlights, starting with Capital Access Platforms, we continue to execute on the growing opportunity in front of us as we build new products to help our clients navigate market complexity. Our solutions take on increasing importance in periods of uncertainty and market volatility. For example, our Analytics platform provides actionable portfolio and fund-level insights to help institutional investment clients manage their investment strategies and dynamic markets. In addition, our IR and governance solutions provide market-driven analysis to help corporate clients connect more successfully with their Boards and investors as they manage their businesses through a fast-changing environment.
+
+Moving down to a review of the Capital Access Platform subdivisions, starting with the data and listings in the first quarter, Nasdaq welcomed 45 operating companies raising approximately $5 billion in total proceeds. Overall, Nasdaq had an 82% win rate for Nasdaq eligible operating companies, featuring three of the top five largest IPOs in CoreWeave, SailPoint, and Smithfield Foods. Beyond IPOs, we have sustained our listing transfers momentum with several marquee switches in the first quarter, including Shopify, Thomson Reuters, and Domino's Pizza.
+
+After celebrating our 500th switch last year, during the first quarter, we officially crossed the $3 trillion threshold in combined market value for listing transfers to Nasdaq since we first launched our Switch program in 2005. This tremendous milestone further reinforces our role as the premier venue for listings in the United States.
+
+Building on our listings leadership, we launched a new research and advocacy program to engage the new US administration on a set of policy recommendations that promote capital formation, enhance the public company model, and ultimately reinforce the position of the US capital markets. In our data business, we benefited from new sales, upgrades, and higher usage across the business, as well as strong traction across our new products and geographies.
+
+The Index business delivered another outstanding quarter as we achieved 26% revenue growth and a record and average ETP AUM for the quarter. Net inflows remained robust, and we continue to see strong increase in derivatives volumes, including a record quarter. Nasdaq's Index franchise has multiple vectors for growth, and Index's performance reflects the ongoing execution of our growth strategy of new product innovation, international diversification, and institutional client expansion. In fact, the new products that we've launched since 2020 have accounted for 33% of net inflows over the last five years.
+
+We built on this success in the first quarter as we launched 30 new Index products, including 10 outside the United States and seven insurance annuity vehicles. Within Workflow and Insights, Analytics experienced solid growth among the investor community as we continue to engage our data more deeply in client -- I'm sorry, integrate our data more deeply in client workflows and applications. In Corporate Solutions, we continue to focus on strengthening our offerings through product enhancements, including AI features, while we manage our corporate clientele through a continued period of elongated sales cycles.
+
+Turning to our Financial Technology division, we signed 40 new clients, 92 upsells, and two cross-sells. In today's environment of heightened market activity and complexity, financial institutions and market operators face an increasing range of challenges that Nasdaq is uniquely positioned to help solve. Our trade lifecycle solutions are designed to support our market operator clients around the world during significant burst in trading activity while maintaining a hyper-resilient infrastructure.
+
+We also provide mission-critical trading and regulatory reporting infrastructure to banks and brokers worldwide, which help them manage heightened trading and capital risks. As we partner with banks to fight financial crime, the shifting macroeconomic and global political conditions tend to motivate an increase in criminal behavior.
+
+We are also focused on advancing Nasdaq's vision to be the trusted fabric of the world's financial system. This morning, we announced an enhanced partnership with AWS that is designed to benefit both our Market Services and Financial Technology divisions. Across our own markets, Nasdaq's move to the cloud has enhanced our ability to navigate the current environment successfully due to the increased and instant scalability of our market infrastructure, including our matching engines, resulting in enhanced resiliency and efficiency across our markets. Through our expanded partnership with AWS, we plan to leverage the learnings and expertise gained from our transition as we continue to modernize the global financial ecosystem. Over the coming years, AWS and Nasdaq intend to progress in phases to serve the full range of our financial services clients.
+
+It will start with a focus on our market operator clientele through packaged public cloud and hybrid cloud infrastructure software and services that build on Nasdaq's successful modernization of its own options markets. The combined power of AWS and Nasdaq will enable market operators to modernize in a cost-effective manner, while mitigating transformation risk, retaining data sovereignty, and maintaining the highest levels of performance, security and resilience.
+
+Now turning to a review of our FinTech subdivisions, beginning with Financial Crime Management Technology. Nasdaq Verafin continued to see robust demand during the first quarter and we delivered a new cross-sell with the Tier 2 bank. We also added 35 new SMB clients in the first quarter, a 25% increase in new client signings over the prior year quarter. Nasdaq Verafin's ongoing client growth is contributing to the growth and power of its data consortium, which now includes clients holding more than $10 trillion in total assets.
+
+The business has also made progress on its land and expand strategy, signing an expansion deal with an existing Tier 2 Nasdaq Verafin client. The upsell was negotiated and signed in six months, marking approximately a 50% reduction in sales cycle when compared to the original contract. More broadly, we continue to drive enhanced product functionality across the Financial Crime portfolio. Nasdaq Verafin's Gen AI-powered Entity Research Co-Pilot has seen a 20% increase in client usage compared to the fourth quarter, showcasing the value and efficiencies that this platform delivers for our clients.
+
+Currently, more than 1,200 clients are leveraging the Co-Pilot to expedite their alert reviews. Building on this success, we plan to launch a new Co-Pilot feature in our case management module. This feature, which is currently in beta with clients, will help automate and expedite case investigations and documentation. Looking forward to the rest of 2025, we expect to introduce new capabilities that go beyond task automation with the use of agentic AI, which will enable banks to automate entire workflows, allowing for significant efficiency gains in compliance operations like due diligence and sanction screening.
+
+Turning next to Regulatory Technology, AxiomSL signed a large digital bank as a new client and delivered 22 upsells, including a deal with a large Tier 1 US financial institution. The Tier 1 client expanded its suite of AxiomSL services by incorporating a broker-dealer solution alongside their existing US, European and Asian reporting modules.
+
+Surveillance signed four new clients during the quarter, including a regulator in Europe, a crypto marketplace, an energy trading firm and a broker-dealer, representing the diverse client set that our solutions serve. Surveillance continues to see strong demand as clients seek to reduce operational complexity, particularly in the midst of elevated market activity.
+
+Moving to the Capital Markets Technology subdivision, our Market Technology business continued to advance its international strategy, helping to modernize capital markets infrastructure across emerging economies with 17 upsells. Nasdaq delivered an upsell with an Asian exchange and a cross-sell with nuam, the consolidation of the marketplaces across Peru, Chile and Colombia. Importantly, the nuam deal demonstrates how we have become a trusted partner to an existing client that signed on for two additional solutions since its initial signing in 2023. In the first quarter, Calypso delivered 25 upsells which reflect broad-based momentum across our client base, including a significant expansion with the European client.
+
+Now turning to our Market Services division. The volatile market conditions across the first quarter showcase the depth and quality of our markets. Nasdaq is the leading platform across the US and European markets and we delivered another quarter of double-digit growth with record net revenues and volumes. In the US, we generated record net revenues for US options, including Index options and US cash equities, and we were pleased to increase our on-exchange market-share in US cash equities in the first quarter.
+
+These results represent the exceptional performance of our systems, supported by the consistent investments that we've made over the years, the strength of our Closing Cross, our superior liquidity, and the trust that we've built with our clients. In Europe, we saw strong results across both cash equities and equity derivatives. Within equity derivatives, we saw a year-over-year increase in both volumes and capture. At the start of the second quarter, we experienced unprecedented levels of message traffic and volumes. The US cash equities markets experienced five of the six highest trading days in industry history, and the US options markets had four of the six highest trading days.
+
+During this period, Nasdaq's markets performed extremely well as we managed enormous volumes in inbound and outbound message traffic, including Nasdaq's most active day ever on April 7, which exceeded 550 billion messages. Mirroring our US markets, European cash equity saw unprecedented activity in the first two weeks of April, delivering the seven highest massive traffic days on record. I'm proud to say that our team seamlessly navigated this heightened demand and remain prepared for an environment marked by elevated volatility.
+
+Now I'd like to take a moment to discuss the current macro environment. Recent policy shifts and ongoing talks about potential tariffs have created significant short-term volatility, and that uncertainty is at this point weighing on global GDP growth expectations. Entering the second quarter, this is creating modest impacts on the timing of corporate decision-making, although without a meaningful change in overall demand. Across our economic cycles -- across all economic cycles, our clients rely on Nasdaq as a trusted partner.
+
+Our global markets enable capital formation and provide investors with certainty of execution. We provide corporate issuers with critical access to funding, while providing banks, brokers, and investors with transparent and efficient mechanisms to adjust their strategies and comprehensively manage risk. Further, the current volatility in US trading has illustrated the critical nature of our markets and the resilience of their underlying infrastructure.
+
+Nasdaq is a global business, and we have teams across the world that serve our clients at a local and regional level, which allows us to understand the specific dynamics our clients face and ensures Nasdaq is positioned to help solve them -- help them solve their problems as they evolve. Against this backdrop, the power of Nasdaq's platform and diversified business positions us for resilient growth as demonstrated by our outstanding first quarter's performance.
+
+With that, I will now turn the call over to Sarah to provide more details on our financial results.
+
+Sarah Youngwood
+
+Thank you, Adena, and good morning, everyone. In the first quarter of 2025, Nasdaq delivered one of our strongest quarters on record with 24% EPS growth and record free cash flow.
+
+Starting with quarterly results on Slide 11. We reported net revenue of $1.2 billion, up 12.5%, with Solutions revenue of $947 million, up 11%. Operating expense was $555 million, up 7%, leading to an operating margin of 55% and EBITDA margin of 58%, both up 2 percentage points. This resulted in net income of $456 million and diluted EPS of $0.79, up 24%.
+
+Slide 12 shows the drivers of our 12.5% net revenue growth for the quarter. We generated 9.5 percentage points of Alpha, driven by new and existing clients, product innovation, as well as excellent market services execution in these volatile markets. Meanwhile, Beta factors contributed 3 percentage points of growth this quarter, driven by higher valuation in Nasdaq indices and higher overall volumes in both Index derivatives and Market Services.
+
+As shown on Slide 13, we had ARR growth of 9%, above all quarters of last year, which were between 7% and 8%. This quarter's 9% included 12% ARR growth in FinTech and SaaS revenue growth of 14%. SaaS as a percentage of ARR increased 2 percentage points to 37% compared to the first quarter of 2024.
+
+Let's review division results, starting on Slide 14. In Capital Access Platforms, we delivered revenue of $515 million, up 11%, and with ARR growth of 5%. Data & Listings revenue was up 4% with ARR up 6%. Revenue growth was primarily driven by data due to the positive impact of new sales, higher usage, and pricing.
+
+Within listings, the benefit of new listings and pricing was offset by delistings and lower amortization of prior-period initial listing fees. The revenue headwind from delistings and amortization of initial listing fees in the first quarter was consistent with our previous comments. Index revenue was up 26% in the quarter, mainly driven by record average ETP AUM of $662 billion. This is due in large part to strong net inflows with more than half of the quarterly revenue growth driven by Alpha factors.
+
+ETP AUM included $86 billion of net inflows in the last 12 months, including $27 billion in the first quarter, which reflects tremendous recognition and resiliency in the context of the Nasdaq 100 market performance down 8% during the first quarter. Volume-based license revenue was also a strong contributor to revenue growth given the high level of volatility with record derivatives contract volumes up 28%. And we surpassed the revenue share threshold we have in place with our partner CME in March earlier in the year than we have historically.
+
+In Workflow and Insights, revenue and ARR growth were both up 4% for the quarter. The increase was driven primarily by Analytics, mainly investment in Data Link with continued demand from hedge funds, asset managers, asset owners, and consultants, and a focus on differentiated data as our clients seek Alpha. Corporate Solutions also grew modestly due to the pricing and improved gross retention. Quarterly operating margin for the division was 60%, up 2 percentage points.
+
+As we look to the full-year 2025, we continue to expect Capital Access Platforms to deliver 2025 revenue growth within its medium-term growth outlook range of 5% to 8% with subdivision revenue growth expected to be consistent with our prior comments provided in January.
+
+Moving to Financial Technology on Slide 15. Revenue was $432 million, up 10%, with ARR growth of 12%. The difference between quarterly revenue growth and ARR growth in FinTech and Capital Markets Technology is driven by the impact of lower Calypso on-prem subscription revenue due to the tough comp of 23% revenue growth in the first quarter of 2024. Meanwhile, ARR growth remained solid across the subdivision with the benefit of 40 new clients, 92 upsells, and two cross-sells in the quarter.
+
+While we closed two cross-sell deals this quarter, cross-sells continue to represent over 15% of the Financial Technology division's pipeline with strength across all three subdivisions. Financial Crime Management Technology revenue and ARR growth both increased 21% for the quarter with 35 new SME clients and one cross-sell with a Tier 2 client as well as an upsell with an existing Tier 2 client.
+
+Net revenue retention was 113%, reflecting strong client engagement, including the continued adoption of the Gen AI Entity Research Co-Pilot and Targeted Typology Analytics. Regulatory Technology revenue increased 10% for the quarter with ARR growth of 11% as well as five new clients and 49 upsells. Capital Markets Technology delivered 7% revenue growth for the quarter, with ARR up 9% and with 42 upsells and one cross-sell in the quarter. Financial Technology operating margin was 46%, flat versus the prior year quarter.
+
+Looking ahead to our 2025 revenue growth expectations for Financial Technology. The uncertainty in the global macro and regulatory environment is causing some delays in larger decisions and client readiness. These delays will likely have some effect on revenue and ARR growth in Q2. Additionally, as a reminder, Calypso benefited from a strategic renewal in 2Q 2024, which created a difficult growth comparison for the upcoming quarter. That being said, we are seeing continued strong demand for our FinTech solutions, which is showing up in a solid 2025 pipeline.
+
+Clients continue to engage with us, underscoring the mission-critical nature of our solutions, and we continue to be the partner of choice in competitive situations. Therefore, we remain confident in our ability to deliver full-year 2025 revenue growth within the medium term outlook for both the division and the subdivisions, with Financial Crime Management Tech and Capital Markets Tech at the low-end of their ranges and with Reg Tech well within its range.
+
+Wrapping up the divisions with Market Services on Slide 16. We had record net revenue of $281 million, reflecting growth of 19%. This included record quarterly net revenues in US options, including Index options as well as in US cash equities. Growth was primarily driven by the increase in market-wide volumes across all asset classes, but also included higher capture in both US cash equities and European equity derivative exchanges [ph], higher market share in available on-exchange trading volumes in US cash equities, and higher US state plan revenue.
+
+Our trading businesses have executed well during this period of significant market activity. In North America, we reached a record of more than 430 billion messages in a signal day in Q1. This compares to around 200 billion messages per day, which we referenced at Investor Day in early 2024. Our clients increasingly rely on us during periods of extraordinary market conditions, and as such, give us persistent market share leadership and premium capture. This is only possible because of the major investments we've made to modernize and scale our trading infrastructure.
+
+To normalize our Alpha/Beta computations for market volatility in US equity options and US cash equities, we're including an average daily volume provision to our methodology, in which half of the net revenue generated from above threshold volumes is attributed to Alpha. These thresholds are set 10% above the trailing three-year industry average daily volumes.
+
+As noted on Page 12, the addition of this new provision to a Alpha/Beta methodology would not have materially changed any Alpha/Beta splits in the periods we have reported. Market Services operating margin was 62%, up 5 percentage points, highlighting the strong operating leverage of this platform.
+
+Moving to expenses on Slide 17, we had operating expenses of $555 million, up 7%, driven by strong investments in technology and people to support revenue and drive innovation and growth, employee-related cost increases, and other increases largely due to inflation. This resulted in an operating margin and EBITDA margin both up 2 percentage points at 55% and 58% respectively.
+
+We are narrowing our non-GAAP expense guidance for the year to a range of $2.265 billion to $2.325 billion from $2.245 billion to $2.325 billion. FX was a very small benefit this quarter, but given current volatility in FX rates, we are once again treating it as a neutral versus 2024 rates in the narrowed guidance range.
+
+As Adena noted, we have actioned over $100 million of our efficiency programs at the end of the first quarter, and we remain on-track to action the $440 million by the end of the year as well as realize a 2 percentage point benefit to our full-year 2025 expense growth. As we look to Q2, we expect slightly higher expense growth than the first quarter due to the timing of our annual compensation cycle. We maintain our 2025 non-GAAP tax rate guidance of 22.5% to 24.5%.
+
+Turning to capital allocation on Slide 18. Nasdaq generated free cash flow of $674 million in the first quarter. This high level of cash flow enabled us to support deleveraging our dividend and share repurchases. We paid a dividend of $0.24 per share or $138 million in the quarter, representing a 32% annualized payout ratio. And this morning, we announced a 13% increase to our quarterly dividend to $0.27 per share, which will be payable in June.
+
+In our continued commitments towards deleveraging, we repurchased $279 million in notional value of debt for a net cash purchase price of $257 million, resulting in a gross leverage ratio of 3.4 times at the end of the quarter, down from 3.6 times at the end of 2024. As a result of our focused deleveraging, we recently received a one notch upgrade to our credit rating by Moody's to Baa1.
+
+Given the attractive buying opportunity in our stock, we repurchased 1.6 million shares of our common stock for roughly $115 million in the first quarter, and we have since completed the employee-related repurchases in April. As we continue to execute against our compelling organic growth strategy, we remain focused on reducing our leverage and now expect to reach a 3.3 times gross leverage ratio in 2Q or 3Q, depending on FX. We intend to pay down the $400 million remaining on the June 2025 bonds at maturity, primarily with cash-on-hand.
+
+Beyond that, we will remain opportunistic regarding any additional debt or share repurchases. Our capital priorities remain unchanged since the close of the Adenza transaction. We are focused on delivering what we committed to shareholders, which is investing for organic growth, delevering, expanding the dividend, and repurchasing shares. We have an incredible organic growth path in front of us and that is where we are focused.
+
+In closing, Nasdaq delivered a standout first-quarter, marked by double-digit revenue growth across all three divisions and our highest year-over-year ARR increase since the first quarter of 2022. We demonstrated strong operating leverage and made meaningful progress on our capital strategy, including reinvesting in the business, reducing debt and buying back shares.
+
+As we move into Q2, I echo Adena's comments on the dynamic macro environment and a critical role Nasdaq plays in sustaining market resilience. In times like this, financial institutions around the world rely on us for our mission-critical technology and actionable insights. Our central role in the global financial ecosystem and the trust our clients place in us reinforce our ability to continue delivering sustainable growth and long-term shareholder value.
+
+With that, let's open the line to Q&A.
+
+Question-and-Answer Session
+
+Operator
+
+Thank you. [Operator Instructions] First question comes from the line of Simon Clinch from Redburn Atlantic. Please go ahead.
+
+Simon Clinch
+
+Hi, everyone. Thanks for taking my question. Maybe Adena, I was wondering if you could reflect on the strength that you've seen in the Index business you have and with the sort of building of this next-generation platform. And if you could perhaps talk about how the business and the structural drivers are different today versus the last time we went through a market downturn in 2022, when your growth was still very resilient. I was just kind of curious as what differences might be this time around, and how you might therefore think about the resiliency of the business of that Index segment today versus that last period? Thanks.
+
+Adena Friedman
+
+Great. Thanks, Simon. Yes, just as a reminder to everyone, in 2022, we saw a decline in market values of the Nasdaq 100 of around 33%, but the Index business in that year grew 6%. So it does really -- I think that year was a good testament, as you said, to the resilience of the business. But as we look at how we've expanded that business since then, I think we've really executed against a very defined strategy of bringing new products to market and really expanding the Index franchise beyond the Nasdaq 100, which I think we're continuing to do quite successfully, growing our international clientele and also expanding into the institutional clientele.
+
+And that I think is continuing to accrue to our benefit. So, Simon, I think it's a great question because 50% of the inflows in the quarter, the $27 billion of inflows in the quarter were from non-Nasdaq 100 products. So, I should say we're into non-Nasdaq 100 products. And I think that shows that we're really continuing to diversify the business.
+
+And as we also talked about, there are three really key levers that you should look at in the Index business, there is, of course, market values, and I think that does create -- basically is one of the key drivers and that's really going to shows up in the beta that we show in our Alpha/Beta comparison. But we also have new product launches and inflows into those products as well as our derivatives volumes as well as data revenue. So I think that because of the fact we do have multiple vectors of our performance and drivers in the business, it allows us to continue to perform even when market values might be swinging one way or the other. And so, that obviously showed up on the 26% growth in the business even with an 8% decline in market values in the first quarter.
+
+But of course, as we go forward, well, it is a very dynamic environment. We are still seeing inflows in April. So we're very excited about that. But the market will perform and we'll have to see how that drives the business forward. But the balance that we have there now and the size and scale of it is really exciting to us.
+
+Simon Clinch
+
+That's great. Thank you very much.
+
+Operator
+
+Thank you. And I show our next question comes from the line of Craig Siegenthaler from Bank of America. Please go ahead.
+
+Craig Siegenthaler
+
+Good morning, Adena. Sarah. Hope everyone is doing well. So we saw the announcement last month that Nasdaq plans to open an office, or I think effectively a regional headquarters in Dallas, Texas. This looks like a reaction to the BlackRock Citadel-backed Texas Stock Exchange and a similar announcement from ICE, which I think already went live three weeks ago. So I'm really curious, what do you expect to accomplish from this move? How will this link up also with your Nasdaq exchanges in New York or actually Secaucus and Carteret? Thank you.
+
+Adena Friedman
+
+Sure. Thanks, Greg. Well, first of all, just to ground everyone, we have 700 clients across Nasdaq and Texas, and that includes banks, brokers, investors, corporate clients. That does include 200 or so listed clients. So as we are thinking about expanding our presence in Texas, it's really because, frankly, the clientele we have has really expanded through all the work that we've done in the FinTech division and the growth of that business in addition to, of course, our listings business. So the regional headquarters is really a reflection of making sure we have a great local presence in Texas to serve that broad-base of clientele.
+
+And when we think about our listed companies there, we have, I mean, just amazing companies that really they want to have, of course, a local presence that they can come to and people that they can interact with in Texas and we have a great team in Texas to support them, but they also want to have access to global capital flows and they want to have access to the really unique benefits that we provide as a listing exchange. And I think that those unique benefits are really driving the fact we have an overall win rate of over 80% and we've continued to really expand our Switch program, seven switches in the quarter.
+
+So I -- our view is that, that companies that are public companies that are based in Texas, they want to have that great local presence, but they also want to have access to a global market, and we can provide both. And so, that's really the driver of our decision to expand our presence there. But at the end of the day, we take every competitor seriously, but we do think we have an incredible value proposition to offer any company, including all of our clients in Texas.
+
+Craig Siegenthaler
+
+Thank you.
+
+Operator
+
+Thank you. And I show next question comes from the line of Alexander Blostein from Goldman Sachs. Please go ahead.
+
+Alexander Blostein
+
+Hey, good morning. Thank you for the question as well. I was hoping we could touch on your acquisition priorities from here. The balance sheet is deleveraging really nicely. You guys made great progress since the Adenza acquisition. I think at one of the recent conferences, you talked about maybe a little bit more openness to pursuing growth inorganically again. So maybe expand on that a bit. What is the probability of deals you're seeing out there?
+
+Obviously, macro uncertainty could present pretty compelling valuation opportunities, but the balance is still relatively levered relative to kind of where you guys want to be. So just broader question on M&A and as part of that, just remind us your sort of earnings accretion targets when you're pursuing deals? Thanks.
+
+Adena Friedman
+
+Sure. Well, so Alex, we're not evaluating deals. We're really focusing on organic growth. I think that as Sarah said, we have an incredible growth story. We have great opportunities for continued to sustain organic growth within the business. We have work to do to continue to drive to the returns and the accretion that we committed to our shareholders with the Adenza deal. So the deleveraging, the share buybacks, those are things that we're going to be committed to doing in our capital plan, in addition to continuing to increase our dividend as we did announce today as well. So I think that that's really our focus. I mean, our team is laser-focused on delivering for our clients, laser-focused on driving the organic growth and we really haven't been evaluating M&A.
+
+Alexander Blostein
+
+Loud and clear. Thank you.
+
+Adena Friedman
+
+Thank you.
+
+Operator
+
+Thank you. And I show our next question comes from the line of Patrick Moley from Piper Sandler. Please go ahead.
+
+Patrick Moley
+
+Yes, good morning. Thanks for taking the question. So I just had one on the overall sales cycle environment. You mentioned the macro headwinds that you're seeing and how that's driving delays in customer decision-making, but you did not adjust down any of the revenue guidance ranges, particularly in Financial Technology. So just hoping you can walk us through the dynamic there and what specifically you're seeing that gives you confidence that you're going to be able to come in within the guidance ranges that you laid out at the beginning of the year? Thanks.
+
+Adena Friedman
+
+Sure, sure. Yes, I'll take it by each of the subdivisions within fintech. Starting with Financial Crime Management Technology, we're really -- we're having great robust conversations with clients. We're -- we actually showed an acceleration of sales to the SMB clientele in the first quarter this year versus last year. We're not seeing any changes in the way that our clients are engaging with us as they're considering solutions. And then as we are continuing to move upmarket, we're definitely -- we're just having a lot of progress there in driving towards deals and concluding those deals.
+
+So that business remains very robust and it feels very, very healthy. I think within the Reg Tech business, so the surveillance products, honestly are very high demand with four new clients in the quarter, but generally, we've had really good sales for the last year there, and we're continuing to have a lot of active dialogue. If you think about it, higher activity levels and frankly more regulatory scrutiny on market performance, and I would say making sure that we are helping our clients manage through any sort of market risks from a market manipulation perspective is really accruing to the benefit of that business globally.
+
+And I think within AxiomSL, we are seeing some changes in how clients are implementing the technology, how quickly they're doing it just because some regulatory requirements are shifting back in time. And but -- we continue to have a lot of opportunities. Our pipeline continues to be very, very healthy as we've been engaging with clients on the needs that they have to expand their regulatory needs over time. I think within the Capital Markets Tech, that market modernization megatrend is something that is really driving a lot of benefit to us. We've really been able to show the scalability of our platform, the modern way that people can implement that platform.
+
+And we just announced an expansion of our AWS partnership today to really drive our clients into that modernization for a complete suite of infrastructure capabilities to support that modernization. So that trend feels very strong. And then with trade management services in terms of connectivity services, that business because of all the market activities has continued to be a great grower. And we did double the size of our data center last year, which is also helping us grow there.
+
+And then within Calypso, I think we mentioned back in early March, we're seeing some decisions have to go further up the chain inside the companies and it's causing some delays. But the overall demand characteristics within Calypso remain strong. And just a reminder, I mean, some of the things we do within that platform are incredibly important, especially during times like this one, like our Collateral Management module, which really we really believe is like the best in the world is something that is of such high demand.
+
+I mean, everyone needs to be able to move collateral as efficiently and effectively as possible, manage risk, the risk calculations are so important within that platform. So I think clients really understand why Calypso is a differentiated solution, why they really need to have that kind of technology to manage risk. It's just a matter of sometimes the larger decisions have to go further up the chain, and that's what we've been experiencing with our clients.
+
+So at the end of the day, kind of the diversification of our FinTech business, the breadth of our clients, our client relationships, the strategic nature of what we do, I think is really keeping that ballast really strong as we're managing through these uncertain times.
+
+Patrick Moley
+
+Okay. Thank you.
+
+Operator
+
+Thank you. And our next question comes from the line of Benjamin Budish from Barclays. Please go ahead.
+
+Benjamin Budish
+
+Hi, good morning, and thank you for taking the question. I wanted to ask about the Verafin growth algorithm. During the prepared remarks, you talked about expanded use of AI features, I think Co-Pilot features. In the presentation, you talked about price is partly a driver. Just curious as we think through the next year or two, how much of the growth is coming from SMB sales moving up market? And can you comment on the European opportunity? Any signs of anti-US sentiment, anything like that? So curious how those pieces fit in price in terms of the next few years?
+
+Adena Friedman
+
+Sure. Yeah. So the AI features are really helping us show how valuable the platform is to our clients. We don't specifically charge for those features. They're embedded in the solution, but they really just add to the value and ROI that we can deliver to our clients. So as we talk to them about the value of the solution or the increased value of the solution as they do contract renewals, we definitely will demonstrate that automation that they're going to be able to bring to their workflows helps them be able to solve these problems with fewer resources over time. That's really kind of the way that we would communicate that to them.
+
+And in general, though, if we think about the business and the growth drivers of the business, the strongest part of our business has always been the SMB space, where we're really gaining strength is in the Tier-1 and Tier-2 clients, and we're continuing to show progress there. Really happy to see the upsell that we gave to -- we were able to secure with one of our Tier-2 clients because I think it just shows that land and expand strategy is something that we really believe is something that will accrue to our benefit over time.
+
+But that upsell movement will continue to be a slow-moving train just because the sales cycles are generally longer. And we also don't start showing the ARR until we actually implement, and the implementation cycles are longer. But it has been -- the demand there continues to be very, very high. As you move to Europe, we are engaging very constructively. We've had engagements with our clients throughout the first quarter and in April or I should say client prospects. And they are signing up with us to start to run POCs so we can show that our solution is differentiated. We have found that they're as interested as ever, frankly, in just finding a solution that works.
+
+I think that -- and that really can drive down their criminal behaviors, but also deliver the ROI that I mentioned. And so the engagement has been really healthy, but that's going to take time. I do want to say, again, sales cycles are long. So we don't anticipate that being a real contributor this year, but we're hoping that we can start to show some contribution from our global expansion next year and the year after that starts to be another lever of growth for us over time.
+
+Benjamin Budish
+
+Great. Thank you so much.
+
+Adena Friedman
+
+Thank you.
+
+Operator
+
+Thank you. And I show our next question comes from the line of Ashish Sabadra from RBC. Please go ahead.
+
+Ashish Sabadra
+
+Thanks for taking my question. I just wanted to drill down further on the prior comments around delays. And I was just wondering how should we think about like the impact to revenues in 2Q, if you could provide any further detail by segment? And then in terms of trajectory, should we expect growth to improve into 3Q or is it going to be more back-end loaded? Thanks.
+
+Adena Friedman
+
+Sure. Well, we don't provide specific outlook by quarter. I think we wanted to make sure though there that we just reminded people that we had a very strong growth in our Capital Markets Technology and particularly in Calypso last year because of some strategic renewals, particularly a large strategic renewal in the second quarter of last year that's creating kind of a year-over-year comp concern or change in the comp, the -- I would say challenging comp for Q2.
+
+And then as we're looking at the way that we've been engaging with clients. The clients because they're going up, particularly for larger decisions, because they're going up further up the chain and getting approvals, some of those sales are taking a bit longer. So we think that could impact some growth in Q2. But generally speaking for the year, as we said, we continue to believe that and feel strongly that we have great growth levers across the FinTech division that we're confident in our medium-term outlook and being able to achieve that within the year. And we also believe that these -- that the clients at the end of the day, they need us to help them manage through these uncertain times, and they trust us to be a partner to them through all economic cycles. And so we continue to have very, very healthy engagement with our clients.
+
+Ashish Sabadra
+
+That's very helpful color. Thank you.
+
+Operator
+
+Thank you. And I show our next question comes from the line of Kyle Voigt from KBW. Please go ahead.
+
+Kyle Voigt
+
+Hi, good morning. So you mentioned it a few times on the call already, but wondering if you could expand upon the AWS partnership or enhanced partnership, I guess, that was announced this morning and hoping you could help us understand if your infrastructure users migrate to this newer offering over time, what that would functionally mean for the composition of your marketplace technology revenues, the length of sales cycles and the kind of overall revenue pie or addressable market that you're targeting?
+
+Adena Friedman
+
+Great. Thank you. This is -- as you're pointing out, it is a long-term relationship. And as we're working with market infrastructure providers around the world, they have a few challenges -- they have a few challenges they're really trying to address. One is the fact that they have to have incredible scalability, right? Obviously, their market volumes have come up across all many markets around the world. So that scalability is something that they're really focused on.
+
+Second, they want to be able to organize their data in a way that allows them to bring more functionality in AI capabilities into their markets over time, and they know that that's going to be a driver of growth for them. And I think third, they obviously have to maintain hyper resilient, hyper secure infrastructure. And they want to be able to be adaptable, right? So -- and they want to be able to bring in foreign investors. So they have to be adaptable in terms of their technology and the way that their markets work, having it be more standardized, having it be more -- having connectivity be more streamlined and being more adaptable and being able to bring new products or new asset classes or new capabilities into their markets.
+
+So we can help them from a solutions provider in that adaptability, in the modernization and also in driving more standardization across markets. AWS as a partner to us can then drive -- work with them together to kind of create modern infrastructure that underpins all of that. So that means that they want to be able to have the benefits of cloud, the security benefits, the scalability benefits, the modern data capabilities and they want to have a really highly functional system, but they also have data sovereignty needs, they're highly regulated and they have to really think about that resilience.
+
+So what we're working with AWS on is really creating an infrastructure that has a hybrid cloud component for those latency sensitive, data sensitive workloads where they can bring AWS into their existing data centers through a hybrid cloud capability with high-speed connectivity to an availability zone that allows them then to do a lot of the other workloads outside their data centers in a much more scalable, much more efficient and effective infrastructure, and then have also connectivity across markets. So we're going to be working with AWS to create connectivity across markets to allow for investors to be able to send capital flows more efficiently and effectively, and faster across markets. So it really creates a much more of an interwoven market ecosystem over the long-term.
+
+And that really becomes more of like kind of a managed service offering to our clients as opposed to a deployed software solution, which is what we primarily provide today. But it will take time. These are big decisions, these are big moves. We are engaging -- we announced as part of our -- and our announcement this morning that we have two clients already with Johannesburg Exchange and BMV in Mexico engaging with us on how to install and create and implement this technology as fast as they can to really get the benefits of the connectivity, the scalability, the security, et cetera.
+
+And so we are very excited about that. And we're also going to be moving our Nordic markets into this infrastructure, subject to regulatory approval as kind of a first market to go in this kind of new construct. So excited about it long-term though and it is a partnership. So we are looking at this as how do we -- how does everyone win as we are implementing it from a financial perspective as well.
+
+Operator
+
+Thank you. And I show our next question comes from the line of Dan Fannon from Jefferies LLC. Please go ahead.
+
+Dan Fannon
+
+Thanks. Good morning. Question on expenses. Sarah, you raised the low-end of the guide after, I think first quarter came in better-than-expected. So curious just what drove the change? I think you mentioned FX, but just other things that might have driven the low-end to move up that amount.
+
+Sarah Youngwood
+
+Yeah, it's exactly what you said. We had a very strong first quarter revenue, and we actually are continuing to have a very strong rigor on expense. I bet on, as you know, we continue to also recognize that we have a very strong performance in the first quarter and therefore, we certainly yielded a lot to the shareholders there but there was a little piece there and that was added to the expense.
+
+Operator
+
+Thank you. And I show our next question comes from the line of Brian Bedell from Deutsche Bank. Please go ahead.
+
+Brian Bedell
+
+Great. Thanks. Thanks. Good morning. Thanks for taking my question. Maybe just go back to the question on the uncertainty and the delay in decision-making. Maybe just focusing though on Axiom. And I think, Adena, you mentioned you obviously on the US regulatory side, some potential rollback of regulations. But if you can talk about to what extent your global business and the global nature of Axiom is maybe potentially offsetting some of those headwinds and also maybe just pivoting beyond the Reg Tech but just your view on crypto market growth globally and to what extent you see that as an incremental growth driver for both Reg Tech and Calypso and also Verafin versus where we were -- where your views were before the change in the administration and potentially a higher regulatory backdrop on crypto.
+
+Adena Friedman
+
+Okay, great. Thanks. Yeah. So I'll start with the first question on AxiomSL. So as you said, it is really a global business. And I was talking to the team and I said, well, how many changes do we -- regulatory changes do we process within the system every year. And they say it's literally thousands of regulatory changes we process, meaning that we are so diversified and so broad, and we manage across more than 100 regulators and thousands of rules. It's incredible actually. But you're right that within -- there are some changes to the timing of certain regulations, new regulations that are coming out.
+
+There is still some indecision on Basel III endgame here in the United States. And so those are the types of things where we have clients who have signed up to make sure that they're ready for Basel outside the United States, but some of those have pushed out their requirements to push out in time. So they're taking a little longer to do the implementations themselves. But generally, I would say every client knows they have to get ready for this regulatory change, whether they're here or outside the United States.
+
+It's just they're waiting to see some of what the clarity is here in the US as we're working with them. But beyond that one -- that one regulation, that one regulatory change, it is a consistent engagement with clients in a few ways. One, they might be expanding their businesses or changing their businesses. They might be looking at making sure that they also -- what we're finding is the upsells are driven by more and more of the regulatory reporting going into AxiomSL, meaning they might use us for some of their markets or some of the geographies, but not all of them and we've been able to work with them just to expand across all their geographies.
+
+And also, as you said, with moving over to crypto, as we think about a new regulatory paradigm for crypto, it really is an interesting opportunity for us. We already provide market tech to crypto markets, right, so trading, clearing, settlement, technology, surveillance. I mentioned that we had a crypto market take our surveillance platform, but crypto is definitely a growth driver for surveillance. And as we get into more of a regulated market and banks potentially having crypto be bankable, that becomes an opportunity, as you mentioned, for Verafin, it becomes an opportunity for AxiomSL, Calypso.
+
+One thing that we really are thinking about is how do we actually also create even more efficiency in collateral management with using new tokenized capabilities to move collateral more seamlessly across the system. So there is a lot of interesting opportunities that exist in an environment where crypto becomes a regulated asset that is -- that can be actually adopted by more of the industry. And we do see that as a good potential for us. But that's still something that still needs to play out in the US regulatory landscape here.
+
+Brian Bedell
+
+That's great color. Thank you.
+
+Operator
+
+Thank you. And I show our next question comes from the line of Alex Kramm from UBS. Please go ahead.
+
+Alex Kramm
+
+Yes, hey, good morning, everyone. Just a quick one on capital markets specifically in the first quarter. Obviously, you had made those comments in March about Calypso. But if I look at the ARR additions from 4Q to 1Q, $25 million, I think, still pretty respectable and definitely better than what we thought. So just maybe flush out a little bit what else happened in the quarter? Was it really strength in the legacy businesses or did Calypso actually still have a pretty good showing and you're more worried about what's to come versus what actually happened in the 1Q. So maybe just a little bit more color there. Thank you.
+
+Adena Friedman
+
+Yes. I think the comments that we made in the beginning of March were really about ongoing sales conversations with clients that wouldn't have had a big effect on Q1, and it really more of effect on kind of looking at timing of signings of certain deals that were -- that are really getting close to getting signed. But also remember, as you said, our -- I don't like calling them legacy businesses, but our Market Tech and our TMS, our Trade Management Services businesses are really leaning into two different trends, right?
+
+One trend is just the modernization markets that I've been mentioning. And the second trend more acute trend is really the need for connectivity services, connections, cabinets, capabilities that our participants have as they're managing their experience here in the US markets. And so I think both of those were good growth drivers. Also, we did -- as I mentioned, we expanded our data center in the middle of last year. So that's also given us a chance to meet some latent demand that has been sitting with our clients for quite some time, and just expanding their presence with us.
+
+And so, I think that's also helping. But frankly, we feel good, Alex, that the pipeline for Calypso, the pipeline for our Market Tech businesses remains very robust and it's some -- we're very excited about the fact that they see us as a great partner, but there has been some kind of -- some -- a small number of conversations where people are just taking longer to make decisions.
+
+Alex Kramm
+
+Thank you.
+
+Operator
+
+Thank you. And I show our last question comes from the line of Owen Lau from Oppenheimer. Please go ahead.
+
+Owen Lau
+
+Hi, good morning. Thank you for taking my question. Could you please give us more color on the IPO environment so far? Additionally, have you started hearing that foreign companies are more inclined to list on foreign exchanges versus US exchanges, given what's going on with tariff and some of the recent capital flight to non-US markets? Thanks.
+
+Adena Friedman
+
+Great. Thanks, Owen. Well, first of all, we did have -- we had more IPO -- I think we've like doubled the number of IPOs in the first quarter as we had in the first-quarter of last year. But it is still an environment where people are -- the larger deals in particular, where there were some companies that were really looking-forward to coming out in the second quarter are now waiting. And for good reasons there's a lot of volatility and investors need to have an appetite for risk in order to be able to underwrite the risk of a new listing. So I think that we are seeing a lot of companies ready.
+
+We continue to have a lot of pitches, a lot of lot of great conversations. But at the same time, I think companies will be patient to make sure they're walking into the right market environment. So we're hopeful that if we can see a more uncertain -- I mean, some of this uncertainty be resolved and have a little bit more of a certain environment going into the second half of the year that we could have those companies feel more confident coming out. In terms of global companies, we're not seeing changes in the conversations with global companies, Owen.
+
+I do think they understand the power of the US markets, the power of US retail, and in the long-run in terms of thinking about how they want to have a max -- an opportunity at least to maximize their market values. But those conversations, it's not like we're having those conversations with hundreds of companies. It's really with a small number of companies that are -- that are thinking about diversifying or thinking about coming to market in the US instead of elsewhere. But I also want to point out that our Swedish market and our Nordic markets are also experiencing really good demand. And we had -- we had a good quarter in terms of new listings in our Nordic markets as well.
+
+So, I think that every market has a unique value proposition. It's really going to be up to the companies to say where our clients, where -- how does our brand resonate around the world? How do we want to think about the US investor base? And they're making those decisions for over the long-term, not the short term.
+
+Owen Lau
+
+Got it. Thanks a lot.
+
+Operator
+
+Thank you. That concludes our Q&A session. I would now like to turn the conference back to Adena Friedman, Chair and CEO, for closing remarks.
+
+Adena Friedman
+
+Great. Thank you. Well, as we continue to execute in a dynamic environment, our diversified business model, the role we play with our -- to our clients as a trusted partner, and the mission-critical nature of our solutions positions us well to deliver growth, profitability, and free cash flow generation. Well, thank you all very much for joining, and have a great day.
+
+Operator
+
+Thank you. This concludes today's conference call. Thank you for participating. You may now disconnect.
