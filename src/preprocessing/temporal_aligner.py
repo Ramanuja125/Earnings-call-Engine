@@ -56,10 +56,13 @@ class TemporalAligner:
     # before the transcript. Covers Q1-Q4 reporting cadence (45-120 days).
     TIGHT_WINDOW = 120
 
-    # Fallback: if nothing found within TIGHT_WINDOW, use the most recent
-    # available financial record for that ticker (no day cap).
-    # This recovers pre-2024 real transcripts when Yahoo Finance data
-    # starts from May 2024. The gap is logged and reported honestly.
+    # Fallback cap: if nothing in TIGHT_WINDOW, use most recent financial
+    # record up to FALLBACK_MAX_DAYS old. 180 days = 2 quarters back,
+    # which is the maximum stale-but-still-relevant window.
+    # Records beyond this are too stale to be useful for prediction.
+    FALLBACK_MAX_DAYS = 180
+
+    # Set to False to disable fallback entirely (will drop more records)
     USE_FALLBACK = True
 
     def __init__(self):
@@ -79,6 +82,7 @@ class TemporalAligner:
             'aligned_tight_window':    0,   # matched within TIGHT_WINDOW days
             'aligned_fallback':        0,   # matched via fallback (stale data)
             'missing_financial_data':  0,   # ticker not in financials at all
+            'too_stale':               0,   # financial gap > FALLBACK_MAX_DAYS
             'missing_market_data':     0,
             'temporal_mismatches':     0,
             'final_aligned_records':   0,
@@ -202,10 +206,20 @@ class TemporalAligner:
             best = within_window.loc[within_window['DateDiff'].idxmin()]
             return best, 'tight'
 
-        # ── Pass 2: fallback — most recent record regardless of gap ──
+        # ── Pass 2: fallback — most recent record within FALLBACK_MAX_DAYS ──
         if self.USE_FALLBACK:
-            best = past_records.loc[past_records['DateDiff'].idxmin()]
-            return best, 'fallback'
+            # Cap the fallback at FALLBACK_MAX_DAYS to avoid using
+            # financial data that is too stale to be predictive.
+            # 180 days = ~2 quarters back, still within reason.
+            within_fallback = past_records[
+                past_records['DateDiff'] <= self.FALLBACK_MAX_DAYS
+            ]
+            if not within_fallback.empty:
+                best = within_fallback.loc[within_fallback['DateDiff'].idxmin()]
+                return best, 'fallback'
+            # If even fallback cap exceeded, drop the record
+            # rather than use data >6 months stale
+            return None, 'too_stale'
 
         return None, 'no_match'
 
@@ -271,9 +285,12 @@ class TemporalAligner:
                 ticker, transcript_date, financials_df)
 
             if financial_match is None:
-                self.alignment_stats['missing_financial_data'] += 1
-                self._no_fin_tickers.add(
-                    f"{ticker} ({transcript_date.date()})")
+                if match_type == 'too_stale':
+                    self.alignment_stats['too_stale'] += 1
+                else:
+                    self.alignment_stats['missing_financial_data'] += 1
+                    self._no_fin_tickers.add(
+                        f"{ticker} ({transcript_date.date()})")
                 return None
 
             # Count by match type
@@ -539,6 +556,8 @@ class TemporalAligner:
               f"(stale financials — documented limitation)")
         print(f"Missing financial data:     {s['missing_financial_data']}")
         print(f"  (ticker absent from financials DB)")
+        print(f"Too stale (>{self.FALLBACK_MAX_DAYS} days):         {s['too_stale']}")
+        print(f"  (financial data too old — dropped to preserve quality)")
         print(f"Missing market data:        {s['missing_market_data']}")
         print(f"Temporal mismatches:        {s['temporal_mismatches']}")
         print()

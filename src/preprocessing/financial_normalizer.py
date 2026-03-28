@@ -396,11 +396,22 @@ class FinancialNormalizer:
         # Identify feature types
         feature_categories = self.identify_feature_types(df)
         
-        # Normalize features
-        df_normalized, feature_cols = self.normalize_features(df, feature_categories)
-        
-        # Create derived ratios
-        df_normalized, derived_features = self.create_derived_ratios(df_normalized)
+        # ── FIX: create ratios from RAW values first, THEN normalize ──
+        # Previously ratios were computed from already-scaled values,
+        # making them economically meaningless (e.g. scaled_NI / scaled_Revenue).
+        # Now we compute them on the original dollar values so they retain
+        # their real meaning (Profit_Margin = 0.25 means 25% margin).
+        df_with_ratios, derived_features = self.create_derived_ratios(df)
+
+        # Build updated feature categories that include the new ratio columns
+        feature_categories['all_features'] = (
+            feature_categories['all_features'] + derived_features
+        )
+
+        # Now normalize everything (original features + ratios) together
+        df_normalized, feature_cols = self.normalize_features(
+            df_with_ratios, feature_categories
+        )
         
         self.normalization_stats['successfully_normalized'] = len(df_normalized)
         
@@ -413,14 +424,14 @@ class FinancialNormalizer:
         print(f"Successfully normalized: {self.normalization_stats['successfully_normalized']:,}")
         print(f"Features normalized:     {self.normalization_stats['features_normalized']}")
         print(f"Derived features:        {len(derived_features)}")
-        print(f"Total features:          {self.normalization_stats['features_normalized'] + len(derived_features)}")
+        print(f"Total features:          {self.normalization_stats['features_normalized']}")
         print()
         print(f"Records with missing:    {self.normalization_stats['records_with_missing_values']}")
         print(f"Outliers detected:       {self.normalization_stats['outliers_detected']:,}")
         print()
         
-        # Save normalized data
-        success = self.save_normalized_data(df_normalized, feature_cols, derived_features)
+        # Save normalized data (derived_features=[] because already in feature_cols)
+        success = self.save_normalized_data(df_normalized, feature_cols, [])
         
         if success:
             print("="*60)

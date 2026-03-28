@@ -220,24 +220,43 @@ class NLPFeatureExtractor:
         Extract all NLP features from a single transcript
         """
         try:
-            # Get text
-            management_text = transcript.get('total_management_text', '') or ''
-            analyst_text = transcript.get('total_analyst_text', '') or ''
-            full_text = management_text + ' ' + analyst_text
-            
-            # If sections empty, use full_text
+            # ── FIX: speaker_segmenter.py saves 'management_text' and
+            # 'analyst_text' (no 'total_' prefix). The old code was looking
+            # for 'total_management_text' which was always empty, causing
+            # mgmt/analyst LM scores to be identical and divergence = 0.
+            management_text = (
+                transcript.get('management_text', '')
+                or transcript.get('total_management_text', '')   # legacy fallback
+                or ''
+            )
+            analyst_text = (
+                transcript.get('analyst_text', '')
+                or transcript.get('total_analyst_text', '')      # legacy fallback
+                or ''
+            )
+
+            # If both sections are still empty, fall back to prepared_remarks / QA
             if not management_text.strip() and not analyst_text.strip():
-                full = transcript.get('full_text', '') or transcript.get('prepared_remarks', '') or ''
-                # Try to split at Q&A
-                split_markers = ['QUESTION AND ANSWER', 'Q&A', 'QUESTIONS AND ANSWERS']
+                full = (
+                    transcript.get('full_text_cleaned', '')
+                    or transcript.get('full_text', '')
+                    or transcript.get('prepared_remarks_cleaned', '')
+                    or transcript.get('prepared_remarks', '')
+                    or ''
+                )
+                # Try to split at Q&A markers
+                split_markers = ['QUESTION AND ANSWER', 'Q&A', 'QUESTIONS AND ANSWERS',
+                                 'Question-and-Answer', 'Questions and Answers']
                 split_idx = len(full)
                 for marker in split_markers:
-                    idx = full.find(marker)
+                    idx = full.upper().find(marker.upper())
                     if idx != -1 and idx < split_idx:
                         split_idx = idx
                 management_text = full[:split_idx]
-                analyst_text = full[split_idx:]
-                full_text = full
+                analyst_text    = full[split_idx:]
+                full_text       = full
+            else:
+                full_text = management_text + ' ' + analyst_text
             
             # Extract LM scores
             full_lm = self.calculate_lm_scores(full_text)
@@ -305,12 +324,23 @@ class NLPFeatureExtractor:
         print()
         
         all_features = []
-        
+        used_segmented = 0   # how many used the proper mgmt/analyst split
+        used_fallback  = 0   # how many fell back to full-text splitting
+
         from tqdm import tqdm
         for transcript in tqdm(transcripts, desc="Processing"):
+            # Track whether proper segmentation data is available
+            has_mgmt = bool(
+                transcript.get('management_text', '').strip()
+                or transcript.get('total_management_text', '').strip()
+            )
             features = self.extract_features_from_transcript(transcript)
             if features:
                 all_features.append(features)
+                if has_mgmt:
+                    used_segmented += 1
+                else:
+                    used_fallback += 1
         
         print()
         print("="*60)
@@ -320,10 +350,17 @@ class NLPFeatureExtractor:
         print(f"Total transcripts:       {self.extraction_stats['total_transcripts']}")
         print(f"Successfully extracted:  {self.extraction_stats['successfully_extracted']}")
         print(f"Failed:                  {self.extraction_stats['failed']}")
+        print()
+        print(f"📊 Speaker Separation Quality:")
+        print(f"   Used proper mgmt/analyst split: {used_segmented}")
+        print(f"   Used full-text fallback:        {used_fallback}")
+        if used_fallback > 0:
+            print(f"   ⚠️  {used_fallback} transcripts had no speaker segmentation data.")
+            print(f"      Check that Phase 2B saved 'management_text' and 'analyst_text' fields.")
         
         if self.extraction_stats['successfully_extracted'] > 0:
             success_rate = self.extraction_stats['successfully_extracted'] / self.extraction_stats['total_transcripts']
-            print(f"Success rate:            {success_rate:.1%}")
+            print(f"   Success rate: {success_rate:.1%}")
         
         print()
         
