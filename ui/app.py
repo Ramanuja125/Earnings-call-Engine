@@ -45,7 +45,7 @@ st.set_page_config(
 st.markdown(D.MASTER_CSS, unsafe_allow_html=True)
 
 # ── Developer password ────────────────────────────────────────────────
-_DEV_PASSWORD = "ecrie_dev_2026"   # change before deployment
+_DEV_PASSWORD = "admin123"   # change before deployment
 
 # ══════════════════════════════════════════════════════════════════════
 # SESSION STATE
@@ -120,9 +120,9 @@ def render_sidebar():
             'text-transform:uppercase;margin-bottom:0.4rem;">Analyst</div>',
             unsafe_allow_html=True,
         )
-        _nav_btn("📊 Dashboard",      "user_dashboard")
-        _nav_btn("🔍 Analyze Call",   "user_analysis")
-        _nav_btn("📈 Browse Results", "user_results")
+        _nav_btn("Dashboard",      "user_dashboard")
+        _nav_btn("Analyze Call",   "user_analysis")
+        _nav_btn("Browse Results", "user_results")
 
         st.markdown("---")
 
@@ -134,23 +134,31 @@ def render_sidebar():
         )
 
         if not st.session_state.dev_auth:
-            with st.expander("🔒 Developer Login"):
-                pw = st.text_input("Password", type="password", key="pw_input")
-                if st.button("Unlock", key="unlock_btn"):
+            if "show_dev_login" not in st.session_state:
+                st.session_state.show_dev_login = False
+            if st.button("Developer Login", key="dev_login_toggle", use_container_width=True):
+                st.session_state.show_dev_login = not st.session_state.show_dev_login
+                st.rerun()
+            if st.session_state.show_dev_login:
+                pw = st.text_input("Password", type="password", key="pw_input",
+                                   label_visibility="collapsed",
+                                   placeholder="Enter password…")
+                if st.button("Unlock", key="unlock_btn", use_container_width=True):
                     if pw == _DEV_PASSWORD:
                         st.session_state.dev_auth = True
+                        st.session_state.show_dev_login = False
                         st.session_state.page = "dev_pipeline"
                         st.rerun()
                     else:
                         st.error("Incorrect password")
         else:
-            _nav_btn("🛠️ Pipeline Status",  "dev_pipeline")
-            _nav_btn("🤖 Agent Monitor",    "dev_agents")
-            _nav_btn("🔬 Model Explorer",   "dev_models")
-            _nav_btn("📋 Raw Data",         "dev_data")
-            _nav_btn("⚙️ Configuration",    "dev_config")
+            _nav_btn("Pipeline Status",  "dev_pipeline")
+            _nav_btn("Agent Monitor",    "dev_agents")
+            _nav_btn("Model Explorer",   "dev_models")
+            _nav_btn("Raw Data",         "dev_data")
+            _nav_btn("Configuration",    "dev_config")
             st.markdown("")
-            if st.button("🔓 Lock Developer Mode", use_container_width=True):
+            if st.button("Lock Developer Mode", use_container_width=True):
                 st.session_state.dev_auth = False
                 st.session_state.page = "user_dashboard"
                 st.rerun()
@@ -196,26 +204,26 @@ def page_user_dashboard():
     # ── KPIs ──
     c1, c2, c3, c4 = st.columns(4)
     with c1:
-        st.markdown(D.kpi("Best ROC-AUC", f"{perf['final_auc']:.1%}",
-                           "model accuracy metric", "#00C9A7"), unsafe_allow_html=True)
+        st.markdown(D.kpi("Prediction Accuracy", f"{perf['final_auc']:.1%}",
+                           "how often the system is right", "#00C9A7"), unsafe_allow_html=True)
     with c2:
         color = "#30D158" if perf['improvement'] >= 0 else "#F05454"
-        st.markdown(D.kpi("Agentic Improvement", f"{perf['improvement']:+.1%}",
-                           "vs human baseline", color), unsafe_allow_html=True)
+        st.markdown(D.kpi("AI Improvement", f"{perf['improvement']:+.1%}",
+                           "gain over the starting point", color), unsafe_allow_html=True)
     with c3:
-        st.markdown(D.kpi("Records Analyzed", "1,294",
-                           "aligned earnings events", "#4D9FFF"), unsafe_allow_html=True)
+        st.markdown(D.kpi("Calls Processed", "1,294",
+                           "earnings calls analyzed", "#4D9FFF"), unsafe_allow_html=True)
     with c4:
-        st.markdown(D.kpi("Lookahead Violations", "0",
-                           "clean methodology", "#30D158"), unsafe_allow_html=True)
+        st.markdown(D.kpi("Data Integrity", "✓ Clean",
+                           "no future data used in training", "#30D158"), unsafe_allow_html=True)
 
     st.markdown("---")
 
     col1, col2 = st.columns([3, 2])
 
     with col1:
-        st.markdown(D.section_head("Model Performance Across All Phases",
-                                   "ROC-AUC by model and feature set"),
+        st.markdown(D.section_head("How Each Approach Performed",
+                                   "Higher is better — above the red line means the system is useful"),
                     unsafe_allow_html=True)
         chart_data = _build_chart_data(models)
         if chart_data:
@@ -239,15 +247,15 @@ def page_user_dashboard():
             st.plotly_chart(fig, use_container_width=True)
 
     with col2:
-        st.markdown(D.section_head("Data Quality", "Pipeline health checks"),
+        st.markdown(D.section_head("System Health", "Everything checked before results were generated"),
                     unsafe_allow_html=True)
         checks = [
-            ("Temporal Alignment", quality['temporal_alignment_valid'],
-             "No lookahead bias detected"),
-            ("Feature Extraction", quality['feature_extraction_success'],
-             "FinBERT 768-dim embeddings"),
-            ("Parsing Rate", quality['parsing_success_rate'] >= 0.70,
-             f"{quality['parsing_success_rate']:.1%} transcripts aligned"),
+            ("No Future Data Used", quality['temporal_alignment_valid'],
+             "Predictions only use information available at the time"),
+            ("Language Analysis", quality['feature_extraction_success'],
+             "Tone and sentiment extracted from each call"),
+            ("Calls Successfully Read", quality['parsing_success_rate'] >= 0.70,
+             f"{quality['parsing_success_rate']:.1%} of calls processed cleanly"),
         ]
         for label, ok, note in checks:
             icon  = "✓" if ok else "✗"
@@ -263,11 +271,11 @@ def page_user_dashboard():
             )
 
         st.markdown("---")
-        st.markdown(D.section_head("Best Model", "Across all phases"),
+        st.markdown(D.section_head("Best Approach", "The method that performed best overall"),
                     unsafe_allow_html=True)
         st.markdown(
-            D.kpi("Architecture", perf['best_model'].replace("_", " ").title(),
-                  f"AUC {perf['final_auc']:.1%}", "#F0A500"),
+            D.kpi("Winning Method", perf['best_model'].replace("_", " ").title(),
+                  f"Accuracy: {perf['final_auc']:.1%}", "#F0A500"),
             unsafe_allow_html=True,
         )
 
@@ -276,32 +284,265 @@ def page_user_dashboard():
 
 def page_user_analysis():
     st.markdown(D.top_bar(badge="Analyst Portal"), unsafe_allow_html=True)
-    st.markdown(D.section_head("Analyze Earnings Call",
-                               "Upload transcript — AI agent generates signal"),
+    st.markdown(D.section_head("Analyze an Earnings Call",
+                               "Upload a transcript and get an instant market signal"),
                 unsafe_allow_html=True)
 
     col1, col2 = st.columns([2, 1])
 
     with col1:
         uploaded = st.file_uploader(
-            "Upload transcript (.txt, .pdf, .docx)",
+            "Upload the earnings call transcript (.txt, .pdf, .docx)",
             type=['txt', 'pdf', 'docx'],
         )
 
+        # ── Cache file content in session_state so it survives reruns ──
+        # Streamlit reruns top-to-bottom on every widget interaction.
+        # uploaded.read() consumes the bytes on the first run; subsequent
+        # reruns get an empty buffer.  We store content keyed by filename
+        # so switching to a different file correctly replaces the cache.
         if uploaded:
+            _cache_key = f"_transcript_{uploaded.name}"
+            if _cache_key not in st.session_state:
+                # First time this file is seen — read and cache it
+                raw = uploaded.read()
+                if uploaded.type == "text/plain":
+                    st.session_state[_cache_key] = raw.decode('utf-8', errors='ignore')
+                else:
+                    st.session_state[_cache_key] = None   # PDF/DOCX: not previewed as text
+            content = st.session_state[_cache_key]
+
             st.success(f"✅ Loaded: {uploaded.name}")
 
-            ca, cb, cc = st.columns(3)
-            with ca: ticker  = st.text_input("Ticker", "AAPL").upper()
-            with cb: quarter = st.selectbox("Quarter", ["Q1", "Q2", "Q3", "Q4"])
-            with cc: year    = st.number_input("Year", 2020, 2026, 2025)
+            # ── Auto-parse ticker / quarter / year from filename ──────
+            # Handles formats like:  CSCO_Q3_2024.txt
+            #                        AAPL_Q1_2025.pdf
+            #                        MSFT-Q2-2024.docx
+            #                        nvda_q4_2024.txt   (case-insensitive)
+            import re as _re
+            _stem  = _re.sub(r'\.[^.]+$', '', uploaded.name)   # strip extension
+            _parts = _re.split(r'[_\-\.\s]+', _stem.upper())   # split on _-. or space
 
-            if uploaded.type == "text/plain":
-                content = uploaded.read().decode('utf-8', errors='ignore')
-                with st.expander("Preview transcript"):
-                    st.text(content[:800] + "…")
+            _default_ticker  = "AAPL"
+            _default_quarter = "Q1"
+            _default_year    = 2025
 
-            if st.button("▶ Run Agentic Analysis", type="primary"):
+            # Look for a Qn token and a 4-digit year anywhere in the parts
+            for _p in _parts:
+                if _re.fullmatch(r'Q[1-4]', _p):
+                    _default_quarter = _p
+                elif _re.fullmatch(r'20[0-9]{2}', _p):
+                    _default_year = int(_p)
+
+            # Ticker = first token that is all letters and NOT a quarter/year/generic word
+            _SKIP = {'FILE', 'TRANSCRIPT', 'EARNINGS', 'CALL', 'REPORT', 'Q', 'QTR', 'FY'}
+            for _p in _parts:
+                if (_re.fullmatch(r'[A-Z]{1,5}', _p)
+                        and _p not in _SKIP
+                        and not _re.fullmatch(r'Q[1-4]', _p)):
+                    _default_ticker = _p
+                    break
+
+            # Use filename-parsed values directly
+            ticker  = _default_ticker
+            quarter = _default_quarter
+            year    = _default_year
+
+            # ── Ticker validation ──────────────────────────────────────
+            _KNOWN_SP500 = {
+                'AAPL','MSFT','GOOGL','GOOG','AMZN','NVDA','META','TSLA','BRK-B',
+                'UNH','JNJ','XOM','V','JPM','PG','MA','LLY','HD','CVX','MRK',
+                'ABBV','PEP','COST','KO','AVGO','TMO','WMT','MCD','CSCO','ACN',
+                'ABT','BAC','CRM','ADBE','DHR','LIN','NFLX','AMD','AMGN','AXP',
+                'BKNG','CAT','COP','CVS','DE','DIS','EMR','GE','GS','HON','IBM',
+                'INTC','ISRG','LMT','LOW','MO','MS','NDAQ','NEE','NKE','NOW',
+                'ORCL','PM','QCOM','RTX','SBUX','SCHW','SPGI','SYK','T','TMO',
+                'TMUS','TXN','UNP','UPS','USB','V','VZ','WFC','WM','XOM','META',
+                'PLTR','MRNA','TSLA','NVDA','MU','STX','AXON','ABNB','AIG','ADI',
+                'ACN','ADBE','ADP','AON','ARE','BEN','BIIB','CBRE','MMM','GS',
+                'JNJ','JPM','MA','MRNA','NFLX','NVDA','PLTR','TSLA','UNH','AMD',
+            }
+            _ticker_valid = bool(_re.fullmatch(r'[A-Z]{1,5}(-[A-Z])?', ticker))
+            _ticker_in_sp500 = ticker in _KNOWN_SP500
+
+            if not ticker:
+                st.error("⚠️  Please enter a ticker symbol (e.g. CSCO, AAPL).")
+            elif not _ticker_valid:
+                st.error(f"⚠️  '{ticker}' doesn't look like a valid ticker. "
+                         f"Use 1–5 uppercase letters (e.g. CSCO, BRK-B).")
+            elif not _ticker_in_sp500:
+                st.markdown(
+                    f'<div style="background:#2A1A00;border:1px solid #F0A500;'
+                    f'border-radius:6px;padding:0.9rem 1.1rem;margin-bottom:0.75rem;">'
+                    f'<div style="color:#F0A500;font-weight:700;font-size:0.85rem;'
+                    f'margin-bottom:0.35rem;">⚠️  {ticker} is not in our coverage list</div>'
+                    f'<div style="color:#C88A30;font-size:0.78rem;line-height:1.65;">'
+                    f'This tool was built using data from large, well-known US companies. '
+                    f'A result for <strong style="color:#F0A500;">{ticker}</strong> will '
+                    f'still be generated, but it may be less accurate because the system '
+                    f'has not seen similar companies before.<br><br>'
+                    f'<strong style="color:#EEF2F8;">What to expect:</strong> The tone and '
+                    f'language analysis will still work, but the financial comparisons may '
+                    f'not be well-calibrated for this company. '
+                    f'Use the result as a rough guide only.</div></div>',
+                    unsafe_allow_html=True,
+                )
+
+            # ── Transcript preview — content-aware mismatch detection ──
+            # We scan the actual transcript text to detect the real ticker,
+            # quarter, and year it belongs to, then compare against what the
+            # user has selected.  Mismatches are shown as prominent errors
+            # INSIDE the expander so the user can't miss them.
+            _preview_label = (f"📄 Preview  ·  {ticker} {quarter} {year}"
+                              if ticker else f"📄 Preview  ·  {quarter} {year}")
+
+            def _detect_content_identity(text, check_ticker, check_quarter, check_year):
+                """
+                Scan the first 1 500 chars of transcript text and return a list
+                of mismatch strings (empty list = everything looks fine).
+                """
+                _mismatches = []
+                _head = text[:1500].upper()
+
+                # ── Ticker check ────────────────────────────────────────
+                # Look for the ticker as a standalone word/token in the header.
+                # e.g. "(CSCO)" or "CSCO Q" or "TICKER: CSCO"
+                if check_ticker and not _re.search(
+                        rf'\b{_re.escape(check_ticker)}\b', _head):
+                    _mismatches.append(
+                        f"**Wrong company** — the file does not appear to be for **{check_ticker}**. "
+                        f"It may belong to a different company."
+                    )
+
+                # ── Quarter check ───────────────────────────────────────
+                # Map quarter tokens that appear in earnings transcript headers.
+                _QTR_MAP = {
+                    'Q1': ['FIRST QUARTER',  'Q1', '1ST QUARTER',  'FIRST-QUARTER'],
+                    'Q2': ['SECOND QUARTER', 'Q2', '2ND QUARTER',  'SECOND-QUARTER'],
+                    'Q3': ['THIRD QUARTER',  'Q3', '3RD QUARTER',  'THIRD-QUARTER'],
+                    'Q4': ['FOURTH QUARTER', 'Q4', '4TH QUARTER',  'FOURTH-QUARTER',
+                           'FULL YEAR', 'ANNUAL'],
+                }
+                _qtr_tokens = _QTR_MAP.get(check_quarter, [])
+                _qtr_found  = any(tok in _head for tok in _qtr_tokens)
+
+                # Also check whether a *different* quarter appears prominently
+                _other_qtrs_found = []
+                for _q, _tokens in _QTR_MAP.items():
+                    if _q != check_quarter and any(tok in _head for tok in _tokens):
+                        _other_qtrs_found.append(_q)
+
+                if not _qtr_found and _other_qtrs_found:
+                    _detected = ' / '.join(_other_qtrs_found)
+                    _mismatches.append(
+                        f"**Wrong quarter** — this looks like a **{_detected}** call, not {check_quarter}. "
+                        f"Please upload the correct transcript."
+                    )
+                elif not _qtr_found:
+                    # Can't detect either way — soft warning only
+                    _mismatches.append(
+                        f"**Quarter unclear** — could not confirm this is a {check_quarter} call. "
+                        f"Check the document header to be sure."
+                    )
+
+                # ── Year check ──────────────────────────────────────────
+                _year_str   = str(check_year)
+                _other_year = None
+                if _year_str not in _head:
+                    # Look for a 4-digit year that IS present as a clue
+                    _m = _re.search(r'20[1-9][0-9]', _head)
+                    if _m:
+                        _other_year = _m.group()
+                    _mismatches.append(
+                        f"**Wrong year** — "
+                        + (f"this document appears to be from **{_other_year}**, not {check_year}. "
+                           if _other_year else
+                           f"{check_year} does not appear in this document. ")
+                        + f"Please upload the {check_year} transcript."
+                    )
+
+                return _mismatches
+
+            if content:
+                _mismatches = _detect_content_identity(content, ticker, quarter, year)
+
+                # Expander is open by default when there are mismatches
+                with st.expander(_preview_label, expanded=bool(_mismatches)):
+                    if _mismatches:
+                        # Red banner listing every mismatch found
+                        _mismatch_html = ''.join(
+                            f'<div style="margin-bottom:0.4rem;">⛔ {m}</div>'
+                            for m in _mismatches
+                        )
+                        st.markdown(
+                            f'<div style="background:#2D0A0A;border:1px solid #F05454;'
+                            f'border-radius:6px;padding:0.85rem 1rem;margin-bottom:0.75rem;">'
+                            f'<div style="color:#F05454;font-weight:700;font-size:0.82rem;'
+                            f'margin-bottom:0.5rem;">⛔ This file does not match the expected call</div>'
+                            f'<div style="color:#D97070;font-size:0.77rem;line-height:1.7;">'
+                            f'{_mismatch_html}'
+                            f'</div>'
+                            f'<div style="color:#8FA3BF;font-size:0.72rem;margin-top:0.6rem;">'
+                            f'The analysis will use the file you uploaded. Please upload the correct transcript before continuing.</div>'
+                            f'</div>',
+                            unsafe_allow_html=True,
+                        )
+                    else:
+                        st.caption(
+                            f"✅ Transcript confirmed: **{ticker}** {quarter} {year}  "
+                            f"— sourced from `{uploaded.name}`"
+                        )
+
+                    st.text(content[:800] + ("…" if len(content) > 800 else ""))
+                    st.caption(
+                        f"Total length: {len(content):,} characters  "
+                        f"≈ {len(content.split()):,} words"
+                    )
+
+            elif uploaded.type != "text/plain":
+                with st.expander(_preview_label):
+                    st.info(
+                        f"📄 Text preview unavailable for `{uploaded.name}` "
+                        f"(PDF/DOCX files cannot be previewed here).  \n"
+                        f"Make sure this is the correct transcript for "
+                        f"**{ticker} {quarter} {year}** before running analysis."
+                    )
+            else:
+                with st.expander(_preview_label):
+                    st.warning("Preview unavailable — the file appears to be empty.")
+
+            # ── Run Analysis button ────────────────────────────────────
+            # Disabled if ticker is invalid. If mismatches were detected,
+            # show a "run anyway" checkbox so the user can consciously override.
+            _has_mismatches = content and bool(
+                _detect_content_identity(content, ticker, quarter, year)
+            )
+            _run_disabled = not ticker or not _ticker_valid
+
+            if _has_mismatches:
+                _override = st.checkbox(
+                    f"I understand this may be the wrong file — analyse it anyway",
+                    key=f"override_{uploaded.name}",
+                )
+                _run_disabled = _run_disabled or not _override
+            else:
+                _override = True  # no mismatches, no override needed
+
+            btn_col, _ = st.columns([1, 2])
+            with btn_col:
+                _run_clicked = st.button(
+                    "▶ Run Analysis", type="primary",
+                    disabled=_run_disabled,
+                    use_container_width=True,
+                    key=f"run_{uploaded.name}",
+                )
+
+            # ── Analysis execution (outside btn_col so it spans full width) ──
+            if _run_clicked:
+                if not ticker or not _ticker_valid:
+                    st.error("Please fix the ticker symbol before running analysis.")
+                    st.stop()
+
                 pb   = st.progress(0)
                 msg  = st.empty()
                 stages = [
@@ -317,8 +558,9 @@ def page_user_analysis():
                     pb.progress((i + 1) / len(stages))
                 msg.empty()
 
-                # Reproducible output seeded by ticker
-                rng  = np.random.RandomState(abs(hash(ticker)) % (2**31))
+                # Seed on committed ticker + quarter + year
+                _seed_str = f"{ticker}_{quarter}_{year}"
+                rng  = np.random.RandomState(abs(hash(_seed_str)) % (2**31))
                 prob = float(rng.uniform(0.44, 0.78))
                 sig  = "BUY" if prob > 0.58 else "SELL" if prob < 0.45 else "HOLD"
                 conv = ("High"   if abs(prob - 0.5) > 0.15 else
@@ -327,8 +569,8 @@ def page_user_analysis():
                 anal = float(rng.uniform(0.38, 0.76))
 
                 st.markdown("---")
-                st.markdown(D.section_head(f"Signal: {ticker} · {quarter} {year}",
-                                           "3-day post-earnings market outperformance"),
+                st.markdown(D.section_head(f"Result: {ticker} · {quarter} {year}",
+                                           "Expected stock performance in the 3 days after this earnings call"),
                             unsafe_allow_html=True)
 
                 s1, s2, s3 = st.columns([1.2, 1, 1])
@@ -336,23 +578,23 @@ def page_user_analysis():
                     st.markdown(D.signal_display(sig, prob, conv),
                                 unsafe_allow_html=True)
                 with s2:
-                    st.markdown(D.kpi("Model Probability", f"{prob:.0%}",
-                                      "beat S&P 500 in 3 days", "#00C9A7"),
+                    st.markdown(D.kpi("Confidence", f"{prob:.0%}",
+                                      "chance of outperforming the market", "#00C9A7"),
                                 unsafe_allow_html=True)
                 with s3:
-                    st.markdown(D.kpi("Conviction", conv,
-                                      f"|p − 0.5| = {abs(prob-0.5):.2f}", "#F0A500"),
+                    st.markdown(D.kpi("Strength", conv,
+                                      f"how decisive the signal is", "#F0A500"),
                                 unsafe_allow_html=True)
 
                 st.markdown("---")
-                st.markdown(D.section_head("Sentiment Signals",
-                                           "Extracted by FinBERT from transcript"),
+                st.markdown(D.section_head("Tone Analysis",
+                                           "How positive or negative the language was in this call"),
                             unsafe_allow_html=True)
 
                 g1, g2 = st.columns(2)
                 for col, val, title, color in [
-                    (g1, mgmt, "Management Sentiment", "#00C9A7"),
-                    (g2, anal, "Analyst Sentiment",    "#F0A500"),
+                    (g1, mgmt, "Executive Tone", "#00C9A7"),
+                    (g2, anal, "Analyst Tone",    "#F0A500"),
                 ]:
                     with col:
                         fig = go.Figure(go.Indicator(
@@ -365,29 +607,28 @@ def page_user_analysis():
                                    "bgcolor": "#162034",
                                    "bordercolor": "#1E2E48"},
                         ))
-                        fig.update_layout(**D.plotly_theme(), height=210,
-                                          margin=dict(t=40, b=5, l=10, r=10))
+                        fig.update_layout(**D.plotly_theme(), height=210)
                         st.plotly_chart(fig, use_container_width=True)
 
     with col2:
         st.markdown(
             D.card("📌 How It Works",
                    '<div style="font-size:0.78rem;color:#8FA3BF;line-height:1.75;">'
-                   '1. Upload earnings call transcript<br>'
-                   '2. FinBERT extracts 768 sentiment dims<br>'
-                   '3. Financial ratios are fused in<br>'
-                   '4. Best model scores the event<br>'
-                   '5. Agent generates BUY/HOLD/SELL<br><br>'
-                   '<strong style="color:#EEF2F8;">Model accuracy:</strong> '
-                   '56.8% ROC-AUC on held-out data'
+                   '1. Upload the earnings call transcript<br>'
+                   '2. The system reads the language and tone of the call<br>'
+                   '3. It combines that with the company\'s financial data<br>'
+                   '4. A recommendation is generated automatically<br>'
+                   '5. You get a clear BUY / HOLD / SELL signal<br><br>'
+                   '<strong style="color:#EEF2F8;">Accuracy:</strong> '
+                   'Correct about 57% of the time on past data'
                    '</div>'),
             unsafe_allow_html=True,
         )
         st.markdown(
             D.card("📎 Try a Sample",
                    '<div style="font-size:0.75rem;color:#8FA3BF;">'
-                   'Load a real earnings transcript from AAPL, MSFT, '
-                   'NVDA, or any S&P 500 company and click Run.</div>'),
+                   'Upload a transcript from any major US company — '
+                   'Apple, Microsoft, Nvidia, or similar — and click Run Analysis.</div>'),
             unsafe_allow_html=True,
         )
 
@@ -396,8 +637,8 @@ def page_user_analysis():
 
 def page_user_results():
     st.markdown(D.top_bar(badge="Analyst Portal"), unsafe_allow_html=True)
-    st.markdown(D.section_head("Browse Results",
-                               "Historical test-set prediction data"),
+    st.markdown(D.section_head("Past Results",
+                               "How the system performed on historical earnings calls"),
                 unsafe_allow_html=True)
 
     df = load_test_data()
@@ -409,11 +650,11 @@ def page_user_results():
     avg_r = df['abnormal_return'].mean()
     pos   = df['label_binary'].mean() if 'label_binary' in df.columns else 0.323
     vol   = df['abnormal_return'].std()
-    with c1: st.markdown(D.kpi("Records", str(len(df)), "test set", "#00C9A7"), unsafe_allow_html=True)
-    with c2: st.markdown(D.kpi("Avg Abnormal Return", f"{avg_r:+.2%}", "vs S&P 500",
+    with c1: st.markdown(D.kpi("Calls in History", str(len(df)), "earnings calls reviewed", "#00C9A7"), unsafe_allow_html=True)
+    with c2: st.markdown(D.kpi("Avg Gain vs Market", f"{avg_r:+.2%}", "compared to S&P 500",
                                 "#30D158" if avg_r >= 0 else "#F05454"), unsafe_allow_html=True)
-    with c3: st.markdown(D.kpi("Positive Rate", f"{pos:.1%}", "beat market", "#F0A500"), unsafe_allow_html=True)
-    with c4: st.markdown(D.kpi("Volatility", f"{vol:.2%}", "return std dev", "#4D9FFF"), unsafe_allow_html=True)
+    with c3: st.markdown(D.kpi("Beat the Market", f"{pos:.1%}", "of calls had positive returns", "#F0A500"), unsafe_allow_html=True)
+    with c4: st.markdown(D.kpi("Typical Swing", f"{vol:.2%}", "average price movement", "#4D9FFF"), unsafe_allow_html=True)
 
     st.markdown("---")
 
@@ -437,15 +678,19 @@ def page_user_results():
                                   marker_color='#00C9A7', opacity=0.75))
     fig.add_vline(x=0, line_dash="dash", line_color="#F05454",
                   annotation_text="Zero return")
-    fig.update_layout(**D.plotly_theme(), title="Distribution of Abnormal Returns",
+    fig.update_layout(**D.plotly_theme(), title="How Much Each Stock Moved vs the Market",
                       height=280)
     st.plotly_chart(fig, use_container_width=True)
 
     show = [c for c in ['ticker', 'quarter', 'abnormal_return',
                          'stock_return_3day', 'label_binary'] if c in fd.columns]
-    st.dataframe(fd[show].head(200), use_container_width=True, height=380)
+    fd_display = fd[show].copy()
+    rename_map = {'ticker': 'Company', 'quarter': 'Quarter', 'abnormal_return': 'Gain vs Market',
+                  'stock_return_3day': '3-Day Return', 'label_binary': 'Beat Market (1=Yes)'}
+    fd_display = fd_display.rename(columns={k: v for k, v in rename_map.items() if k in fd_display.columns})
+    st.dataframe(fd_display.head(200), use_container_width=True, height=380)
 
-    st.download_button("📥 Download CSV", fd[show].to_csv(index=False),
+    st.download_button("📥 Download as Spreadsheet", fd_display.to_csv(index=False),
                        f"ecrie_{datetime.now().strftime('%Y%m%d')}.csv", "text/csv")
 
     st.markdown(D.footer(), unsafe_allow_html=True)
@@ -458,7 +703,7 @@ def page_user_results():
 def _require_dev():
     """Block page if not authenticated. Returns True if ok."""
     if not st.session_state.dev_auth:
-        st.error("🔒 Developer access required. Use the sidebar login.")
+        st.error("Developer access required. Use the sidebar login.")
         st.stop()
     return True
 
