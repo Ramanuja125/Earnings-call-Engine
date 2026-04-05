@@ -45,7 +45,7 @@
 #     print()
 
 #     # ← THIS IS THE FIX: pass the API key here
-#     agent = AgenticAI(api_key="AIzaSyBc3vKGuZJlJOJhMrw_SgdP4isCenJD6NY")
+#     agent = AgenticAI(api_key="")
 #     success = agent.run(max_iterations=10)
 
 #     if success:
