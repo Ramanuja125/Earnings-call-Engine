@@ -39,6 +39,37 @@ class TranscriptCleaner:
             'total_chars_removed': 0
         }
     
+    def remove_boilerplate(self, text):
+        """
+        Remove earnings call boilerplate that contaminates sentiment analysis.
+        Targets: safe harbor statements, greetings, operator instructions.
+        These are uniformly positive/neutral formal language that drowns
+        out actual financial sentiment signal.
+        """
+        if not text or not isinstance(text, str):
+            return text
+
+        # Safe harbor / forward-looking statements
+        import re
+        patterns = [
+            # Safe harbor blocks
+            r'(?si)this (?:call|conference|presentation|release|discussion) (?:contains?|includes?|may contain) forward.{0,20}looking statements?.{0,600}(?=\n\n|\Z)',
+            r'(?si)(?:caution|cautionary).{0,30}forward.{0,10}looking.{0,400}(?=\n\n|\Z)',
+            r'(?si)actual results? (?:may|could|might) (?:differ|vary).{0,400}(?=\n\n|\Z)',
+            r'(?si)(?:annual|quarterly) report on form \d+.{0,200}(?=\n\n|\Z)',
+            # Opening greetings (only match near start of text)
+            r'(?i)^.{0,400}(?:good (?:morning|afternoon|evening)[,.]?\s+(?:everyone|ladies|and welcome)|welcome to the .{0,60}(?:earnings|results|quarter).{0,60}(?:call|conference)|thank you for (?:joining|standing by|participating))[^\n]{0,200}',
+            # Operator boilerplate
+            r'(?im)^operator\s*:?.{0,200}(?:press \*|mute|queue|questions? and answers?|Q&A session)[^\n]{0,200}$',
+            r'(?i)(?:ladies and gentlemen,? )?(?:this concludes|thank you for joining|you may (?:now )?disconnect)[^\n]{0,200}',
+        ]
+        for pat in patterns:
+            text = re.sub(pat, ' ', text)
+
+        # Clean up extra whitespace
+        text = re.sub(r'  +', ' ', text).strip()
+        return text
+
     def normalize_text(self, text):
         """
         Normalize transcript text
@@ -136,7 +167,12 @@ class TranscriptCleaner:
             prepared_remarks = transcript_dict.get('prepared_remarks', '')
             qa_section = transcript_dict.get('qa_section', '')
             full_text = transcript_dict.get('full_text', '')
-            
+
+            # Strip boilerplate before NLP — safe harbor/greetings bias sentiment
+            prepared_remarks = self.remove_boilerplate(prepared_remarks)
+            qa_section       = self.remove_boilerplate(qa_section)
+            full_text        = self.remove_boilerplate(full_text)
+
             # Clean each section
             cleaned_prepared, chars_removed_prep = self.clean_section(prepared_remarks)
             cleaned_qa, chars_removed_qa = self.clean_section(qa_section)
@@ -279,9 +315,15 @@ class TranscriptCleaner:
             
             print(f"✅ Metadata CSV saved: {csv_path}")
             
-            # Save cleaning statistics
+            # Save cleaning statistics — written AFTER the loop so counts are final
             stats_path = self.output_dir / 'cleaning_statistics.json'
             with open(stats_path, 'w') as f:
+                json.dump(self.cleaning_stats, f, indent=2)
+
+            # Also write to logs dir so downstream phases (e.g. Phase 2E) always
+            # find the populated version regardless of which path they read.
+            log_stats_path = self.log_file.parent / 'cleaning_statistics.json'
+            with open(log_stats_path, 'w') as f:
                 json.dump(self.cleaning_stats, f, indent=2)
             
             print(f"✅ Statistics saved: {stats_path}")

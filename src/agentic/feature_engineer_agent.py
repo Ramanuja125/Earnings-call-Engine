@@ -481,12 +481,12 @@ class AgenticFeatureEngineer:
         print("Testing baseline (human-designed features only)...")
         model_base = xgb.XGBClassifier(
             max_depth=6, learning_rate=0.1, n_estimators=100,
-            random_state=42, n_jobs=-1,
+            random_state=42, n_jobs=1,
             eval_metric='logloss',
         )
         scores_base = cross_val_score(
             model_base, X_base_scaled, target,
-            cv=tscv, scoring='roc_auc', n_jobs=-1,
+            cv=tscv, scoring='roc_auc', n_jobs=1,
         )
         baseline_auc = scores_base.mean()
         print(f"  Baseline AUC: {baseline_auc:.3f} (±{scores_base.std():.3f})")
@@ -501,12 +501,12 @@ class AgenticFeatureEngineer:
 
         model_enhanced = xgb.XGBClassifier(
             max_depth=6, learning_rate=0.1, n_estimators=100,
-            random_state=42, n_jobs=-1,
+            random_state=42, n_jobs=1,
             eval_metric='logloss',
         )
         scores_enhanced = cross_val_score(
             model_enhanced, X_enhanced, target,
-            cv=tscv, scoring='roc_auc', n_jobs=-1,
+            cv=tscv, scoring='roc_auc', n_jobs=1,
         )
         enhanced_auc = scores_enhanced.mean()
         print(f"  Enhanced AUC: {enhanced_auc:.3f} (±{scores_enhanced.std():.3f})")

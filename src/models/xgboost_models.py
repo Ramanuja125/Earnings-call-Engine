@@ -184,6 +184,12 @@ class XGBoostModels:
         }
 
     def train_xgboost_regressor(self, X_train, y_train, X_test, y_test):
+        # Sanity check: if target variance is near zero the model cannot learn
+        y_std = float(np.std(y_train))
+        naive_rmse = float(np.sqrt(mean_squared_error(y_test, np.full_like(y_test, y_train.mean()))))
+        if y_std < 1e-6:
+            print("   ⚠️  Target variance ≈ 0 — regressor will predict a constant.")
+
         params = {
             'objective': 'reg:squarederror', 'eval_metric': 'rmse',
             'max_depth': 4, 'learning_rate': 0.05, 'n_estimators': 200,
@@ -195,11 +201,15 @@ class XGBoostModels:
         model = xgb.XGBRegressor(**params)
         model.fit(X_train, y_train, eval_set=[(X_test, y_test)], verbose=False)
         y_pred = model.predict(X_test)
+        rmse = float(np.sqrt(mean_squared_error(y_test, y_pred)))
         return model, {
-            'rmse': float(np.sqrt(mean_squared_error(y_test, y_pred))),
-            'mae':  float(mean_absolute_error(y_test, y_pred)),
-            'r2':   float(r2_score(y_test, y_pred)),
-            'direction': float(np.mean((y_test > 0) == (y_pred > 0))),
+            'rmse':          rmse,
+            'mae':           float(mean_absolute_error(y_test, y_pred)),
+            'r2':            float(r2_score(y_test, y_pred)),
+            'direction':     float(np.mean((y_test > 0) == (y_pred > 0))),
+            'naive_rmse':    naive_rmse,
+            'vs_naive_rmse': float(rmse - naive_rmse),   # negative = better than naive
+            'target_std_train': y_std,
         }
 
     def run_experiment(self, label, feature_key, train_df, test_df, feature_sets):
@@ -229,9 +239,12 @@ class XGBoostModels:
 
         print("   Training XGBoost Regressor...")
         _, reg_results = self.train_xgboost_regressor(X_train, y_train_reg, X_test, y_test_reg)
-        print(f"      RMSE:      {reg_results['rmse']:.4f}")
-        print(f"      R²:        {reg_results['r2']:.4f}")
-        print(f"      Direction: {reg_results['direction']:.1%}")
+        print(f"      RMSE:       {reg_results['rmse']:.4f}")
+        print(f"      Naive RMSE: {reg_results['naive_rmse']:.4f}  (predict-mean baseline)")
+        print(f"      vs Naive:   {reg_results['vs_naive_rmse']:+.4f}  ({'better' if reg_results['vs_naive_rmse'] < 0 else 'worse'} than naive)")
+        print(f"      R²:         {reg_results['r2']:.4f}")
+        print(f"      Direction:  {reg_results['direction']:.1%}")
+        print(f"      Target σ (train): {reg_results['target_std_train']:.4f}")
         print()
 
         return {'feature_set': feature_key, 'n_features': len(cols),

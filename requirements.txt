@@ -64,3 +64,4 @@ html5lib>=1.1
 langgraph
 langchain 
 langchain-openai
+google-generativeai

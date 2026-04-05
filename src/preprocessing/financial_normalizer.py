@@ -208,19 +208,38 @@ class FinancialNormalizer:
         
         # Normalize features
         print("📊 APPLYING NORMALIZATION:")
-        
-        # Use RobustScaler (resistant to outliers)
-        # This scales features using median and IQR instead of mean and std
-        print(f"   Using RobustScaler for all {len(all_features)} features")
+
+        # Step 1: Winsorise at 1st/99th percentile per feature
+        # This handles the 2,300 detected outliers before scaling.
+        # We clip rather than remove so no rows are lost.
+        print("   Step 1: Clipping outliers at 1st/99th percentile (winsorisation)")
+        clip_stats = {}
+        for col in all_features:
+            p01 = df_normalized[col].quantile(0.01)
+            p99 = df_normalized[col].quantile(0.99)
+            clipped = df_normalized[col].clip(lower=p01, upper=p99)
+            n_clipped = (df_normalized[col] != clipped).sum()
+            if n_clipped > 0:
+                clip_stats[col] = int(n_clipped)
+            df_normalized[col] = clipped
+        total_clipped = sum(clip_stats.values())
+        print(f"   Values clipped: {total_clipped:,} across {len(clip_stats)} features")
+        print()
+
+        # Step 2: RobustScaler (median / IQR) — now works on clean data
+        print(f"   Step 2: RobustScaler for all {len(all_features)} features")
         print(f"   Method: (X - median) / IQR")
         print()
-        
+
         # Fit and transform
         feature_values = df_normalized[all_features].values
         normalized_values = self.robust_scaler.fit_transform(feature_values)
-        
+
         # Replace original values with normalized values
         df_normalized[all_features] = normalized_values
+
+        # Store clip stats for reporting
+        self.normalization_stats['values_clipped'] = total_clipped
         
         # Statistics
         print("📈 NORMALIZATION STATISTICS:")
@@ -243,8 +262,10 @@ class FinancialNormalizer:
     
     def create_derived_ratios(self, df):
         """
-        Create financial ratios from normalized features
-        These are standard ratios used in fundamental analysis
+        Create financial ratios from RAW (pre-normalization) values.
+        Ratios are computed first, then normalized together with the
+        raw features. This ensures ratios retain economic meaning
+        (e.g. Profit_Margin = 0.25 means 25% margin, not a scaled value).
         """
         df_ratios = df.copy()
         

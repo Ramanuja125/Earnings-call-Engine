@@ -1,297 +1,195 @@
-Apple Inc. (AAPL) Q4 2024 Earnings Conference Call October 31, 2024 5:00 PM ET
+Apple Inc. (AAPL) Q1 2024 Earnings Conference Call February 1, 2024 5:00 PM ET
 
 Company Participants
 
-Suhasini Chandramouli - Director, Investor Relations
-Tim Cook - Chief Executive Officer
-Luca Maestri - Chief Financial Officer
+Suhasini Chandramouli - Director of Investor Relations
+Tim Cook - CEO
+Luca Maestri - CFO
 
 Conference Call Participants
 
-Michael Ng - Goldman Sachs
 Erik Woodring - Morgan Stanley
-Ben Reitzes - Melius
-Amit Daryanani - Evercore
-David Vogt - UBS
+Mike Ng - Goldman Sachs Group
 Wamsi Mohan - Bank of America
+Amit Daryanani - Evercore ISI
+Aaron Rakers - Wells Fargo Securities
 Krish Sankar - TD Cowen
-Samik Chatterjee - JPMorgan
-Richard Kramer - Arete Research
-Atif Malik - Citi
+David Vogt - UBS
+Ben Reitzes - Melius Research
+
+Operator
+
+Good day, and welcome to the Apple Q1 Fiscal Year 2024 Earnings Conference Call. Today's call is being recorded. At this time, for opening remarks and introductions. I would like to turn the call over to Suhasini Chandramouli, Director of Investor Relations. Please go ahead.
 
 Suhasini Chandramouli
 
-Good afternoon, and welcome to the Apple Q4 Fiscal Year 2024 Earnings Conference Call. My name is Suhasini Chandramouli, Director of Investor Relations. Today's call is being recorded.
+Thank you for joining us. Speaking first today is Apple's CEO, Tim Cook; and he'll be followed by CFO, Luca Maestri. After that, we'll open the call to questions from analysts.
 
-Speaking first today are Apple CEO, Tim Cook, and CFO, Luca Maestri, and they'll be joined by Kevan Parekh, Vice President of Financial Planning and Analysis. After that, we'll open the call to questions from analysts.
+Before turning the call over to Tim, I would like to remind everyone that the quarter we're reporting today included 13 weeks, whereas the quarter we reported a year ago included 14 weeks.
 
-Please note that some of the information you'll hear during our discussion today will consist of forward-looking statements, including, without limitation, those regarding revenue, gross margin, operating expenses, other income and expense, taxes, capital allocation, and future business outlook, including the potential impact of macroeconomic conditions on the company's business and results of operations. These statements involve risks and uncertainties that may cause actual results or trends to differ materially from our forecast.
-
-For more information, please refer to the risk factors discussed in Apple's most recently filed annual report on Form 10-K and the Form 8-K filed with the SEC today along with the associated press release. Apple assumes no obligation to update any forward-looking statements, which speak only as of the date they are made.
-
-Additionally, today's discussion will refer to certain non-GAAP financial measures. You can find a reconciliation of these measures in our fourth quarter and full year 2024 earnings release, which is available on our Investor Relations website.
+Please note that some of the information you'll hear during our discussion today will consist of forward-looking statements, including, without limitation, those regarding revenue, gross margin, operating expenses, other income and expense, taxes, capital allocation and future business outlook, including the potential impact of macroeconomic conditions on the company's business and results of operations. These statements involve risks and uncertainties that may cause actual results or trends to differ materially from our forecast. For more information, please refer to the risk factors discussed in Apple's most recently filed annual report on Form 10-K and the form 8-K filed with the SEC today along with the associated press release. Apple assumes no obligation to update any forward-looking statements, which speak only as of the date they are made.
 
 I'd now like to turn the call over to Tim for introductory remarks.
 
 Tim Cook
 
-Thank you, Suhasini. Good afternoon, everyone, and thanks for joining the call.
+Thank you, Suhasini. Good afternoon, everyone, and thanks for joining the call. Today, Apple is reporting revenue of $119.6 billion for the December quarter, up 2% from a year ago despite having one less week in the quarter. EPS was $2.18, up 16% from a year ago and an all-time record.
 
-Today, Apple is reporting revenue of $94.9 billion, a September quarter record and up 6% from a year ago. iPhone grew in every geographic segment, marking a new September quarter revenue record for the category, and Services set an all-time revenue record, up 12% year-over-year. We also set September quarter segment revenue records in the Americas, Europe, and the Rest of Asia Pacific, as well as in a large number of countries, including the United States, Brazil, Mexico, France, the UK, Korea, Malaysia, Thailand, Saudi Arabia, and the UAE. And we continue to be excited by the enthusiasm we're seeing in India, where we set an all-time revenue record.
+We achieved revenue records across more than two dozen countries and regions, including all-time records in Europe and rest of Asia-Pacific. We also continue to see strong double-digit growth in many emerging markets with all-time records in Malaysia, Mexico, The Philippines, Poland, and Turkey, as well as December quarter records in India, Indonesia, Saudi Arabia, and Chile.
 
-This has been an extraordinary year of innovation at Apple. We brought the revolutionary Apple Vision Pro to customers in February, which brings users tomorrow's technology today. And in June, we announced Apple Intelligence, a remarkable personal intelligence system that combines the power of generative models with personal context to deliver intelligence that is incredibly useful and relevant.
+In Services, we set an all-time revenue record with paid subscriptions growing double digits year-over-year. And I'm pleased to announce today that we have set a new record for our installed base, which has now surpassed 2.2 billion active devices. We are announcing these results on the eve of what is sure to be an historic day as we enter the era of spatial computing.
 
-Apple Intelligence marks the beginning of a new chapter for Apple innovation and redefines privacy and AI by extending our groundbreaking approach to privacy into the cloud with Private Cloud Compute. Earlier this week, we made the first set of Apple Intelligence features available in US English for iPhone, iPad, and Mac users, with systemwide Writing Tools that help you refine your writing, a more natural and conversational Siri, a more intelligent Photos app, including the ability to create movies simply by typing a description, and new ways to prioritize and stay in the moment with notification summaries and priority messages. And we look forward to additional intelligence features in December, with even more powerful Writing Tools, a new visual intelligence experience that builds on Apple Intelligence, and ChatGPT integration, as well as localized English in several countries, including the UK, Australia, and Canada. These features have already been provided to developers and we're getting great feedback. More features will be rolling out in the coming months, as well as support for more languages, and this is just the beginning.
+Starting tomorrow, Apple Vision Pro, the most advanced personal electronics device ever, will be available in Apple stores for customers in the U.S. with expansion to other countries later this year. Apple Vision Pro is a revolutionary device built on decades of Apple innovation and it's years ahead of anything else. Apple Vision Pro has a groundbreaking new input system and thousands of innovations, and it will unlock incredible experiences for users and developers that are simply not possible on any other device.
 
-Now, I'll turn to our results for the quarter, beginning with iPhone. iPhone revenues set a September quarter record of $46.2 billion, up 6% from a year ago, with growth in every geographic segment. With the introduction of Apple Intelligence, we're beginning a new era for iPhone. iPhone 16, powered by A18, is equipped with an incredible new 48-megapixel Fusion camera, fantastic photo experiences, and the addition of the action button and camera control. An iPhone 16 Pro is the most advanced iPhone we've ever made, powered by A18 Pro and featuring even larger displays, an industry-leading pro camera system with camera control, and studio quality mics, all with a huge leap in battery life.
+There is already so much excitement behind this product from reviewers, customers, and developers. They are praising everything from the incredible experience of watching a movie on a 100-foot screen to remarkable new machine learning capabilities like hand tracking and room mapping. We can't wait for people to experience the magic for themselves.
 
-Turning to Mac, revenue was $7.7 billion, up 2% from a year ago. Just this week, we brought a new generation of Apple Silicon to Mac, M4, M4 Pro, and M4 Max. From blazing fast performance to Apple's most advanced neural engine yet, our latest chips can easily tackle incredibly complex workflows, and they ensure our newest Macs will be the best personal computers for AI the instant they hit stores. With the newest additions to our Mac lineup, customers can choose the Mac that's just right for them, whether that's iMac, the world's best and most beautiful all-in-one; MacBook Air, the world's most popular laptop now with double the starting memory; MacBook Pro, the best Pro notebook anywhere; or the incredible, mighty new Mac mini, our first-ever carbon-neutral Mac.
+Moments like these are what we live for at Apple. They're why we do what we do. They're why we're so unflinchingly dedicated to groundbreaking innovation and why we're so focused on pushing technology to its limits as we work to enrich the lives of our users.
 
-iPad revenue was $7 billion, 8% higher year-over-year. iPad is unlike any other product on the market today, and it's become an essential device in homes, schools, and businesses of all sizes. Recently, we were thrilled to introduce the newest iPad mini, featuring an ultra-compact design built for Apple Intelligence with support for Apple Pencil Pro. It's been a big year for iPad. iPad Air was popular with students and teachers as they got back to school this year, while creators are pushing the boundaries of what's possible with the M4-powered iPad Pro.
+As we look ahead, we will continue to invest in these and other technologies that will shape the future. That includes artificial intelligence where we continue to spend a tremendous amount of time and effort, and we're excited to share the details of our ongoing work in that space later this year.
 
-In Wearables, Home and Accessories, revenue was $9 billion, down 3% from a year ago.
+Now, let's turn to the results for the December quarter, beginning with iPhone. We are proud to report that revenue came in at $69.7 billion, 6% higher than a year ago. The iPhone 15 lineup has earned glowing reviews and been embraced by customers. The iPhone 15 and iPhone 15 Plus feature a gorgeous new design with color-infused back glass and contoured edges, Dynamic Island, A16 Bionic, and a new 48 megapixel camera system. And the iPhone 15 Pro and iPhone 15 Pro Max set the gold standard for smartphones with a beautiful and lighter titanium design, industry-leading performance with A17 Pro and our most advanced camera system with the equivalent of seven pro lenses and the ability to record spatial video. Features like Emergency SoS and roadside assistance via satellite bring peace of mind to users when they travel, and I'm grateful for every note I've received about their lifesaving impact.
 
-During the quarter, we launched the all-new Apple Watch Series 10, bringing a beautiful new design and new capabilities to the world's most popular watch that make it even more powerful, intelligent, and sophisticated. It's the thinnest Apple Watch yet, making it more comfortable than ever, while offering the biggest, most advanced display. watchOS 11 brings some huge new health and fitness insights to users, including sleep apnea notifications, which help to alert people with a potentially serious but often undiagnosed condition. We're proud of the impact we make through our health innovations on watch, and I'm grateful for every note I receive about the importance of watch in people's lives.
+Turning to Mac. Revenue came in at $7.8 billion, up 1% year-over-year, driven by the strength of our latest M3-powered MacBook Pro models in spite of having one less week of sales. Just last week, we got to wish Mac a happy 40th birthday. When it was introduced 40 years ago, Mac changed everything, and through the years, it has done so again and again.
 
-With AirPods 4, we broke a new ground in comfort and design with our best-ever open-ear headphones available for the first time with active noise cancellation. And we were especially pleased to unveil revolutionary end-to-end hearing health capabilities for AirPods Pro 2 with hearing protection, hearing test, and hearing aid features. These just became available in a software update this week, and we believe this will make a meaningful difference in our users' lives. I've already started getting notes from customers calling the experience life changing.
+Recently, we have been on a tremendous pace of innovation. Since the introduction of Apple silicon in 2020, we've been proud to offer our users unmatched performance and power along with a remarkable Neural Engine for artificial intelligence and machine learning.
 
-And Apple Vision Pro continues to deliver spatial experiences that weren't possible before, including immersive entertainment like the new short film, Submerged, which gives people a view into the unique storytelling power made possible by spatial computing. Vision Pro has more than 2,500 native spatial apps and 1.5 million compatible apps for visionOS 2, as well as applications companies are building to reimagine how they work. Vision Pro continues to inspire awe in its users, and we're just scratching the surface of what's possible. And just yesterday, we announced we're bringing Vision Pro to Korea and the UAE.
+This past fall, we had an amazing launch of the latest generation of Apple silicon for Mac, M3, M3 Pro, and M3 Max. These chips break new ground in power and performance empowering users to do more than they ever could before, whether they're making a musical masterpiece using the latest features in Logic Pro, or beating their high score in a graphics intensive game. A favorite amongst students, business owners, artists, and video editors, our MacBook Pro lineup is the world's best pro notebook family. And iMac, the world's most capable and best-selling all-in one, is now faster than ever, thanks to M3.
 
-As I mentioned earlier, Services achieved an all-time revenue record of $25 billion, up 12% from a year ago, and with all-time revenue records across most of our categories. With Apple TV+, we love celebrating the craft of great storytellers who know how to put on a show. Audiences love to discover new movies like Wolfs, explore acclaimed new series like Disclaimer, and dive back into returning favorites like Slow Horses and Shrinking. Apple TV+ productions have become fixtures at award shows, earning more than 2,300 nominations and more than 500 wins today. Apple also offers a live sports experience in a league of its own with MLS Season Pass, and subscribers have been cheering on their favorite teams in the MLS Cup playoffs.
+In iPad, revenue for the December quarter was $7 billion, down 25% year-over-year due to a difficult compare with the launch of the M2 iPad Pro and the 10th generation iPad during the December quarter last year and one less week of sales. iPad remains the most versatile, capable, and elegant tablet on the market today. It continues to be the go-to-device for students, creators, and more with customers loving iPad's incredible combination of portability and performance. Powerful apps like Final Cut Pro and Logic Pro for iPad allow video and music creators to unleash their creativity in new ways that are only possible on iPad. iPad continues to push the boundaries of what's possible on a tablet.
 
-This month, we also marked 10 years of Apple Pay. There's always something magical about being able to buy groceries or pay for movie tickets seamlessly with your Apple device. Today, users choose Apple Pay for purchases across tens of millions of retailers worldwide. And we're excited to make the Apple Pay experience even better, with the option to redeem rewards and access loans from credit cards, debit cards, and other lenders right at checkout.
+In Wearables, Home and Accessories, revenue came in at $12 billion, down 11% from a year ago due to a difficult compare with the launch timing of several products in this category and the impact of the 14th week last year. Across our latest Apple Watch lineup, we're enabling and encouraging our users to live a healthier day, while making Apple Watch even more intuitive to use.
 
-Whenever we celebrate big moments, Apple Stores are the best places to share them with customers. I had an incredible time during launch day in September alongside our team at Apple Fifth Avenue, where energy and enthusiasm filled the air. And in stores all over the world, customers are eager to get a closer look at our latest innovations. We also opened two new stores during the quarter and we can't wait to bring four new stores to customers in India.
+The new double tap gesture on Apple Watch Series 9 and Apple Watch Ultra 2 make it easier to answer calls, play and pause music or take a photo with iPhone. I've been deeply moved by the many touching stories about how features like a regular rhythm notification and fall detection helped Apple Watch users when they needed it most. And for the first time ever, users can choose a carbon-neutral option of any new Apple Watch. Meanwhile, our AirPods lineup continue to be a holiday favorite.
 
-We're passionate about education and believe technology has a vital role to play in both helping teachers to inspire their students and students to learn about the world around them. In honor of World Teachers' Day, Apple was proud to share new resources for teachers to engage their students in ways that aim to make learning easy and fun. Additionally, we've expanded our education grant program into 100 new schools and communities, helping with everything from access to technology, to educator resources, to scholarships and financial support.
+In Services, we set an all-time revenue record of $23.1 billion and an 11% year-over-year increase. Because we had one less week this quarter, this growth represents an acceleration from the September quarter, and we achieved all-time revenue records across advertising, cloud services, payment services and video, as well as December quarter records in App Store and AppleCare. Across our services, we're constantly growing our offerings to give users even more to love.
 
-As we near the end of the year, we're proud of the progress we've made in our efforts to be carbon-neutral across our entire footprint by the end of the decade. As I mentioned earlier, we were thrilled to introduce our first-ever carbon-neutral Mac with the latest Mac mini. And in another milestone, customers can choose a carbon-neutral option of any Apple Watch. These achievements are amazing for all of us at Apple, and we are determined to reach our 2030 goal.
+With the redesigned Apple TV app, we've made it easier for subscribers to enjoy all their favorite shows, movies and sports, including Apple TV+ hits like Masters of the Air, Monarch, and Slow Horses. We're proud to be a part of Martin Scorsese's Killers of the Flower Moon, a film that has moved audiences and earned more than 200 accolades including Best Film of the Year from the New York Film Critics Circle, nine BAFTA nominations, a Golden Globe win, and 10 Oscar nominations, including Best Picture. Across all Apple TV+ productions, we've now earned 2050 award nominations and 450 wins since we've introduced the service.
 
-At Apple, across everything we do, we manage for the long term, because we're always thinking about what comes next, the next great challenge, the next innovative idea, the next big breakthrough. As we close out the year, we have the best lineup we've ever had going into the holiday season, including Apple Intelligence, which marks the start of a new chapter for our products. This is just the beginning of what we believe generative AI can do, and I couldn't be more excited for what's to come.
+We're also excited to have a new season of Major League Soccer kicking off this month. We're looking forward to seeing Lionel Messi return to the field and to following all of our favorite teams in what is sure to be an incredible season. And we're counting down to the Apple Music Super Bowl halftime show, featuring Usher.
 
-Before I hand it over to Luca, with Luca transitioning to a new role with Apple, this will be the final time he's joining our call. So, I just wanted to take a moment to recognize his extraordinary service as Apple's CFO and to thank him for his partnership. I am deeply grateful. In his 10 years in the role, Luca has done truly exceptional work in shaping Apple as we know it today. He has helped manage Apple for the long term, thoughtfully and deliberately. He has helped us enrich the lives of so many around the world, and he has been a leader that people look up to and have learned so much from. I have incredible confidence in our incoming CFO, Kevan Parekh, and we look forward to more of you meeting and working with him going forward.
+Turning to Retail. In recent months, we opened three stores, including our 100th store in Asia-Pacific. Throughout the holidays, our team members pulled out all the stops to help customers find the perfect gift. And I know our U.S. team members are especially excited to begin demoing Apple Vision Pro for our customers tomorrow.
+
+At Apple, we live and breathe innovation. We are driven to pioneer new technology that can enrich our customers' lives, and we're just as intentional about showing up with our values and being a force for good in the world. February is Black History Month, and to honor it, we've launched our new Black Unity Collection, which includes the Black Unity Sport Loop band. This year's designs reflect a lasting commitment to working toward a more equitable world. We also continue to do a central work through our Racial Equity and Justice Initiative, and we're proud to continue providing grants to organizations that are making a real impact in the world.
+
+In recent months, we've also taken significant strides in our environmental work. We're partnering with suppliers to bring more clean energy online for Apple production. We're using more recycled materials than ever before and more energy-efficient transportation than ever before. And each day, we are taking more and more steps toward becoming 100% carbon-neutral across all of our products by 2030.
+
+Apple is a company that has never shied away from big challenges. That's because we are grounded by a deep sense of purpose and guided by core belief in the transformative power of innovation. And so, we are optimistic about the future, confident in the long-term, and as excited as we've ever been to deliver for our users like only Apple can.
 
 With that, I'll turn it over to Luca.
 
 Luca Maestri
 
-Good afternoon, everyone. And thank you, Tim, for the very kind words. Serving as Apple's CFO has been a real privilege and an amazing journey, and I've greatly appreciated the support from our investors and the analyst community over the years. Kevan is exceptional, and I know you will enjoy interacting with him going forward.
+Thank you, Tim, and good afternoon, everyone. Revenue for the December quarter was $119.6 billion, up 2% from last year. During the December quarter a year ago, two unique factors affected our results. First, we had an additional week in the quarter. And second, we had COVID-related factory shutdowns that limited iPhone supply. We estimate that the net impact of these two factors resulted in a 2 percentage point headwind to our revenue performance this quarter.
 
-Let me now turn to the results for the fourth quarter of our fiscal year. We're very pleased to report a new September quarter revenue record of $94.9 billion, up 6% year-over-year. We grew in the vast majority of the markets we track and achieved September quarter revenue records in the Americas, Europe and Rest of Asia Pacific.
+We set all-time revenue records in Europe and rest of Asia-Pacific, and continue to see strong performance across our emerging markets with double-digit growth in the majority of the emerging markets we track. Products revenue was $96.5 billion, flat compared to last year, driven by strength in iPhone, offset by challenging compares for iPad and Wearables, Home and Accessories and one less week of sales this year across the entire portfolio. Thanks to our unparalleled customer loyalty and very strong levels of customer satisfaction, our total installed base of active devices set a new record across all products and all geographic segments, and is now over 2.2 billion active devices.
 
-Products revenue was $70 billion, up 4% year-over-year, driven by growth in iPhone, iPad and Mac. Our installed base of active devices reached an all-time high across all products and geographic segments, thanks to very high levels of customer satisfaction and loyalty and a large number of customers who are new to our products.
+Services revenue set an all-time record of $23.1 billion, up 11% year-over-year. When we take into account the extra week last year, this represents a sequential acceleration of growth from the September quarter. We are very pleased with our Services performance in both developed and emerging markets with all-time revenue records in the Americas, Europe, and rest of Asia-Pacific.
 
-Services revenue reached an all-time record of $25 billion, up 12% year-over-year. We saw broad-based strength around the world, reaching all-time records in both developed and emerging markets with double-digit growth and record results across most services categories.
+Company gross margin was 45.9%, up 70 basis points sequentially, driven by leverage and favorable mix, partially offset by foreign exchange. Products gross margin was 39.4%, up 280 basis points sequentially, also driven by leverage and mix, partially offset by foreign exchange. Services gross margin was 72.8%, up 190 basis points from last quarter, due to a more favorable mix.
 
-Company gross margin was 46.2%, near the high end of our guidance range. Products gross margin was 36.3%, up 100 basis points sequentially, primarily driven by favorable mix. Services gross margin was 74%, unchanged from the prior quarter.
+Operating expenses of $14.5 billion were at the midpoint of the guidance range we provided and up 1% year-over-year. Net income was $33.9 billion, up $3.9 billion from last year. Diluted EPS was $2.18, up 16% versus last year and an all-time record. And operating cash flow was very strong at $39.9 billion.
 
-Operating expenses of $14.3 billion were at the midpoint of the guidance range we provided at the beginning of the quarter and up 6% year-over-year.
+Let me now provide more detail for each of our revenue categories. iPhone revenue was $69.7 billion, up 6% year-over-year. We set all-time records in several countries and regions, including Latin America, Western Europe, the Middle East, and Korea, as well as December quarter records in India and Indonesia.
 
-During the quarter, we recorded a one-time income tax charge of $10.2 billion, which relates to the impact of the reversal of the European General Court's State Aid decision. When we exclude this one-time charge, net income was $25 billion and diluted earnings per share were a $1.64, up 12% year-over-year, and a September quarter record.
+Our iPhone active installed base grew to a new all-time high, and we had an all-time record number of iPhone upgraders during the quarter. Customers are loving their new iPhone 15 family, with the latest reports from 451 Research indicating customer satisfaction of 99% in the U.S. In fact, many iPhone models were among the top-selling smartphones around the world during the quarter. According to a survey from Kantar, iPhones were four out of the top five models in the U.S. and Japan, four out of the top six models in urban China and the UK, and all top five models in Australia.
 
-Operating cash flow was very strong at $26.8 billion, a new September quarter record.
+Mac generated revenue of $7.8 billion and return to growth, despite one less week of sales this year. This represents a significant acceleration from the September quarter when we faced a challenging compare due to the supply disruptions and subsequent demand recapture we experienced a year ago. Customer response to our latest iMac and MacBook Pro models powered by the M3 chips has been great. And our Mac installed base reached an all-time high with almost half of Mac buyers during the quarter being new to the product. Also, 451 Research recently reported customer satisfaction of 97% for Mac in the U.S.
 
-Let me now get into more detail for each of our revenue categories. iPhone revenue was $46.2 billion, up 6% year-over-year, and a September quarter record in total and across several markets, including the US, the Middle East, Korea, and South Asia. The iPhone active installed base grew to a new all-time high in total and in every geographic segment. During the September quarter, many iPhone models were among the top-selling smartphones around the world. In fact, according to a survey from Kantar, iPhone was the top-selling model in the US, Urban China, the UK, Australia, and Japan. We continue to see high levels of customer satisfaction for the iPhone 15 family, with 451 Research recently measuring it at 98% in the US.
+iPad was $7 billion in revenue, down 25% year-over-year. iPad faced a difficult compare because during the December quarter last year, we launched the new iPad Pro and iPad 10 generation, and we had an extra week of sales. However, the iPad installed base continues to grow and is an all-time high with over half of the customers who purchased iPads during the quarter being new to the product, and customer satisfaction for iPad was recently measured at 98% in the U.S.
 
-Mac revenue was $7.7 billion, up 2% year-over-year, driven by the strength in MacBook Air. Customers have been loving the performance of Apple Silicon on Mac and we are very excited to bring the latest M4 family of chips to the lineup. The Mac installed base reached an all-time high with about half of customers in the quarter being new to Mac. And in the latest reports from 451 Research, customer satisfaction was 95% in the US.
+Wearables, Home and Accessories revenue was $12 billion, down 11% year-over-year due to a challenging launch compare and the extra week a year ago. This time last year, we had the full quarter benefit from the launches of the AirPods Pro 2nd generation, the Watch SE, and the first Watch Ultra. We continue to attract new customers to Apple Watch. Nearly two-thirds of customers purchasing an Apple Watch during the quarter were new to the product, and the latest reports from 451 Research indicate customer satisfaction of 96% in the U.S.
 
-iPad generated $7 billion in revenue, up 8% year-over-year. In addition to growth in developed markets, we also saw strong performance in many emerging markets, with double-digit growth in Mexico, Brazil, the Middle East, India and South Asia. The iPad installed base reached another all-time high, and over half of the customers who purchased iPads during the quarter were new to the product. Also, customer satisfaction was recently measured at 97% in the US.
+And in Services, we were very pleased with our double-digit growth, which was driven by the strength of our ecosystem. Our installed base is now over 2.2 billion active devices and continues to grow nicely, establishing a solid foundation for the future expansion of our Services business. And we continue to see increased customer engagement with our services. Both transacting accounts and paid accounts reached a new all-time high, with paid accounts growing double-digits year-over-year.
 
-Wearables, Home and Accessories revenue was $9 billion, down 3% year-over-year. The Apple Watch installed base reached a new all-time high, with over half of customers purchasing an Apple Watch during the quarter being new to the product. And the latest reports from 451 Research indicated customer satisfaction of 96% for watch in the US.
+Also, our paid subscriptions showed strong double-digit growth. We have well over 1 billion paid subscriptions across the services on our platform, more than double the number that we had only four years ago.
 
-Our Services revenue reached an all-time record of $25 billion, growing 12% year-over-year. Services continue to see strong momentum with the growth of our installed base of active devices setting a solid foundation for the future expansion of our ecosystem. And we see increased customer engagement with our services offerings. Both transacting accounts and paid accounts reached a new all-time high, with paid accounts growing double-digits year-over-year. Paid subscriptions also grew double-digits. We have well over 1 billion paid subscriptions across the services on our platform, more than double the number we had only four years ago. And as always, we remain focused on improving the breadth and quality of our services from new games on Apple Arcade to new features like Tap to Cash and pay with installments using Apple Pay to many successful new and returning shows on Apple TV+. This past quarter, we celebrated the five-year anniversary of Apple Card, which was ranked #1 in customer satisfaction among co-branded credit cards by J.D. Power for the fourth year in a row.
+Finally, we continue to build on the breadth and the quality of our current services. From Oscar-nominated theatrical releases with Apple TV+ to more publications or News+ like The Atlantic and exciting new games on Arcade.
 
-Turning to enterprise, we continue to see strong demand across our products and services. NVIDIA launched its Mac as a choice program supported by AppleCare for Enterprise and Apple Professional Services with over 10,000 Macs deployed worldwide. And Novartis, a leading global pharmaceutical company, recently chose iPhone 16 as the standard mobile device for all employees. We also see continued momentum with Apple Vision Pro in the enterprise space. UC San Diego Health is the first hospital in the world to test spatial computing apps on Apple Vision Pro in clinical trials for patient surgery in the operating room.
+Turning to Enterprise, we continue to see many business customers leverage Apple products to improve productivity and drive innovation. Target recently added the latest M3 MacBook Pro to their existing deployment of thousands of Mac’s, enabling employees across various departments to do their best work. In emerging markets, Zoho, a leading technology company headquartered in India, offers its 15,000 plus global employees a choice of devices, with 80% of their workforce using iPhone for work and nearly two-thirds of them choosing Mac as their primary computer.
 
-Let me now turn to our cash position and capital return program. We ended the quarter with $157 billion in cash and marketable securities. We repaid $2.6 billion in maturing debt and increased commercial paper by $7 billion, leaving us with total debt of $107 billion. As a result, net cash was $50 billion at the end of the quarter. During the quarter, we returned over $29 billion to shareholders, including $3.8 billion in dividends and equivalents and $25 billion through open market repurchases of 112 million Apple shares.
+With the upcoming launch of Apple Vision Pro, we are seeing strong excitement in Enterprise. Leading organizations across many industries such as Walmart, Nike, Vanguard, Stryker, Bloomberg, and SAP have started leveraging and investing in Apple Vision Pro as their new platform to bring innovative spatial computing experiences to their customers and employees. From everyday productivity to collaborative product design to immersive training, we cannot wait to see the amazing things our enterprise customers will create in the months and years to come.
 
-As we move ahead into the December quarter, I'd like to review our outlook, which includes the types of forward-looking information that Suhasini referred to at the beginning of the call. The color we're providing today assumes that the macroeconomic outlook doesn't worsen from what we are projecting today for the current quarter. We expect our December quarter total company revenue to grow low- to mid-single digits year-over-year. We expect Services revenue to grow double-digits at a rate similar to what we reported in the fiscal year 2024. We expect gross margin to be between 46% and 47%. We expect OpEx to be between $15.3 billion and $15.5 billion. We expect OI&E to be around negative $250 million, excluding any potential impact from the mark to market of minority investments. And our tax rate to be around 16%.
+Let me now turn to our cash position and capital return program. We ended the quarter with $173 billion in cash and marketable securities. We decreased commercial paper by $4 billion, leaving us with total debt of $108 billion. As a result, net cash was $65 billion at the end of the quarter, and our goal of becoming net cash-neutral over time remains unchanged.
 
-Finally, today, our Board of Directors has declared a cash dividend of $0.25 per share of common stock payable on November 14, 2024 to shareholders of record as of November 11, 2024.
+During the quarter, we returned nearly $27 billion to shareholders, including $3.8 billion in dividends and equivalents and $20.5 billion through open market repurchases of 112 million Apple shares. We also retired an additional 6 million shares in the final settlement of our 19th ASR. As usual, we will provide an update to our capital return program when we report results at the end of this quarter.
 
-With that, let us open the call to questions.
+As we move ahead into the March quarter, I'd like to review our outlook, which includes the types of forward-looking information that Suhasini referred to at the beginning of the call. The color we are providing today assumes that the macroeconomic outlook doesn't worsen from what we are projecting today for the current quarter. And we expect foreign exchange to be a revenue headwind of about 2 percentage points on a year-over-year basis.
+
+As a reminder, in the December quarter a year ago, we faced significant supply constraints on the iPhone 14 Pro and 14 Pro Max due to COVID-19 factory shutdowns. And in the March quarter a year ago, we were able to replenish channel inventory and fulfill significant pent-up demand from the constraints. We estimate that this impact added close to $5 billion to the March quarter's total revenue last year. When we remove this impact from last year's revenue, we expect both our March quarter total company revenue and iPhone revenue to be similar to a year ago.
+
+For our Services business, we expect a similar double-digit growth rate to what we reported in the December quarter. We expect gross margin to be between 46% and 47%. We expect OpEx to be between $14.3 billion and $14.5 billion. We expect OI&E to be around $50 million, excluding any potential impact from the mark-to-market of minority investments and our tax rate to be around 16%.
+
+Finally, today our Board of Directors has declared a cash dividend of $0.24 per share of common stock payable on February 15, 2024, to shareholders of record as of February 12, 2024.
+
+With that, let's open the call to questions.
 
 Suhasini Chandramouli
 
-Thank you, Luca. We ask that you limit yourself to two questions. Operator, may we have the first question, please?
+Thank you, Luca. We ask that you limit yourself to two questions. Operator, may we have the first question please?
 
 Question-and-Answer Session
 
 Operator
 
-Certainly. We will go ahead and take our first question from Michael Ng with Goldman Sachs. Please go ahead.
-
-Michael Ng
-
-Hey, good afternoon. I just have two. The first one is for Tim on Apple Intelligence. I was wondering if you could just expand a little bit on some of the early feedback to Apple Intelligence both for iOS 18.1, but also the developer beta so far, and whether you would attribute Apple Intelligence to any of the strong iPhone performance that we've seen to date. Thanks.
-
-Tim Cook
-
-Thanks, Michael. As I noted in my comments, just this week on Monday, we made the first set of Apple Intelligence features available in US English for iPhone, iPad, and Mac. This includes things like systemwide Writing Tools that help you refine your writing, a more natural conversational Siri, more intelligent Photos app, including the ability to create movies, simply by typing a description, which is really cool, and new ways to prioritize and stay in the moment with notification summaries and priority messages. There's also email summaries and email priority.
-
-We're getting a lot of positive feedback from developers and customers. And in fact, if you just look at the first three days, which is all we have obviously from Monday, the 18.1 adoption is twice as fast as the 17.1 adoption was in the year-ago quarter. And so, there's definitely interest out there for Apple Intelligence.
-
-Carrying on in the quarter, we are looking forward to bringing even more features in December, and this will include even more powerful Writing Tools and visual intelligence experience that builds on Apple Intelligence, and ChatGPT integration in addition to other features, as well as we'll bring localized English to several countries that include the UK, Australia, and Canada. So, it's going to be quite a software quarter between the release on Monday and the release in December. And then, as we turn the corner to '25, we'll have more languages rolling out, starting in April as well and more features as well. And so, it's a very strong drumbeat, and we couldn't be more excited about it.
-
-Michael Ng
-
-Great. Thank you very much. And my second one just for Luca. First, congratulations again, Luca, on the new role and it's been a real privilege being able to spend some time with you. A question that I think will overlap with your new role as well. Could you just talk a little bit about the CapEx outlook and whether investments in things like Private Cloud Compute could change the historical CapEx range of roughly $10 billion a year? Thank you very much.
-
-Luca Maestri
-
-Thank you, Michael. On the CapEx front, I've mentioned before a number of times, we have a bit of a hybrid model in the way we run our data centers. In some cases, we use our own data centers. In some cases, we use, third-party providers. So, our CapEx numbers may not be fully comparable with others. But, obviously, we are rolling out these features, Apple Intelligence features already now, and so we are making all the capacity that is needed available for these features. You will see in our 10-K the amount of CapEx that we've incurred during the course of fiscal '24, and we will -- in fiscal '25, we will continue to make all the investments that are necessary, and of course, the investments in AI-related CapEx will be made.
-
-Michael Ng
-
-Great. Thank you, Tim. Thank you, Luca.
-
-Suhasini Chandramouli
-
-All right. Thanks, Mike. Can we have the next question, please?
-
-Operator
-
-Our next question is from Erik Woodring with Morgan Stanley. Please go ahead.
+Certainly. We'll go ahead and take our first question from Erik Woodring with Morgan Stanley. Please go ahead.
 
 Erik Woodring
 
-Great. Thanks so much for taking my questions. I have two as well. Tim, maybe if we start with you, I think each of the last four years you've exited the December quarter with iPhone demand outpacing supply. As we look to this quarter in the iPhone 16 cycle, lead times are relatively short. There are no known supply shortages. And I'm just curious whether you've been able to maybe get a better read on early cycle iPhone demand this year relative to past years. And if so, what you've learned about upgrade rates, switching rates, trade-ups versus trading down and being more price sensitive? And overall, any impact that Apple Intelligence may have on iPhone 16 sales? And then, I have a follow-up. Thank you.
+Hey, guys, good evening. Thank you for taking my questions. I have two, and congrats on the nice quarter here. Luca, maybe if we start with you. Can you unpackage some of the Services drivers a bit for us. Obviously, really nice outperformance in the December quarter versus your expectations. A record gross margin implies your higher margin businesses were likely the sources of outperformance. But can you maybe just clarify a bit how we should think about Services growth for the March quarter? And then, speak to some of those underlying drivers in the December quarter and then in the March quarter, what the different puts and takes would be? And then, I have a follow-up please. Thank you.
 
-Tim Cook
+Luca Maestri
 
-There's a lot there. On Apple Intelligence, we believe it's a compelling upgrade reason. And we'll -- but we just launched it three days ago and so what we've got now from a data point point of view is the number I just referenced that 18.1 has twice the adoption rate of 17.1. So, that clearly shows a level of interest out there.
+Thanks, Erik, for the question. Let's start with the December quarter. As we said, up 11%, $23.1 billion is an all-time record for us, with all-time records in The Americas, in Europe, and the rest of Asia Pac. So it was pretty broad-based geographically, and very strong across all the Services categories, because we had all-time revenue records for cloud, for payments, for video, and for advertising and December quarter records for the App Store and for AppleCare. Obviously, last year, we had an extra week, so the 11% is stronger than -- the underlying performance is stronger than the 11% that we have reported.
 
-In terms of exiting the December quarter with demand greater than supply, that's not my recollection that, that happened for all four of the years. We clearly had cases during COVID where there were disruptions and that's the some spilled over, but in a more regular environment where we're not having something, a 100-year flood kind of thing, we would -- our desire is to get into balance as quickly as possible. We don't want customers having to wait for products.
+I think the entire ecosystem is doing well because we continue to see growth and new all-time highs in both transacting accounts and paid accounts, which is obviously very important. And paid subscriptions continue to grow strong double digits. Just as a reference, we have more than a billion paid subscriptions across all the services on our platform. This is more than double the number of paid subscriptions that we had only four years ago. So, obviously, very significant growth there.
 
-And so, if you look at how we've done this year, we did that very quickly on the 16, on the 16 Pro family, the Pro and the Pro Max, we've been constrained in October, but we believe that soon we'll be out of constraint. And so, that's a good sign from our point of view. Keep in mind that, that's a function of supply and demand, not one side or the other. And we've been preparing for the quarter for a while. So that's what I would say there.
+What I said during the prepared remarks around the March quarter, I mentioned that we will continue to grow double digits at a percentage that is similar to what we reported for the December quarter. We don't provide guidance around the different services categories. So, we will provide more color when we report in three months.
 
 Erik Woodring
 
-Okay. That's really helpful. Thank you, Tim.
+Okay. Thank you, Luca. And then, Tim, really nice to see your installed base reach a record high, again, against all products and geos. I'm wondering if you could share a bit more detail about the new users you were able to on-board over the last 12 months. Meaning, how might this new cohort look different from past cohorts, either in terms of geographic representation or SKU to certain products or even how their monetization trends might differ from past cohorts. And that's it from me. Thanks so much.
 
 Tim Cook
 
-Yeah, thank you.
-
-Erik Woodring
-
-And then, Luca, if I just turn to you, obviously, it's been a pleasure working with you, and we wish you all the best in the next role. There's plenty of debate in the market right now about input costs and commodity prices, and the impact that will have on gross margins. Historically, you do guide gross margins up 50 basis points sequentially, which you just told us about for the December quarter. So, can you maybe just help us understand your view of component prices and broadly whether you still see those as tailwinds to gross margins and how sustainable that tailwind might be, or whether that should become a headwind as we look forward? Thanks so much.
-
-Luca Maestri
-
-Yes, Erik. As you know, our gross margins are a factor of many, many variables. Commodities, of course, are important. They're not the only factor. But specifically on commodities, I can tell you that both for the September quarter and what we expect for the December quarter, most commodities are going to move down in price, while NAND and DRAM increased during the course of the September quarter and we expect them to increase during the December quarter.
-
-We are very pleased with the level of gross margins that we've reported during the course of the year. The entire fiscal year of '24, they're really, for our company, record levels of gross margin, and obviously guiding to 46% to 47% for the December quarter with all the new technologies that we've included in the products, with all the new features that Tim has talked about, a lot of new products across the board, I think it's a very good sign.
-
-Erik Woodring
-
-Great. Thanks so much, Luca.
+Yes. Hi, Erik. I would say emerging markets are -- have been a very key area of strength for us. If you look at it, India grew -- in revenue terms grew strong double digits in the December quarter and hit a quarter revenue record. The other emerging markets like Indonesia also hit a quarterly record. And we had several regions, with records from Latin America to the Middle East. And that theme has been pretty consistent across the other quarters that -- of the year as well. And so, emerging markets, very, very important. And I feel like we are doing a great job there.
 
 Suhasini Chandramouli
 
-Thank you, Erik. Can we have the next question, please?
+Thanks, Erik. Operator, can we have the next question, please?
 
 Operator
 
-Our next question is from Ben Reitzes from Melius. Please go ahead.
+Our next question is from Mike Ng with Goldman Sachs. Please go ahead.
 
-Ben Reitzes
+Mike Ng
 
-Hey, thanks a lot. And I'll echo those comments about Luca. Miss you, and good luck. And my question is with regard to iPhone again, and with regard to the fourth quarter, is my first question -- or sorry, the fourth calendar quarter, your first quarter. When you look at mid- to low-single-digit revenue growth, do you expect the iPhone to grow faster? And what are you thinking about in the answer to that question with regard to China, which keeps improving each quarter? Thanks very much. And then, I have just a follow-up. Thanks.
+Hey, good afternoon. I just have two questions as well. First, on Services. Just on the outlook for the March quarter for a similar double-digit growth rate as of December quarter. I'm just wondering why not -- why won't it be potentially faster, given that the December quarter obviously had a headwind from the extra week comp, and I'd also think that some of the pricing uplifts on select Apple One services that were implemented last winter should help in the March quarter? Any additional thoughts there would be great in terms of what some of your assumptions are. And then, I have a quick follow-up.
 
 Luca Maestri
 
-Ben, we are not providing that level of color today. Yes, we've said that we expect total company revenue to grow low- to mid-single digits. Keep in mind, Apple Intelligence, as Tim said, is rolling out over time, both features and languages. And we just had a number of exciting launches just this week from the Apple Intelligence feature to the new Mac. So, we leave it at that. We've given you the total for the company and some pretty good direction on Services, which we expect to continue to grow at a similar rate than what we've seen in fiscal '24.
+Yes. We'll see how the quarter develops. I would point to two things. One is the fact that we mentioned that we expect a couple of points of negative foreign exchange in the March quarter, and foreign exchange was essentially flat for us in the December quarter. So, you've got a bit of a headwind there. And then, when you look at our other progression of our Services business over the last few quarters, the compares for March are slightly more difficult than the compares for December.
 
-Ben Reitzes
+Mike Ng
 
-Great. Thanks, Luca. Hey, Tim, I wanted to ask you, I mean, you guys are well aware a lot of the noise out there, people chattering about builds, lead times, and you guys are guiding for mid- to low-single-digit growth. That certainly doesn't sound like alarm bells here, vis-a-vis what you guys must be hearing. And I know you guys are just running your business and doing the best you can, but you have a lot of perspective now, Tim. What are people missing here? And it certainly just sounds like -- you guys are typically conservative. That guide for revenue is certainly sounds like [this guy is certainly not falling] (ph), and you have a pretty good product cycle. So, what do you think people are missing and what are you excited about? Thanks so much, Tim.
-
-Tim Cook
-
-Ben, I could not be more excited about Apple Intelligence and the rollout that we've got in front of us. I'm on the -- I'm obviously on future releases as well, working on it and it's changing my daily life. I'm super excited about the health features that we're rolling out. If the number of emails I'm already getting from customers that have taken a hearing test and are using their AirPods Pro 2 as a hearing aid, are just -- are staggering and heartwarming to read. I'm also thrilled about sleep apnea and the notification there that we'll have through the watch. This week is a very exciting week for us because we just rolled out three days -- three launches of different, Macs and desktops and laptops. And so, we have a lot of things on the docket and it's definitely the strongest lineup we've ever had going into the holiday season. In terms of the noise, I tune it out, because if not, it would just be, deafening. And so that that's what I do, I can't speak for everybody else, but that's what I do.
-
-Ben Reitzes
-
-Thanks a lot, Tim. Appreciate it.
+Great. Thank you, Luca. And then my second question. It was very interesting to hear about some of the enterprise customer investments into Vision Pro. Could you maybe just talk about some of the efforts to support Vision Pro developer ecosystem. And it was also good to hear about the potential upcoming announcements on AI. So any thoughts there would also be helpful. Thank you.
 
 Tim Cook
 
-Thanks, Ben.
+Yeah. Hi. It's -- we are incredibly excited about the Enterprise opportunities with Vision Pro. I've seen several demos from different companies. Luca mentioned several in his opening remarks, but Walmart has a very cool merchandising app. There are firms that are doing collaboration -- design collaboration apps. There are field service applications. Really all over the map, there are applications that are for control center, command center kind of things. SAP has really gotten behind it and, of course, SAP is in so many of companies. I think there will be a great opportunity for us in Enterprise, and we couldn't be more excited about where things are right now.
+
+We are obviously looking forward to tomorrow. This has been multiple years of efforts from so many people across Apple. And really, it took a whole of company effort to bring it to this far. In terms of generative AI, which, I'd guess, is your focus, we have a lot of work going on internally as I've alluded to before. Our MO, if you will, has always been to do work and then talk about work and not to get out in front of ourselves. And so, we're going to hold that to this as well. But we've got some things that we are incredibly excited about that we'll be talking about later this year.
+
+Mike Ng
+
+Wonderful. Thank you, Tim.
+
+Tim Cook
+
+Yes.
 
 Suhasini Chandramouli
 
-Thank you, Ben. Can we have the next question, please?
-
-Operator
-
-Our next question is from Amit Daryanani with Evercore. Please go ahead.
-
-Amit Daryanani
-
-Good afternoon. Thanks for taking my questions. I have two as well. And Luca, best of luck in the future. It's been a pleasure working with you. I guess the first one I have is, away from iPhones, on the Services side, you're adding $100 billion run rate with Services today, which is a phenomenal achievement by itself. As you look at the Services portfolio today, can you just talk about how much of this business do you think is reoccurring versus transactional? And are the growth rates different between the subscription portfolio over here versus transactional portfolio?
-
-Luca Maestri
-
-Yes, Amit, I'll take this one. Yes, we are, first of all, very, very happy with -- it's an important milestone. Of course, we've got to a run rate of $100 billion. You look back just a few years ago, and the growth has been phenomenal. We're very pleased. We've got a very diversified portfolio of services. And over the years, the amount that is recurring in nature has grown and is growing faster than the transactional piece. We have well over 1 billion paid subscriptions on our platform right now between our own services and third-party services. That continues to grow strong double-digits. So, we feel very, very good. And, essentially, to your question, yes, the recurring portion is growing faster than the transactional one.
-
-Amit Daryanani
-
-Got it. If I can just follow-up, if I look at the growth rates across the different geographies, there's always concern around China when it comes to iPhone demand, I feel, but the performance in September looks fairly good. I wonder if you just touch on, what are you seeing from a demand perspective in China? If the recent stimulus plan in China could essentially be a catalyst for iPhone? And then, EMEA really stood out with double-digit growth. Maybe you can just flush that out as well for us. Thank you.
-
-Tim Cook
-
-Yeah, I'll take the China question. If you look at how we did for the quarter, we were relatively flat year-over-year. And a key component of that improvement relative to the year-over-year performance that we had been achieving is that there was a sequential improvement in foreign exchange. And so that helped us out. As you know, it's been a headwind that we've been reporting for a period of time.
-
-And -- but the other parts that are -- what else is going on there is that our installed base of the active devices reached an all-time high. We had the top two selling, smartphones in Urban China according to Kantar. The level of new customers that we have buying the products like Mac and iPad are well over 50%. Watch is over three quarters that are new to the product. And so, there's several positive signs there.
-
-In terms of the stimulus, it's a clear focus of the team there, but I'm not an economist and don't want to ad lib on the effect of it.
-
-Luca Maestri
-
-On the Europe side, Amit, a number of things. As you see from our results during the quarter, Europe grew double-digits, 11%, and really, it was really good growth across the board, the different segments. They all did well. Keep in mind, our definition of Europe in our segment reporting includes a number of emerging markets, like Turkey, where we've grown very strongly, the Middle East. Tim mentioned a number of records in Saudi, in UAE, and we also include India where we set an all-time revenue record during the September quarter. But I have to say also Western Europe grew nicely. So, we've seen very good results for us in the entire segment.
-
-Amit Daryanani
-
-Great. Thank you very much.
-
-Suhasini Chandramouli
-
-Thanks, Amit. Can we have the next question, please?
-
-Operator
-
-Our next question is from David Vogt with UBS. Please go ahead.
-
-David Vogt
-
-Great. Thanks everyone for taking my question, and congratulations, Luca. I know Luca, and I know Tim, you don't want to give a lot of granularity, but if I just try to pull together your comments about what the demand environment looks like, are we to assume based on sort of the commentary that there is a risk that maybe the product revenue portfolio could be down in the December quarter if I take your numbers at face value? And if that's the risk, is that more iPhone-related, Mac-related, given the strength that you've seen in iPad related? Just trying to get a handle on kind of what potentially is giving you that degree of, I don't want to say caution, but maybe balanced for you going into the December quarter. And then, I have a follow-up.
-
-Luca Maestri
-
-As I said, David, we're not providing that level of color. We're giving you some data on services. I would repeat what I said earlier. We're very early in the cycle, very early in the cycle with a lot of new products and features that that we are launching. And we're very excited about them, but it's early. And the Apple Intelligence rollout is going to happen over time, not across the world as normally we do with software releases.
-
-David Vogt
-
-Right. Okay. So maybe a follow-up for, Tim. When you think about to Luca's point about the rollout being staged over the next several quarters across the world, do you think that has any impact on sort of the normal historical demand cadence across different regions? So, should we see something different, let's say, in the December quarter, the March quarter, the June quarter, et cetera, relative to history, given the timing of the rollout and where customers are probably waiting for the devices to be enabled to have the operating system? Would just love to kind of get your perspective on how we think about the demand cadence, how it might be different than maybe historically? Thank you.
-
-Tim Cook
-
-Yeah, David. It's clearly, as you point out, a different cadence, if you will, than we would normally do. As we talked about at WWDC, we wanted to give a comprehensive vision of Apple Intelligence, and we said then that it would rollout over time. And we're right on the, what we said, at WWDC, and so we're executing well.
-
-In terms of the demand curve, I would just say that what we believe here is that it's a compelling reason for upgrading. And, it's -- that's both my personal experience and feedback that I'm getting and so we'll see. We're not projecting, beyond the current quarter obviously. We just don't do that.
-
-David Vogt
-
-Great. Thanks, Tim, and best of luck, Luca.
-
-Luca Maestri
-
-Thank you very much.
-
-Suhasini Chandramouli
-
-Thank you, David. We'll take the next question, please.
+Thank you, Mike. Operator, can we have the next question please?
 
 Operator
 
@@ -299,155 +197,187 @@ Our next question is from Wamsi Mohan with Bank of America. Please go ahead.
 
 Wamsi Mohan
 
-Yes, thank you so much. Luca, we will miss you on these calls. Tim, maybe for you, as you think about this staggered rollout of Apple Intelligence, can you help us think through potentially how much of the global installed base of phones will have access to Apple Intelligence in their native language, in their region within the next year or maybe in the next two years? And what are some of the gating factors in the rollout? And I have a follow-up.
+Yes, thank you so much. I have two questions as well. First on iPhone. There have been concerns around replacement cycles lengthening, China competition intensifying, and you still beat iPhone revenues despite the weaker performance in China. Curious how you're thinking about the 15 cycle overall, given what you saw in the December quarter. And I've a follow-up.
 
 Tim Cook
 
-If you look at our schedule, we started in the -- with US English, that started on Monday. There's another release coming that adds additional features that I had referenced in December in not only US English but also localized for UK, Australia, Canada, Ireland, and New Zealand. And then, we will add more languages in April. We haven't set the specifics yet in terms of the languages, but we'll add more in April and then more as we step through the year. And so, we're moving just as fast as possible while ensuring quality. That's what we're doing.
+Hi, it's Tim. The -- we were up 6%, as we mentioned in the opening remarks. We are happy with that performance. Underneath there, we had really strong performance in several parts of the world with all-time records in Europe and rest of Asia-Pacific. As I mentioned earlier, we did particularly well in several emerging markets from Latin America to the Middle East. And we set December quarter records in India and Indonesia. And so, really some spectacular broad-based reactions to iPhone.
+
+We also importantly set an all-time record worldwide for iPhone upgraders. And the installed base hit a new all-time high consistent with the -- our overall devices. And so, there's lot of good things. Luca mentioned in his opening comments that iPhones were four out of the top five smartphone models in the U.S. and Japan and four out of the top six in urban China and the UK, and all top five in Australia, and the customer satisfaction level for iPhone 15 hit 99%.
+
+If you look at iPhone 15 since the announcement of it and shipment in September, so this is including some of Q4 and you compare that to iPhone 14 over the same period of time, iPhone 15 is outselling iPhone 14. And so, we feel very good about that, and the upgraders hitting a record is particularly exciting for us.
 
 Wamsi Mohan
 
-Okay. Thanks, Tim.
+Great. Thank you, Tim. And as a follow-up, obviously, you're just launching the Vision Pro and it's an entirely new category. It's a price point that's a much higher starting price point relative to most of your other, probably over the last decade, product introductions, but just wondering how would you measure the success of Vision Pro over time and which Apple products adoption curve would you look at as potentially the most similar? And is there a way in which we could think Vision Pro could eclipse maybe something like the iPad in revenue over time. Thank you.
 
 Tim Cook
 
-Yeah.
+You know, each product has its own journey. And so, I wouldn't want to compare it to any one in particular. I would just say we couldn't be more excited. Internally, we've got an incredible amount of excitement from developers and from customers that can't wait till tomorrow to pick up their units. And we are incredibly proud to be able to demo the unit in so many of our stores in the U.S. starting tomorrow for people that are -- that want to check it out. And so, we'll see and report the results of it in the Wearables category that you're familiar with.
+
+I think that if you look at it from a price point of view, there's an incredible amount of technology that's packed into the product. There's 5,000 patents in the product and it's, of course, built on many innovations that Apple has spent multiple years on, from silicon to displays and significant AI and machine learning. All the hand tracking, the room mapping, all of this stuff is driven by AI. And so, we're incredibly excited about it. I can't wait to be in the store for tomorrow and see the reaction myself.
 
 Wamsi Mohan
 
-And then, as a follow-up, maybe this is a little premature, but how is Apple at a high level prepared to potentially deal with any tariffs that might come post the selection cycle? And if not exactly how, perhaps you can just help investors think about some of the things Apple has done already to try to insulate from some of these impacts, potential impacts?
-
-Tim Cook
-
-I wouldn't want to speculate about those sorts of things. And so, I'm going to punt on that one.
-
-Wamsi Mohan
-
-Okay. Thank you, Tim.
-
-Tim Cook
-
-Yeah. Thank you.
+Thank you so much, Tim.
 
 Suhasini Chandramouli
 
-Thank you, Wamsi. May we have the next question, please?
+Thanks, Wamsi. Operator, we'll take the next question please.
 
 Operator
 
-Our next question is from Krish Sankar from TD Cowen. Please go ahead.
+Our next question is from Amit Daryanani with Evercore. Please go ahead.
 
-Krish Sankar
+Amit Daryanani
 
-Yeah. Hi, thanks for taking my question. And again, thanks Luca for all your help with analyts and investors. My first question is on R&D. Given how much your tech peers are spending on AI, does this new era of Apple Intelligence actually require Apple to invest more in R&D beyond your current 7% to 8% of sales to capture this opportunity? And then, I had a follow-up.
+Good afternoon. I have two as well. I guess, first off, I was hoping you could talk a little bit about what you're seeing in China right now. I think from a geographic basis, one of the few places that was down double-digits, while everything else was growing. So, I'm hoping you spend a bit of time discussing what are you seeing there from a competitive perspective and more importantly, from a demand perspective in China?
+
+Tim Cook
+
+Yeah. If you look at iPhone in China Mainland, which I think has been the focus of a lot of interest, and you look at it in constant currency, so more of an operational view, we were down mid-single digits on iPhone. And so, it was the other things that drove the larger contraction year-over-year. On the good news side, we had solid growth on upgraders year-over-year in Mainland China and we had four of the top six smartphone models in urban China. Also, IDC just put out a note, that you may have seen, that we were the top brand in -- for the full year and for the December quarter. And so, there's some good news along with – obviously, we'd prefer not to [contract] (ph).
+
+Amit Daryanani
+
+Fair enough. And then, as a follow-up, you folks have implemented a fair bit of changes around the App Store in Europe post the DMA implementation there. Can you just touch on what are some of the key updates? And then, Luca, as a net of it all, do you see it having any significant impact financially to your services or a broader Apple P&L statement? Thank you.
+
+Tim Cook
+
+Yes. You know, the -- let me try to answer a little bit of both and then Luca can add some comments to it. We announced a number of changes last week in Europe that would be in effect beginning in March. So, the last month of the first calendar quarter, the second fiscal quarter. Those are -- some of the things that we announced include alternate billing opportunities, alternate app stores, our marketplaces, if you will. We're also opening NFC for new capabilities for banking and wallet apps. And so, these are some of the things we announced.
+
+The -- if you think about what we've done over the years is, we've really majored on privacy, security, and usability. And we've tried our best to get as close to the past in terms of the things that are -- that people love about our ecosystem as we can, but we are going to fall short of providing the maximum amount that we could supply, because we need to comply with the regulation. And so, in terms of predicting the choices that developers and users will make, it's very difficult to do that with precision. And so, I will see what happens in March.
 
 Luca Maestri
 
-Krish, as you know, we've been investing heavily in R&D over the last several years. Our R&D growth has been significant during the last several years. And obviously, as we move through the course of fiscal '24, we've also reallocated some of the existing resources to this new technology to AI. And so, the level of intensity that we're putting into AI has increased a lot, and you maybe don't see the full extent of it because we've also had some internal reallocation of the base of engineering resources that we have within the company.
+Yes, Amit. As Tim said, these are changes that we're going to be implementing in March. A lot will depend on the choices that will be made. Just to keep it in context, the changes applied to the EU market, which represents roughly 7% of our global app store revenue.
 
-Krish Sankar
+Amit Daryanani
 
-Got it. Thanks for that, Luca. And then, another quick follow-up. I understand Apple Intelligence is a feature on the phone today, but do you think that, in the future, it could potentially have or benefit the services growth business, or is that too -- are these too bifurcated to even make a call on the [indiscernible]? Thank you.
-
-Tim Cook
-
-I think, just to keep it in mind, Apple Intelligence is also available on the Mac for the M-series products and on certain models of iPad, and in addition to the phone. And so, it's on all three. You're quite -- what was your follow-on question?
-
-Krish Sankar
-
-Tim, it does on -- can the Apple Intelligence actually help the Services growth rate?
-
-Tim Cook
-
-Keep in mind that we were have released a lot of APIs and developers will be taking advantage of those APIs. That release has occurred as well and of course more are coming. And so I, definitely believe that a lot of developers will be taking advantage of Apple Intelligence in a big way. And what that does to Services, I'll not forecast, but I would say that from an ecosystem point of view, I think it will be great for the user and the user experience.
-
-Krish Sankar
-
-Got it. Thanks, Tim.
-
-Tim Cook
-
-Yeah.
+Perfect. That's a really good perspective to have. Thank you very much.
 
 Suhasini Chandramouli
 
-All right. Thank you, Krish. Can we have the next question, please?
+Thank you, Amit. Operator, can we have the next question please?
 
 Operator
 
-Our next question comes from Samik Chatterjee with JPMorgan. Please go ahead.
+Our next question is from Aaron Rakers with Wells Fargo. Please go ahead.
 
-Samik Chatterjee
+Aaron Rakers
 
-Great. Thank you. Thanks for taking my questions. And Luca, congrats on the new role and pleasure working with you these years. I guess, if I could, for my first one, start with mix on the iPhone side? And what I'm really curious about if you have any thoughts given that Apple Intelligence is now going to be a consistent feature set across all the four sort of iPhones on the iPhone 16 series that you launched and going back to iPhone 15 Pro and Pro Max. Are you seeing any change in behavior from a consumer perspective in terms of which sort of on the mix front within the iPhone series where consumer adoption is given that there's more consistency of the features when it comes to Apple Intelligence across the board? And I have a follow-up. Thank you.
-
-Tim Cook
-
-It's tough to answer your question, because we've been constrained in October on the Pro and the Pro Max. And so, it's really too early in the curve to call the precise mix on the consumer versus the Pro. So, we'll see.
-
-Samik Chatterjee
-
-Okay. And for my follow-up, Tim, during the quarter I think over the last 90 days, we had the quotes come out in relation to the DOJ relative to the Google sort of revenue sharing agreement that you have with them. How do you sort of look at it going forward in terms of emphasizing the role that Apple has in that ecosystem with Safari and sort of the potential outcomes that you're looking at? Thank you.
-
-Tim Cook
-
-I don't want to speculate on that from a legal point of view. It's an ongoing case, and I will save that for another day.
-
-Samik Chatterjee
-
-Okay. Thank you. I'll leave it there. Thank you.
-
-Suhasini Chandramouli
-
-All right. Thank you, Samik. Operator, may we have the next question, please?
-
-Operator
-
-Our next question comes from Richard Kramer with Arete Research. Please go ahead.
-
-Richard Kramer
-
-Thanks very much. My first one, Tim, I'd like to ask about some of the components in Services where despite your installed base, some parts of the Apple One bundle, like Music and News and Arcade and Fitness, are not obviously the market-leading offerings. And maybe what might change that and what other services could you call out as growing faster, having wider -- widening addressable markets like we've seen in pay or advertising?
-
-Tim Cook
-
-The way that I view it is that we have lots of opportunity in all of those. And so, there's lots of customers to try to convince to take advantage of it, and we're going to continue investing in the Services and adding new features and -- whether it's News+ or Music or Arcade, that's what we're going to do.
-
-Keep in mind that for us, we're more focused on being best than being most. And so, in some cases, not in every case, some of the services that you -- the majority of the services that you mentioned are not cross platform. We make them for our customers only and so that in some cases changes the person who's going to sell the most perhaps, but that's -- our objective is to make the best.
-
-Richard Kramer
-
-Okay, thanks. And then, Luca, one piece of unfinished business was your pledge to get to a net-neutral cash position. And over the last two years, you stayed around $50 billion of net cash. We've clearly seen instances in the past where elevated marketing spend or other programs brought increases in market share. I guess my question looking back on your tenure is, at your scale now of $57 billion of OpEx, do you still see incremental ways to put that cash to work in the business? Or will we just continue to see increased shareholder returns?
+Yes. Thanks for taking the question. I have two as well as you would imagine. I guess, the first question I wanted to just ask maybe unpack a little bit more, just remarkable trends that we're seeing in your product gross margin specifically. So, I'm curious as we look forward, I guess on this last quarter, where there any kind of benefits you're seeing from like just the purchase component, obligations that you've put in place, let's say, a year ago, and that flowing through. And how are you thinking about the component pricing environment as we think about that gross margin into the March quarter and looking-forward?
 
 Luca Maestri
 
-Well, obviously, as you've seen, our OpEx has gone up over the years. We've also seen at the same time a significant expansion in gross margin, maybe to a level that I would have not expected a few years ago, but we've done a very good job on a number of fronts. And so, I would say we -- when we plan -- every time we plan for the upcoming year, we think about all the different areas where we can deploy our resources and we make them available to grow the business. I think we've done very well over the long term and -- but our fundamental philosophy is to look after the business first. And then, if we have excess cash, we will continue to return it to our shareholders and the plan has worked quite well so far.
+Yes. On the product side and then maybe I'll make a comment in total for the company. On the product side, our gross margins increased sequentially 280 basis points. So, obviously, a very significant increase. I would say the two primary components of the increase are a favorable mix. Of course, iPhone did very well. We did very well with our high-end models. And leverage, of course, it's the biggest quarter of the year for us and so we get the leverage effect. We had a partial offset, negative impact from foreign exchange. But net-net, obviously, very significant improvement. And we had very similar dynamics on the Services side where we increased sequentially 190 basis points, also, in this case, due to a more favorable mix. And so, the combined effect of the two businesses gave us the 45.9% at the total company level, which is up 70% sequentially.
 
-Richard Kramer
+You've heard from my prepared remarks that we are guiding total company gross margin to 46% to 47%, which is an additional expansion of margins compared to the already very strong results of the December quarter.
 
-Okay. Thank you very much.
+Aaron Rakers
 
-Suhasini Chandramouli
+Okay. And then, the second question I was just going to ask. Tim, you alluded to kind of your excitement around generative AI and some announcements that we should think about maybe later this year. One of the things that stands out for me is that, your capital expenditures has actually come down this last year. I'm curious as you look to lean in more to generative AI, is there something we should consider about the CapEx intensity at Apple to make investments to really set the table for generative AI, kind of platform as we move forward? Just given some of the things that we've seen from some other large tech companies.
 
-Thank you, Richard. We'll take our last question, please, operator?
+Luca Maestri
 
-Operator
+I'll take the question, Aaron. We've always said, we will never underinvest in the business. So, we are making all the investments that are necessary throughout our product development, software development, services development. And so, we will continue to invest in every area of the business and at the appropriate level. And we're very excited about what's in store for us for the rest of the year.
 
-Our last question comes from Atif Malik with Citi. Please go ahead.
+Aaron Rakers
 
-Atif Malik
-
-Thank you for squeezing me in. It seems to us that the spec differentiation between iPhone 16 Pro and base model isn't as big as prior years. All iPhones have new A18, A18 Pro chips and there wasn't an increase in ASPs versus last year. Can you share with us if there is a shift in your strategy in terms of...
-
-Operator
-
-Unfortunately, Mr. Malik's line has dropped.
+Thank you.
 
 Suhasini Chandramouli
 
-All right. Sorry, Atif. We'll connect offline. Thank you, everybody. A replay of today's call will be available for two weeks on Apple Podcasts as a webcast on apple.com/investor and via telephone. The number for the telephone replay is 866-583-1035. Please enter confirmation code 0331536 followed by the pound sign. These replays will be available by approximately 5 pm Pacific today. Members of the press with additional questions can contact Josh Rosenstock at 408-862-1142. And financial analysts can contact me, Suhasini Chandramouli, with additional questions at 408-974-3123
+Thanks, Aaron. Operator, can we have the next question please?
 
-Thank you again for joining us.
+Operator
+
+Our next question is from Krish Sankar with TD Cowen. Please go ahead.
+
+Krish Sankar
+
+Yes. Hi. Thanks for taking my question. I have two of them. First one for Luca, a clarification on a question. The $5 billion impact in March quarter, is that for product revenue or is that total company revenue. And along the same part, you highlighted the strong gross margins. And I understand last year, some of the commodity costs were deflationary, buy looks like it’s going to be inflationary right now. And also you've done some of the Mac conversions that -- the silicon conversions. So I'm just trying to figure out how much juice is there more to squeeze on the gross margin side? And then I'll follow up for Tim.
+
+Luca Maestri
+
+Yes. The -- so the first part of the question was around -- oh, the $5 billion. The $5 billion, as I mentioned, a year ago we had this disruption of supply on iPhone 14 Pro and Pro Max because of the factory shutdown due to the COVID-19 situation. And so, essentially there was pent up demand as we exited December quarter, they got fulfilled and we also did the channel fill associated with it during the March quarter. So close to $5 billion that I mentioned is entirely related to iPhone.
+
+On the gross margin side, obviously, we are at very high levels of gross margin. And I'll repeat what I said before, we've had good expansion over the last few quarters and now we are guiding to 46% to 47% and that takes into account everything that is going on, which is, the commodity environment, which is the foreign exchange situation, and obviously the product and services mix. And the outcome of this is the guidance, which obviously is very strong and we're very happy with it.
+
+Krish Sankar
+
+Thanks a lot, Luca. And then I have a follow-up for Tim. Tim, it was very interesting to hear your comments on enterprise. And historically, Apple has been a consumer centric company. And now with Vision Pro, Mac, it's sort of penetrating more into the enterprise. I'm kind of curious how to think about Apple of the future? Would it still be consumer centric or do you think it's going to be more enterprise focused also as we get into the future? Thank you very much.
+
+Tim Cook
+
+We've really concluded that we can do both. That if you look at it, what has happened over the last several years is that, employees are in a position in many companies to choose their own technology that is the best for them. And so, it sort of took some of the central command from the traditional company and decentralized the decision-making. That is a huge advantage for Apple, because there's a lot of people out there that want to use a Mac. They're using a Mac at home. They'd like to use one in the office as well. iPad has also benefited from that.
+
+Vision Pro, it's -- when you look at the ton of use cases, I mean, we're starting with a million apps and 600 plus that are -- have been designed particularly for Vision Pro. When I look at what is coming out of Enterprise, it's some of the most innovative things I've seen come out of Enterprise in a long time. And so, I think there's a like there is for the Mac and iPad, and of course, iPhone has been in enterprise since the early days of iPhone. I think there's a nice opportunity there for Vision Pro as well.
+
+Krish Sankar
+
+Great. Thanks a lot Tim. Very interesting to hear. Thank you.
+
+Suhasini Chandramouli
+
+Thank you, Krish. Operator, can we have the next question, please?
+
+Operator
+
+Our next question is from David Vogt with UBS. Please go ahead.
+
+David Vogt
+
+Great. Thanks guys. And I have two questions as well. So, Tim and Luke, I appreciate the strength in the emerging markets like India and the other names that you kind of listed on the call, but can you maybe spend some time on the Americas? Obviously, that was relatively flat, you touched on China, but what are you seeing in that market from the carriers here in the States? And is the sales cycle elongating or the replacement cycle elongating? And in your view what has to change to kind of maybe re-accelerate that business in the America's, particular in the iPhone business? And then on sort of -- I just want to make sure I understand sort of the guide. So when I think about the $5 billion pull forward last year in the March quarter from a channel fill perspective, even if I back it out last quarter or I back it up this quarter, the March quarter, this would be sort of the softest quarter since the COVID pandemic. Obviously, I know the Americas as I just touched on is a little bit softer than China, which you cleared up earlier. But how do you think about the differences in sort of the macro conditions by region? And again, do you have a sense for are we nearing a trough from a macro demand perspective or how long do you think this particular weakness persists? Thanks.
+
+Tim Cook
+
+Let me take the first part of your question about America. If you look at the U.S., which obviously drives the vast, vast majority of the revenue in America, we grew in the December quarter from an iPhone business point of view and the install base hit an all-time high. If you look at the replacement cycle, it's very difficult to measure the replacement cycle at any given point. And so, what we focus on internally a lot is the active install base and the -- obviously, the sales over usually a cycle and we feel better about those things.
+
+If you look at the -- who's selling what in the U.S., the iPhone is four out of the top five selling smartphones in the US. And of course, the customer satisfaction in the U.S. as we alluded to earlier is 99%. So we feel very, very good about what our position is in the U.S.
+
+Luca Maestri
+
+And I would add to that, keep in mind, obviously, the extra week that we had a year ago that obviously makes the compare more -- a bit distorted. On the March quarter guide, I would point to you that, obviously, the COVID years had a lot of, let's say, turmoil in it, a lot of volatility that typically you wouldn't see. If you look at our sequential progression from December to March this year versus pre-COVID versus like a more normal environment, it's actually stronger than those years.
+
+David Vogt
+
+Got it. Thanks, guys.
+
+Suhasini Chandramouli
+
+Thank you, David. Operator, can we have the last question, please?
+
+Operator
+
+Thank you. Our last question is from Ben Reitzes with Melius Research. Please go ahead.
+
+Ben Reitzes
+
+Yes. Hi. Thanks. Appreciate it. Two questions, if I can sneak them in. Just wanted to clarify on China. Tim, I think last quarter you still thought it was a growth market. Obviously, there's some concerns with the -- recently and given what we saw in the quarter, is there something that we can kind of point to where you feel that that market can resume growth in the future? And I'm wondering if you're still upbeat about that prospect. And then I just have a quick follow up.
+
+Tim Cook
+
+Ben, we've been in China for 30 years. And I remain very optimistic about China over the long term. And I feel good about hitting a new install base number, high watermark and very good about the growth in upgraders year-over-year during the quarter.
+
+Ben Reitzes
+
+Great. Thanks Tim. And just in terms of AI, I know you're not going to talk about your plans, but do you believe -- are you a believer in the edge thesis that AI and processing on smartphones and devices like yours is going to have a huge role in AI and AI apps and that it's something you guys can take advantage of.
+
+Tim Cook
+
+Let me just say that, I think there's a huge opportunity for Apple with GenAI and AI. And without getting into to more details and getting out in front of myself.
+
+Ben Reitzes
+
+Thanks Tim.
+
+Tim Cook
+
+Yes, Thanks, Ben.
+
+Suhasini Chandramouli
+
+All right. Thank you Ben. A replay of today's call will be available for two weeks on Apple Podcasts, as a webcast on apple.com/investor and via telephone. The number for the telephone replay is 866-583-1035. Please enter confirmation code 0106234 followed by the pound sign. These replays will be available by approximately 5 p.m. Pacific time today. Members of the press with additional questions can contact Josh Rosenstock at 408-862-1142 and financial analysts can contact me, Suhasini Chandramouli, with additional questions at 408-974-3123. Thanks again for joining us.
 
 Operator
 

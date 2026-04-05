@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 import sys
-from sklearn.linear_model import LogisticRegression, Lasso
+from sklearn.linear_model import LogisticRegression, Lasso, Ridge
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import (accuracy_score, precision_score, recall_score,
@@ -269,21 +269,26 @@ class BaselineModels:
         lr = self.eval_clf(
             LogisticRegression(
                 C=0.1, max_iter=1000,
-                class_weight='balanced',   # handles 67/33 imbalance
+                class_weight='balanced',
                 random_state=42
             ),
             X_tr, y_tr_clf, X_te, y_te_clf
         )
         rf = self.eval_clf(
             RandomForestClassifier(
-                n_estimators=100, max_depth=6,
-                class_weight='balanced',   # handles 67/33 imbalance
+                n_estimators=100,
+                max_depth=4,           # was 6 — too deep for 558 samples, RF was scoring below 50%
+                class_weight='balanced',
                 random_state=42, n_jobs=-1
             ),
             X_tr, y_tr_clf, X_te, y_te_clf
         )
         reg = self.eval_reg(
-            Lasso(alpha=0.001, max_iter=5000),
+            # Switched from Lasso to Ridge — Lasso was collapsing to mean prediction
+            # (all three feature sets produced identical RMSE/R²/Direction = dead giveaway).
+            # Ridge shrinks coefficients without zeroing them — works better for
+            # weak-signal regression on 558 samples.
+            Ridge(alpha=1.0),
             X_tr, y_tr_reg, X_te, y_te_reg
         )
 
@@ -293,7 +298,7 @@ class BaselineModels:
             print(f"      Accuracy: {m['accuracy']:.1%}")
             print(f"      F1:       {m['f1']:.1%}")
             print()
-        print(f"   Lasso Regression:")
+        print(f"   Ridge Regression:")
         print(f"      RMSE:      {reg['rmse']:.4f}")
         print(f"      R²:        {reg['r2']:.4f}")
         print(f"      Direction: {reg['direction']:.1%}")
@@ -304,7 +309,7 @@ class BaselineModels:
             'n_features':          len(cols),
             'logistic_regression': lr,
             'random_forest':       rf,
-            'lasso_regression':    reg,
+            'ridge_regression':    reg,
         }
         self.all_results[result_key] = result
         return result
@@ -360,7 +365,7 @@ class BaselineModels:
         for key, label in label_map.items():
             if key not in self.all_results:
                 continue
-            r = self.all_results[key]['lasso_regression']
+            r = self.all_results[key]['ridge_regression']
             print(f"{label:<20} {r['rmse']:<12.4f} {r['r2']:<12.4f} {r['direction']:.1%}")
         print()
 
@@ -392,7 +397,7 @@ class BaselineModels:
                                         if k != 'confusion_matrix'},
                 'random_forest':       {k: v for k, v in r['random_forest'].items()
                                         if k != 'confusion_matrix'},
-                'lasso_regression':    r['lasso_regression'],
+                'ridge_regression':    r['ridge_regression'],
             }
         print()
 

@@ -76,7 +76,22 @@ class ModelValidator:
         print(f"✅ Loaded dataset: {len(full_df)} records")
         print(f"✅ Features available: {len(feature_info['feature_columns'])}")
         print()
-        
+
+        # ── Distribution-shift diagnostic ────────────────────────────────────
+        split_idx = int(len(full_df) * 0.7)
+        train_pos = full_df.iloc[:split_idx]['label_binary'].mean()
+        test_pos  = full_df.iloc[split_idx:]['label_binary'].mean()
+        print("⚠️  TRAIN/TEST DISTRIBUTION CHECK:")
+        print(f"   Train positive rate : {train_pos:.1%}")
+        print(f"   Test  positive rate : {test_pos:.1%}")
+        if abs(train_pos - test_pos) > 0.10:
+            print("   ⚠️  > 10 pp gap — test period may have a market-regime bias.")
+            print("      AUC numbers will reflect this shift. Document in report.")
+        else:
+            print("   ✅ Distribution shift is within acceptable range.")
+        print()
+        # ─────────────────────────────────────────────────────────────────────
+
         return full_df, feature_info
     
     def get_feature_sets(self, feature_info, df):
@@ -112,12 +127,21 @@ class ModelValidator:
         financial = sorted([c for c in all_cols
                           if c.startswith('financial_') or c.startswith('fin_')])
 
-        # Sentiment/NLP features
+        # Sentiment/NLP features — expanded to match all Phase 3B outputs
+        # Previous version was missing avg_word_length, avg_sentence_length,
+        # uncertainty_divergence, analyst_lm_*, mgmt_lm_* — these are the
+        # top SHAP features so excluding them understated CV performance.
         sentiment = sorted([c for c in all_cols
                           if any(c.startswith(p) for p in [
                               'sentiment_', 'mgmt_sentiment_', 'analyst_sentiment_',
                               'lm_', 'mgmt_lm_', 'analyst_lm_',
-                              'word_count', 'question_count', 'lexical_diversity'])])
+                              'word_count', 'question_count', 'lexical_diversity',
+                              'avg_word_length', 'avg_sentence_length',
+                              'mgmt_avg_word_length', 'analyst_avg_word_length',
+                              'unique_words', 'char_count', 'sentence_count',
+                              'uncertainty_divergence', 'lm_sentiment_divergence',
+                              'mgmt_word_count', 'analyst_word_count',
+                          ])])
 
         # Combined (no embeddings)
         combined = sorted([c for c in all_cols if not c.startswith('embedding_')])
@@ -150,21 +174,52 @@ class ModelValidator:
         return numeric_cols
 
     def prepare_data(self, df, feature_cols):
+        """
+        Return X (float64, inf→nan), y (label_binary), and the numeric col list.
+        NaN imputation is intentionally deferred so that each CV fold can
+        fit its own median on the training split only (no future leakage).
+        """
         numeric_cols = self.get_numeric_features(df, feature_cols)
 
         X = df[numeric_cols].values.astype(np.float64)
         y = df['label_binary'].values
 
-        # cleaning stays same
+        # inf → nan (imputation happens per-fold or per train/test split below)
         X[np.isinf(X)] = np.nan
-        medians = np.nanmedian(X, axis=0)
-
-        inds = np.where(np.isnan(X))
-        X[inds] = np.take(medians, inds[1])
-
-        X = np.clip(X, -1e6, 1e6)
 
         return X, y, numeric_cols
+
+    @staticmethod
+    def _impute_and_scale(X_train, X_test):
+        """
+        1. Compute column medians on X_train only.
+        2. Fill NaN in both splits with those train medians.
+        3. Clip and StandardScale (fit on train, apply to test).
+        """
+        medians = np.nanmedian(X_train, axis=0)
+        medians = np.where(np.isnan(medians), 0.0, medians)
+
+        def _fill(X):
+            nan_mask = np.isnan(X)
+            if nan_mask.any():
+                for j in np.where(nan_mask.any(axis=0))[0]:
+                    X[nan_mask[:, j], j] = medians[j]
+            return X
+
+        X_train = _fill(X_train.copy())
+        X_test  = _fill(X_test.copy())
+
+        X_train = np.clip(X_train, -1e6, 1e6)
+        X_test  = np.clip(X_test,  -1e6, 1e6)
+
+        scaler  = StandardScaler()
+        X_train = scaler.fit_transform(X_train)
+        X_test  = scaler.transform(X_test)
+
+        X_train = np.nan_to_num(X_train, nan=0.0, posinf=0.0, neginf=0.0)
+        X_test  = np.nan_to_num(X_test,  nan=0.0, posinf=0.0, neginf=0.0)
+
+        return X_train, X_test
     
     def run_8a_time_series_cv(self, df, feature_sets):
         """
@@ -186,12 +241,21 @@ class ModelValidator:
         
         # Models to validate
         models = {
-            'Logistic Regression': LogisticRegression(C=0.1, max_iter=1000, random_state=42),
-            'Random Forest': RandomForestClassifier(n_estimators=100, max_depth=6, 
-                                                    random_state=42, n_jobs=-1),
-            'XGBoost': xgb.XGBClassifier(max_depth=6, learning_rate=0.1, n_estimators=200,
-                                        subsample=0.8, colsample_bytree=0.8,
-                                        random_state=42, n_jobs=-1)
+            'Logistic Regression': LogisticRegression(
+                C=0.1, max_iter=1000,
+                class_weight='balanced',  # FIX: train set is 43%/57% — must balance
+                random_state=42
+            ),
+            'Random Forest': RandomForestClassifier(
+                n_estimators=100, max_depth=6,
+                class_weight='balanced',  # FIX: consistent with baseline_models Phase 6
+                random_state=42, n_jobs=-1
+            ),
+            'XGBoost': xgb.XGBClassifier(
+                max_depth=6, learning_rate=0.1, n_estimators=200,
+                subsample=0.8, colsample_bytree=0.8,
+                random_state=42, n_jobs=-1
+            )
         }
         
         cv_results = {}
@@ -208,18 +272,16 @@ class ModelValidator:
                 fold_scores = []
                 
                 for fold, (train_idx, test_idx) in enumerate(tscv.split(X), 1):
-                    X_train, X_test = X[train_idx], X[test_idx]
+                    X_train, X_test = X[train_idx].copy(), X[test_idx].copy()
                     y_train, y_test = y[train_idx], y[test_idx]
-                    
-                    # Scale
-                    scaler = StandardScaler()
-                    X_train = scaler.fit_transform(X_train)
-                    X_test = scaler.transform(X_test)
-                    
+
+                    # Impute and scale — fitted on train fold only (no leakage)
+                    X_train, X_test = self._impute_and_scale(X_train, X_test)
+
                     # Train and evaluate
                     model.fit(X_train, y_train)
                     y_proba = model.predict_proba(X_test)[:, 1]
-                    
+
                     auc = roc_auc_score(y_test, y_proba)
                     fold_scores.append(auc)
                 
@@ -267,13 +329,11 @@ class ModelValidator:
         
         # Train/test split (temporal)
         split_idx = int(len(X) * 0.7)
-        X_train, X_test = X[:split_idx], X[split_idx:]
+        X_train, X_test = X[:split_idx].copy(), X[split_idx:].copy()
         y_train, y_test = y[:split_idx], y[split_idx:]
-        
-        # Scale
-        scaler = StandardScaler()
-        X_train = scaler.fit_transform(X_train)
-        X_test = scaler.transform(X_test)
+
+        # Impute and scale — fitted on train only
+        X_train, X_test = self._impute_and_scale(X_train, X_test)
         
         # Train XGBoost (best model)
         model = xgb.XGBClassifier(max_depth=6, learning_rate=0.1, n_estimators=200,
@@ -349,17 +409,15 @@ class ModelValidator:
         
         # Train/test split
         split_idx = int(len(X) * 0.7)
-        X_train, X_test = X[:split_idx], X[split_idx:]
+        X_train, X_test = X[:split_idx].copy(), X[split_idx:].copy()
         y_train, y_test = y[:split_idx], y[split_idx:]
-        
+
         # Get metadata for analysis
-        test_metadata = df.iloc[split_idx:][['ticker', 'quarter', 'abnormal_return', 
+        test_metadata = df.iloc[split_idx:][['ticker', 'quarter', 'abnormal_return',
                                               'stock_return_3day', 'sp500_return_3day']].reset_index(drop=True)
-        
-        # Scale
-        scaler = StandardScaler()
-        X_train = scaler.fit_transform(X_train)
-        X_test = scaler.transform(X_test)
+
+        # Impute and scale — fitted on train only
+        X_train, X_test = self._impute_and_scale(X_train, X_test)
         
         # Train model
         model = xgb.XGBClassifier(max_depth=6, learning_rate=0.1, n_estimators=200,
@@ -467,39 +525,75 @@ class ModelValidator:
     
     def delong_test(self, y_true, y_score1, y_score2):
         """
-        DeLong test for comparing two ROC curves
-        Returns: z-statistic and p-value
+        DeLong test for comparing two correlated ROC curves.
+
+        Uses the structural-component (placement) method from:
+            DeLong, DeLong & Clarke-Pearson (1988), Biometrics 44(3).
+
+        Both score vectors are assumed to be evaluated on the SAME test set,
+        so their AUC estimators are correlated and the covariance must be
+        computed explicitly rather than ignored.
+
+        Returns: z, p_value, auc1, auc2
         """
-        from sklearn.metrics import roc_auc_score
-        
-        auc1 = roc_auc_score(y_true, y_score1)
-        auc2 = roc_auc_score(y_true, y_score2)
-        
-        # Simplified DeLong test using Mann-Whitney U statistic
-        # Full implementation would use proper DeLong covariance calculation
-        
-        n = len(y_true)
-        
-        # Get positive and negative samples
-        pos_idx = y_true == 1
-        neg_idx = y_true == 0
-        
-        n_pos = pos_idx.sum()
-        n_neg = neg_idx.sum()
-        
-        # Compute structural components (simplified)
-        # This is an approximation - full DeLong requires covariance matrix
-        
-        # Standard error approximation
-        se = np.sqrt((auc1 * (1 - auc1) + auc2 * (1 - auc2)) / n)
-        
-        # Z-statistic
-        z = (auc1 - auc2) / se if se > 0 else 0
-        
-        # P-value (two-tailed)
-        p_value = 2 * (1 - stats.norm.cdf(abs(z)))
-        
-        return z, p_value, auc1, auc2
+        y_true   = np.asarray(y_true,   dtype=int)
+        y_score1 = np.asarray(y_score1, dtype=float)
+        y_score2 = np.asarray(y_score2, dtype=float)
+
+        pos = y_true == 1
+        neg = y_true == 0
+        n_pos = int(pos.sum())
+        n_neg = int(neg.sum())
+
+        if n_pos == 0 or n_neg == 0:
+            raise ValueError("DeLong test requires at least one positive and one negative sample.")
+
+        def _placements(scores):
+            """
+            Compute V10 (placement of positives among negatives) and
+            V01 (placement of negatives among positives).
+            Shape: V10 (n_pos,), V01 (n_neg,).
+            """
+            s_pos = scores[pos]
+            s_neg = scores[neg]
+            # V10[i] = fraction of negatives with score < s_pos[i]
+            # (ties split 0.5)
+            v10 = np.array([
+                np.mean(s_neg < sp) + 0.5 * np.mean(s_neg == sp)
+                for sp in s_pos
+            ])
+            v01 = np.array([
+                np.mean(s_pos > sn) + 0.5 * np.mean(s_pos == sn)
+                for sn in s_neg
+            ])
+            return v10, v01
+
+        v10_1, v01_1 = _placements(y_score1)
+        v10_2, v01_2 = _placements(y_score2)
+
+        auc1 = float(v10_1.mean())
+        auc2 = float(v10_2.mean())
+
+        # Covariance matrix of (auc1, auc2):
+        # Var(AUC_k) = [Var(V10_k)/n_pos + Var(V01_k)/n_neg]
+        # Cov(AUC_1, AUC_2) = [Cov(V10_1, V10_2)/n_pos + Cov(V01_1, V01_2)/n_neg]
+        s10 = np.cov(np.stack([v10_1, v10_2]), ddof=1)   # (2,2)
+        s01 = np.cov(np.stack([v01_1, v01_2]), ddof=1)   # (2,2)
+
+        var_diff = (
+            s10[0, 0] / n_pos + s01[0, 0] / n_neg   # Var(AUC_1)
+            + s10[1, 1] / n_pos + s01[1, 1] / n_neg  # Var(AUC_2)
+            - 2 * (s10[0, 1] / n_pos + s01[0, 1] / n_neg)  # - 2*Cov
+        )
+
+        if var_diff <= 0:
+            # Degenerate case (e.g. identical scores)
+            return 0.0, 1.0, auc1, auc2
+
+        z       = (auc1 - auc2) / np.sqrt(var_diff)
+        p_value = float(2 * (1 - stats.norm.cdf(abs(z))))
+
+        return float(z), p_value, auc1, auc2
     
     def run_8d_statistical_testing(self, df, feature_sets):
         """
@@ -524,13 +618,11 @@ class ModelValidator:
             print(f"Training on: {fs_name}")
             
             X, y, numeric_cols = self.prepare_data(df, fs_cols)
-            X_train, X_test = X[:split_idx], X[split_idx:]
+            X_train, X_test = X[:split_idx].copy(), X[split_idx:].copy()
             y_train = y[:split_idx]
-            
-            # Scale
-            scaler = StandardScaler()
-            X_train = scaler.fit_transform(X_train)
-            X_test = scaler.transform(X_test)
+
+            # Impute and scale — fitted on train only
+            X_train, X_test = self._impute_and_scale(X_train, X_test)
             
             # Train XGBoost
             model = xgb.XGBClassifier(max_depth=6, learning_rate=0.1, n_estimators=200,

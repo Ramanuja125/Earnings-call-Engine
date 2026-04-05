@@ -35,40 +35,125 @@ class NLPFeatureExtractor:
         
         # Loughran-McDonald Dictionary (simplified version)
         # Full dictionary has thousands of words, we'll use key words
+        # Loughran-McDonald Financial Sentiment Dictionary
+        # Expanded from ~45 words to ~100+ per category.
+        # Previous version was capturing ~2% of real LM signal
+        # (lm_negative was 0.26% vs expected 2-4% for earnings calls).
         self.lm_dict = {
             'negative': [
-                'loss', 'losses', 'decline', 'declined', 'declining', 'decrease', 'decreased',
-                'decreasing', 'risk', 'risks', 'risky', 'uncertain', 'uncertainty', 'challenge',
-                'challenges', 'difficult', 'difficulty', 'weak', 'weakness', 'poor', 'negative',
-                'negatively', 'adverse', 'adversely', 'concern', 'concerns', 'problem', 'problems',
-                'threat', 'threats', 'volatile', 'volatility', 'downturn', 'recession', 'crisis',
-                'fail', 'failure', 'failed', 'failing', 'litigation', 'lawsuit', 'default',
-                'bankruptcy', 'restructuring', 'impairment', 'writedown', 'layoff', 'layoffs'
+                # Losses and decline
+                'loss', 'losses', 'decline', 'declined', 'declining', 'decrease',
+                'decreased', 'decreasing', 'reduction', 'reduced', 'reducing',
+                'falling', 'fell', 'fall', 'drop', 'dropped', 'dropping',
+                'deteriorate', 'deteriorated', 'deteriorating', 'deterioration',
+                'downturn', 'downward', 'downside', 'downgrade', 'downgraded',
+                # Risk and uncertainty
+                'risk', 'risks', 'risky', 'uncertain', 'uncertainty', 'uncertainties',
+                'unpredictable', 'volatile', 'volatility', 'instability', 'unstable',
+                'exposure', 'exposed',
+                # Challenges
+                'challenge', 'challenges', 'challenging', 'difficult', 'difficulty',
+                'difficulties', 'struggle', 'struggled', 'struggling', 'obstacle',
+                'obstacles', 'headwind', 'headwinds', 'pressure', 'pressures',
+                # Weak performance
+                'weak', 'weakness', 'weaknesses', 'weakened', 'weaker', 'poor',
+                'poorly', 'underperform', 'underperformed', 'underperforming',
+                'miss', 'missed', 'shortfall', 'shortfalls', 'deficit', 'deficits',
+                'negative', 'negatively', 'adverse', 'adversely', 'adversity',
+                # Problems and failures
+                'concern', 'concerns', 'concerned', 'concerning', 'problem',
+                'problems', 'problematic', 'issue', 'issues', 'fault', 'error',
+                'errors', 'failure', 'failures', 'failed', 'failing', 'fail',
+                'breakdown', 'disruption', 'disruptions', 'disrupted',
+                # Legal and regulatory
+                'litigation', 'lawsuit', 'lawsuits', 'penalty', 'penalties',
+                'fine', 'fines', 'violation', 'violations', 'breach', 'default',
+                'defaulted', 'bankruptcy', 'insolvent', 'insolvency', 'restructuring',
+                # Impairment
+                'impairment', 'impaired', 'writedown', 'write-down', 'writeoff',
+                'write-off', 'obsolete', 'obsolescence',
+                # Workforce
+                'layoff', 'layoffs', 'downsizing', 'eliminate', 'eliminated',
+                'termination', 'severance',
+                # Debt
+                'debt', 'leverage', 'overleveraged', 'illiquid', 'indebtedness',
+                'delinquent', 'overdue', 'unpaid', 'covenant', 'covenants',
+                # Market conditions
+                'recession', 'slowdown', 'contraction', 'inflation', 'stagflation',
+                'correction', 'crash', 'crisis', 'slump', 'stagnation',
             ],
             'positive': [
-                'gain', 'gains', 'growth', 'growing', 'grow', 'increase', 'increased', 'increasing',
-                'profit', 'profits', 'profitable', 'profitability', 'strong', 'strength', 'improve',
-                'improved', 'improvement', 'improving', 'opportunity', 'opportunities', 'success',
-                'successful', 'achieve', 'achieved', 'achievement', 'positive', 'positively',
-                'excellent', 'outstanding', 'robust', 'innovation', 'innovative', 'leader',
-                'leadership', 'competitive', 'advantage', 'benefit', 'benefits', 'win', 'winning'
+                # Growth and gains
+                'gain', 'gains', 'growth', 'growing', 'grew', 'grow',
+                'increase', 'increased', 'increasing', 'expansion', 'expand',
+                'expanded', 'expanding', 'improvement', 'improved', 'improving',
+                'improve', 'rise', 'rose', 'rising', 'surge', 'surged', 'surging',
+                'acceleration', 'accelerated', 'accelerating', 'accelerate',
+                # Profitability
+                'profit', 'profits', 'profitable', 'profitability', 'margin',
+                'margins', 'earnings', 'revenue', 'revenues', 'income',
+                'dividend', 'dividends',
+                # Performance
+                'strong', 'strength', 'strengths', 'stronger', 'strongest',
+                'robust', 'solid', 'exceptional', 'excellent', 'outstanding',
+                'superior', 'best', 'record', 'highest', 'peak',
+                'outperform', 'outperformed', 'outperforming', 'exceed',
+                'exceeded', 'exceeding', 'beat', 'beats', 'beating', 'surpass',
+                'surpassed', 'surpassing',
+                # Strategy and execution
+                'opportunity', 'opportunities', 'success', 'successful',
+                'successfully', 'achieve', 'achieved', 'achieving', 'accomplish',
+                'deliver', 'delivered', 'delivering', 'execute', 'executed',
+                'executing', 'execution',
+                # Innovation
+                'innovation', 'innovative', 'leadership', 'leader', 'leading',
+                'competitive', 'advantage', 'advantages', 'differentiate',
+                'differentiated', 'unique', 'proprietary',
+                # Value
+                'value', 'shareholder', 'buyback', 'repurchase', 'acquisition',
+                'synergy', 'synergies', 'efficiency', 'efficient', 'optimize',
+                'optimized', 'productivity',
+                # Momentum
+                'momentum', 'traction', 'pipeline', 'backlog', 'demand',
+                'adoption', 'penetration', 'win', 'winning', 'won',
+                'positive', 'positively', 'benefit', 'benefits',
             ],
             'uncertainty': [
-                'uncertain', 'uncertainty', 'uncertainties', 'risk', 'risks', 'risky', 'maybe',
-                'perhaps', 'possibly', 'might', 'could', 'may', 'approximate', 'approximately',
-                'depend', 'depends', 'depending', 'tentative', 'preliminary', 'subject to',
-                'conditional', 'estimate', 'estimated', 'expect', 'expected', 'anticipate',
-                'anticipated', 'believe', 'believes', 'appears', 'seems', 'likely', 'unlikely'
+                'uncertain', 'uncertainty', 'uncertainties', 'unpredictable',
+                'volatile', 'volatility', 'maybe', 'perhaps', 'possibly',
+                'might', 'could', 'may', 'approximate', 'approximately', 'roughly',
+                'depend', 'depends', 'depending', 'dependent', 'tentative',
+                'preliminary', 'estimate', 'estimated', 'estimates', 'estimating',
+                'expect', 'expected', 'expects', 'expecting', 'anticipate',
+                'anticipated', 'anticipates', 'anticipating', 'believe', 'believes',
+                'believed', 'assuming', 'assumption', 'assumptions', 'appears',
+                'seem', 'seems', 'likely', 'unlikely', 'probably', 'possible',
+                'potential', 'potentially', 'whether', 'conditional', 'contingent',
+                'subject', 'forecast', 'forecasted', 'projection', 'projected',
+                'guidance', 'outlook', 'scenario', 'scenarios', 'risk', 'risks',
+                'variable', 'variability',
             ],
             'litigious': [
-                'lawsuit', 'lawsuits', 'litigation', 'litigations', 'court', 'judge', 'jury',
-                'trial', 'settlement', 'sue', 'sued', 'suing', 'legal', 'attorney', 'claim',
-                'claims', 'complaint', 'complaints', 'allege', 'alleged', 'allegations'
+                'lawsuit', 'lawsuits', 'litigation', 'litigations', 'court',
+                'courts', 'judge', 'jury', 'trial', 'trials', 'settlement',
+                'settlements', 'settle', 'settled', 'sue', 'sued', 'suing',
+                'plaintiff', 'plaintiffs', 'defendant', 'defendants', 'attorney',
+                'attorneys', 'counsel', 'legal', 'claim', 'claims', 'complaint',
+                'complaints', 'allege', 'alleged', 'alleges', 'allegation',
+                'allegations', 'arbitration', 'verdict', 'judgment', 'damages',
+                'indemnify', 'indemnification', 'regulatory', 'investigation',
+                'subpoena', 'class', 'action',
             ],
             'constraining': [
-                'must', 'shall', 'required', 'requirement', 'requirements', 'obligation',
-                'obligations', 'obligated', 'mandate', 'mandated', 'mandatory', 'need', 'needs',
-                'necessary', 'compel', 'compelled', 'force', 'forced', 'prohibit', 'prohibited'
+                'must', 'shall', 'required', 'requirement', 'requirements',
+                'obligation', 'obligations', 'obligated', 'mandate', 'mandated',
+                'mandatory', 'need', 'needs', 'necessary', 'necessity',
+                'compel', 'compelled', 'force', 'forced', 'prohibit', 'prohibited',
+                'prohibits', 'prohibition', 'restrict', 'restricted', 'restricts',
+                'restriction', 'restrictions', 'limit', 'limited', 'limits',
+                'limitation', 'limitations', 'constrain', 'constrained',
+                'constraint', 'constraints', 'regulate', 'regulated', 'regulation',
+                'regulations', 'comply', 'compliance', 'compel', 'bound', 'binding',
             ]
         }
         

@@ -20,20 +20,22 @@ def run_phase_3a():
     print("   - Analyst sentiment")
     print("   - Sentiment divergence")
     print()
-    print("⏱️  Estimated time: 2-5 minutes for 150 transcripts")
+    print("⚡ OPTIMISATIONS ACTIVE:")
+    print("   - Cache: skips all GPU/CPU work if output already exists")
+    print("   - Batch size: 32 (was 8) — 4x fewer tokeniser calls")
+    print("   - torch.inference_mode() — faster than no_grad")
+    print("   - First run: ~7-10 min  |  Cached runs: < 5 seconds")
     print()
-    
-    # Initialize extractor
-    extractor = FinBERTExtractor()
-    
-    # Run extraction
+
+    # ── batch_size=32 is the key change from the original runner ──
+    extractor = FinBERTExtractor(batch_size=32)
+
     success = extractor.run()
-    
+
     if not success:
         print("\n❌ Phase 3A failed.")
         return False
-    
-    # Final summary
+
     print("="*60)
     print("🎉 PHASE 3A COMPLETE!")
     print("="*60)
@@ -47,12 +49,13 @@ def run_phase_3a():
     print()
     print("✅ Ready to verify before Phase 3B")
     print()
-    
+
     return True
+
 
 if __name__ == "__main__":
     success = run_phase_3a()
-    
+
     if success:
         print("="*60)
         print("⏸️  PAUSED - Verification Required")
