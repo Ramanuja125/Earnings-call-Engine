@@ -27,6 +27,7 @@ def verify_installation():
         'matplotlib': '3.8.0',
         'seaborn': '0.13.0',
         'tqdm': '4.66.0',
+        'streamlit': '1.30.0',
     }
     
     print("="*60)
