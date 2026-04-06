@@ -16,10 +16,19 @@ REM =========================
 call :run "" py run_phase1ab.py
 powershell -c "[console]::beep(800,400)"
 
+call :run "" py verify_phase1ab.py
+powershell -c "[console]::beep(800,400)"
+
 call :run "" py run_phase1c.py
 powershell -c "[console]::beep(800,400)"
 
+call :run "" py verify_phase1c.py
+powershell -c "[console]::beep(800,400)"
+
 call :run "" py run_phase1d.py
+powershell -c "[console]::beep(800,400)"
+
+call :run "" py verify_phase1d.py
 powershell -c "[console]::beep(800,400)"
 
 call :speak "Phase 1 complete"
@@ -30,13 +39,25 @@ REM =========================
 call :run "" py run_phase2a.py
 powershell -c "[console]::beep(800,400)"
 
+call :run "" py verify_phase2a.py
+powershell -c "[console]::beep(800,400)"
+
 call :run "" py run_phase2b.py
+powershell -c "[console]::beep(800,400)"
+
+call :run "" py verify_phase2b.py
 powershell -c "[console]::beep(800,400)"
 
 call :run "" py run_phase2c.py
 powershell -c "[console]::beep(800,400)"
 
+call :run "" py verify_phase2c.py
+powershell -c "[console]::beep(800,400)"
+
 call :run "" py run_phase2d.py
+powershell -c "[console]::beep(800,400)"
+
+call :run "" py verify_phase2d.py
 powershell -c "[console]::beep(800,400)"
 
 call :run "" py run_phase2e.py
@@ -50,11 +71,20 @@ REM =========================
 call :run "" py run_phase3a.py
 powershell -c "[console]::beep(800,400)"
 
+call :run "" py verify_phase3a.py
+powershell -c "[console]::beep(800,400)"
+
 call :run "" py run_phase3b.py
+powershell -c "[console]::beep(800,400)"
+
+call :run "" py verify_phase3b.py
 powershell -c "[console]::beep(800,400)"
 
 call :run "" py run_phase3c.py
 powershell -c "[console]::beep(1200,400)"
+
+call :run "" py verify_phase3c.py
+powershell -c "[console]::beep(800,400)"
 
 call :speak "Phase 3 complete"
 
@@ -63,6 +93,9 @@ REM Phase 4 (includes 5)
 REM =========================
 call :run "" py run_phase4.py
 powershell -c "[console]::beep(1400,400)"
+
+call :run "" py verify_phase4.py
+powershell -c "[console]::beep(800,400)"
 
 call :speak "Phase 4 and 5 complete"
 
