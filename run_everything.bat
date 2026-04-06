@@ -42,9 +42,6 @@ powershell -c "[console]::beep(800,400)"
 call :run "" py verify_phase2a.py
 powershell -c "[console]::beep(800,400)"
 
-REM call :run "" py run_phase2b.py
-REM powershell -c "[console]::beep(800,400)"
-
 call :run "" py verify_phase2b.py
 powershell -c "[console]::beep(800,400)"
 
