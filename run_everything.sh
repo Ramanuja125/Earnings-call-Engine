@@ -1,81 +1,112 @@
-#!/bin/bash
+#!/bin/zsh
 
-# Exit immediately if any command fails
-set -e
+cd "${0:A:h}"
 
-# Optional: better error handling for pipes
-set -o pipefail
+speak() {
+  # Uses macOS built-in text-to-speech
+  say "$1"
+}
 
-cd "$(dirname "$0")"
+beep() {
+  # Simple terminal bell
+  printf '\a'
+}
+
+run() {
+  local message="$1"
+  shift
+
+  if [[ -n "$message" ]]; then
+    echo "$message"
+  fi
+
+  "$@"
+  local status=$?
+
+  if [[ $status -ne 0 ]]; then
+    echo
+    echo "ERROR: Step failed - stopping pipeline."
+    beep
+    speak "Error occurred. Pipeline stopped."
+    exit 1
+  fi
+}
 
 echo "Setting up the file structure..."
-python3 setup_project.py
-
-echo "Installing Requirements..."
-pip3 install -r requirements.txt
-
-echo "Verifying Requirements Installation..."
-python3 verify_installation.py
+run "Setting up the file structure..." python3 setup_project.py
+run "Installing Requirements..." python3 -m pip install -r requirements.txt
+run "Verifying Requirements Installation..." python3 verify_installation.py
 
 echo "Starting pipeline..."
 
 # Phase 1
-python3 run_phase1ab.py
-printf '\a'
-
-python3 run_phase1c.py
-printf '\a'
-
-python3 run_phase1d.py
-printf '\a'
+run "" python3 run_phase1ab.py
+beep
+run "" python3 run_phase1c.py
+beep
+run "" python3 run_phase1d.py
+beep
+speak "Phase 1 complete"
 
 # Phase 2
-python3 run_phase2a.py
-printf '\a'
-
-python3 run_phase2b.py
-printf '\a'
-
-python3 run_phase2c.py
-printf '\a'
-
-python3 run_phase2d.py
-printf '\a'
-
-python3 run_phase2e.py
-printf '\a'
+run "" python3 run_phase2a.py
+beep
+run "" python3 run_phase2b.py
+beep
+run "" python3 run_phase2c.py
+beep
+run "" python3 run_phase2d.py
+beep
+run "" python3 run_phase2e.py
+beep
+speak "Phase 2 complete"
 
 # Phase 3
-python3 run_phase3a.py
-printf '\a'
+run "" python3 run_phase3a.py
+beep
+run "" python3 run_phase3b.py
+beep
+run "" python3 run_phase3c.py
+beep
+speak "Phase 3 complete"
 
-python3 run_phase3b.py
-printf '\a'
-
-python3 run_phase3c.py
-printf '\a'
-
-# Phase 4
-python3 run_phase4.py
-printf '\a'
+# Phase 4 (and 5)
+run "" python3 run_phase4.py
+beep
+speak "Phase 4 and 5 complete"
 
 # Phase 6+
-python3 run_phase6.py
-printf '\a'
-
-python3 run_phase7.py
-printf '\a'
-
-python3 run_phase8.py
-printf '\a'
-
-python3 run_phase9.py
-printf '\a'
-
-python3 run_phase10.py
-printf '\a'
-
-python3 run_phase11.py
-printf '\a'
+run "" python3 run_phase6.py
+beep
+run "" python3 run_phase7.py
+beep
+run "" python3 run_phase8.py
+beep
+run "" python3 run_phase9.py
+beep
+run "" python3 run_phase10.py
+beep
+run "" python3 run_phase11.py
+beep
+speak "Pipeline complete"
 
 echo "Pipeline completed!"
+
+echo
+echo "If you need to visualize this in the UI, please hit yes or y."
+printf "Launch the UI now? [y/N]: "
+read -r answer
+
+case "$answer" in
+  y|Y|yes|YES|Yes)
+    speak "Launching user interface."
+    python3 run_ui.py
+    ;;
+  *)
+    speak "Exiting without launching user interface."
+    ;;
+esac
+
+printf "\nPress Enter to exit..."
+read -r
+exit 0
