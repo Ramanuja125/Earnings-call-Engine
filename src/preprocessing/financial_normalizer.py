@@ -129,7 +129,7 @@ class FinancialNormalizer:
         
         # Method 1: Forward fill within same ticker
         for col in feature_cols:
-            df_filled[col] = df_filled.groupby('Ticker')[col].fillna(method='ffill')
+            df_filled[col] = df_filled.groupby('Ticker')[col].transform(lambda x: x.ffill())
         
         missing_after_ffill = df_filled[feature_cols].isnull().sum().sum()
         print(f"   After forward fill: {missing_after_ffill:,}")
