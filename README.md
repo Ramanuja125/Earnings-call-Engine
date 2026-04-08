@@ -154,7 +154,7 @@ python run_phase6.py
 ```bash
 python run_phase7.py
 ```
-### Phase 8: Model Comparison & Visualization
+### Phase 8: Model Comparison & Visualization using Streamlit for UI
 ```bash
 python run_phase8.py
 ```
@@ -196,7 +196,7 @@ python run_phase5.py
 - [x] Phase 1D: Transcript Collection (Week 3)
 - [x] Phase 2: Data Preprocessing (Week 4-5)
 - [x] Phase 3: Feature Engineering (Week 6-7)
-- [x] Phase 4-8: ML Modeling (Week 8-9)
+- [x] Phase 4-8: ML Modeling and adding User Interface - Streamlit(Week 8-9)
 - [x] Phase 9-10: Agentic Enhancement (Week 10-11)
 
 ## 🤖 Agentic AI Enhancement (Phase 2)
