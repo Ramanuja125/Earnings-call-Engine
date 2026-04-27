@@ -100,7 +100,7 @@ read -p "Do you want to launch the UI (run_ui.py)? (y/n): " choice
 if [[ "$choice" == "y" || "$choice" == "Y" ]]; then
     echo "Launching UI..."
     speak "Launching user interface"
-    python3 run_ui.py
+    streamlit run app.py
 else
     echo "Skipping UI..."
     speak "Exiting without launching user interface"
