@@ -131,7 +131,7 @@ REM =========================
 REM UI Prompt
 REM =========================
 echo.
-choice /C YN /M "Do you want to launch the UI (run_ui.py)?"
+choice /C YN /M "Do you want to launch the UI to analyze and look at the results?"
 
 REM IMPORTANT: check in descending order
 if errorlevel 2 goto skip_ui
@@ -140,7 +140,7 @@ if errorlevel 1 goto run_ui
 :run_ui
 echo Launching UI...
 call :speak "Launching user interface"
-py run_ui.py
+streamlit run app.py
 goto end
 
 :skip_ui
