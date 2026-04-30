@@ -654,7 +654,7 @@ def page_dashboard():
     # KPIs
     c1, c2, c3, c4 = st.columns(4)
     with c1: st.markdown(kpi_card("Transcripts Analyzed", "917", "real · 508 tickers · 27 quarters", "#00C9A7"), unsafe_allow_html=True)
-    with c2: st.markdown(kpi_card("Best ROC-AUC", "0.572", "Cross-validated · XGBoost", "#30D158"), unsafe_allow_html=True)
+    with c2: st.markdown(kpi_card("Best ROC-AUC", "0.633", "XGBoost + fullFinBert", "#30D158"), unsafe_allow_html=True)
     with c3: st.markdown(kpi_card("Feature Dimensions", "861", "784 FinBERT + 77 financial", "#4D9FFF"), unsafe_allow_html=True)
     with c4: st.markdown(kpi_card("Price Records", "1.24M", "Market data 2016–2026", "#F0A500"), unsafe_allow_html=True)
 
