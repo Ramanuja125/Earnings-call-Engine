@@ -231,8 +231,11 @@ This project is part of academic coursework at Arizona State University.
 ## 📧 Contact
 
 For questions or collaboration:
-- Shalin N. Bhavsar - sbhavsa8@asu.edu
-
+sbhavsa8@asu.edu - Shalin N Bhavsar
+rkrish79@asu.edu - Ramanuja M.A Krishna
+fshah14@asu.edu - Freya Shah
+ksures21@asu.edu - Kruthika Suresh
+hveldan1@asu.edu - Harihara Y. Veldanda
 ---
 
 **Status**: 🟢 Complete
