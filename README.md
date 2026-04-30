@@ -64,6 +64,7 @@ Transcripts    - Validation      - Agent AI        - Ensemble     ≥3%
 - **Visualization**: matplotlib, seaborn, plotly
 - **Agents**: Anthropic Claude API (Phase 2)
 
+```text
 ## 📁 Project Structure
 .
 ├── data/
@@ -86,6 +87,8 @@ Transcripts    - Validation      - Agent AI        - Ensemble     ≥3%
 ├── requirements.txt      # Python dependencies
 ├── config.py             # Configuration settings
 └── README.md
+```
+
 
 ## 🔧 Installation
 
