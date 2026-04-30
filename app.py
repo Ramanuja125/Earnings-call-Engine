@@ -627,13 +627,13 @@ with st.sidebar:
     nav("Dashboard",      "dashboard")
     nav("Analyze Call",   "analyze")
     nav("Browse Results", "results")
-    nav("Causal Inference", "causal")
+    #nav("Causal Inference", "causal")
 
-    st.markdown("---")
-    st.markdown('<div style="font-size:0.6rem;color:#F0A500;letter-spacing:0.15em;'
+    #st.markdown("---")
+    #st.markdown('<div style="font-size:0.6rem;color:#F0A500;letter-spacing:0.15em;'
                 'text-transform:uppercase;margin-bottom:0.4rem;">Developer</div>',
                 unsafe_allow_html=True)
-    nav("Model Explorer",   "models")
+    #nav("Model Explorer",   "models")
 
     st.markdown("---")
     st.markdown(
