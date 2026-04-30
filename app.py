@@ -506,10 +506,10 @@ def section_comparison_bar(exec_pos, exec_neg, exec_neut,
 
 
 def model_comparison_chart() -> go.Figure:
-    models = ["Financial\nOnly", "FinBERT\nOnly", "XGBoost\nCombined", "Agent\nEnhanced"]
+    models = ["Financial\nOnly", "FinBERT\nOnly", "XGBoost\n+", "Agent\nEnhanced"]
     roc    = [0.520, 0.547, 0.633, 0.572]
-    prec   = [0.510, 0.530, 0.583, 0.558]
-    rec    = [0.495, 0.515, 0.591, 0.544]
+    prec   = [0.510, 0.530, 0.610, 0.558]
+    rec    = [0.495, 0.515, 0.600, 0.544]
 
     fig = go.Figure()
     for name, vals, color in [
@@ -1052,7 +1052,7 @@ def page_models():
     with tab1:
         st.plotly_chart(model_comparison_chart(), use_container_width=True)
         data = {
-            "Model": ["Financial Only", "FinBERT Only", "XGBoost Combined", "Agent Enhanced"],
+            "Model": ["Financial Only", "FinBERT Only", "XGBoost and FullFinbert", "Agent Enhanced"],
             "ROC-AUC": [0.482, 0.547, 0.633, 0.572],
             "Notes": ["Baseline", "NLP signals only", "Held-out test (Phase 6)", "Cross-validated (Phase 10)"],
             "Features": [77, 784, 861, 861],
