@@ -507,9 +507,9 @@ def section_comparison_bar(exec_pos, exec_neg, exec_neut,
 
 def model_comparison_chart() -> go.Figure:
     models = ["Financial\nOnly", "FinBERT\nOnly", "XGBoost\nCombined", "Agent\nEnhanced"]
-    roc    = [0.520, 0.547, 0.568, 0.572]
-    prec   = [0.510, 0.530, 0.551, 0.558]
-    rec    = [0.495, 0.515, 0.538, 0.544]
+    roc    = [0.520, 0.547, 0.633, 0.572]
+    prec   = [0.510, 0.530, 0.583, 0.558]
+    rec    = [0.495, 0.515, 0.591, 0.544]
 
     fig = go.Figure()
     for name, vals, color in [
@@ -522,7 +522,7 @@ def model_comparison_chart() -> go.Figure:
                              textfont={"size": 9, "color": "#8FA3BF"}))
     fig.update_layout(**plotly_theme(), barmode="group", height=300,
                       title="Model Performance Comparison")
-    fig.update_yaxes(range=[0.45, 0.62])
+    fig.update_yaxes(range=[0.45, 0.65])
     return fig
 
 
@@ -631,8 +631,8 @@ with st.sidebar:
 
     #st.markdown("---")
     #st.markdown('<div style="font-size:0.6rem;color:#F0A500;letter-spacing:0.15em;'
-              #  'text-transform:uppercase;margin-bottom:0.4rem;">Developer</div>',
-              #  unsafe_allow_html=True)
+    #            'text-transform:uppercase;margin-bottom:0.4rem;">Developer</div>',
+    #            unsafe_allow_html=True)
     #nav("Model Explorer",   "models")
 
     st.markdown("---")
@@ -1053,7 +1053,7 @@ def page_models():
         st.plotly_chart(model_comparison_chart(), use_container_width=True)
         data = {
             "Model": ["Financial Only", "FinBERT Only", "XGBoost Combined", "Agent Enhanced"],
-            "ROC-AUC": [0.482, 0.547, 0.568, 0.572],
+            "ROC-AUC": [0.482, 0.547, 0.633, 0.572],
             "Notes": ["Baseline", "NLP signals only", "Held-out test (Phase 6)", "Cross-validated (Phase 10)"],
             "Features": [77, 784, 861, 861],
             "Phase": ["Phase 6", "Phase 6", "Phase 6", "Phase 10"],
