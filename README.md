@@ -228,8 +228,8 @@ This project is part of academic coursework at Arizona State University.
 ## 📧 Contact
 
 For questions or collaboration:
-- Team Lead: Shalin N. Bhavsar - sbhavsa8@asu.edu
+- Shalin N. Bhavsar - sbhavsa8@asu.edu
 
 ---
 
-**Status**: 🟢 Active Development | Phase 11 Complete (11/12 phases)
+**Status**: 🟢 Complete
