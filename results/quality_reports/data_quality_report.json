@@ -1,0 +1,110 @@
+{
+  "summary": {
+    "total_records": 744,
+    "total_features": 53,
+    "unique_tickers": 112,
+    "date_range": {
+      "start": "2023-04-30",
+      "end": "2026-01-31"
+    },
+    "quarters_covered": 12,
+    "completeness": {
+      "ticker": 100.0,
+      "company_name": 100.0,
+      "quarter": 100.0,
+      "transcript_date": 100.0,
+      "fiscal_year": 100.0,
+      "fiscal_quarter": 100.0,
+      "financial_date": 100.0,
+      "financial_date_diff_days": 100.0,
+      "financial_match_type": 100.0,
+      "market_date_before": 100.0,
+      "market_date_after": 100.0,
+      "total_management_words": 100.0,
+      "total_analyst_words": 100.0,
+      "management_analyst_ratio": 100.0,
+      "price_before_earnings": 100.0,
+      "price_after_earnings": 100.0,
+      "stock_return_3day": 100.0,
+      "is_temporally_valid": 100.0,
+      "alignment_timestamp": 100.0,
+      "financial_Total_Revenue": 100.0,
+      "financial_Gross_Profit": 100.0,
+      "financial_Operating_Income": 100.0,
+      "financial_Net_Income": 100.0,
+      "financial_EBIT": 100.0,
+      "financial_EBITDA": 100.0,
+      "financial_Operating_Expense": 100.0,
+      "financial_Interest_Expense": 100.0,
+      "financial_Tax_Provision": 100.0,
+      "financial_Diluted_EPS": 100.0,
+      "financial_Total_Assets": 100.0,
+      "financial_Total_Liabilities": 100.0,
+      "financial_Total_Equity": 100.0,
+      "financial_Current_Assets": 100.0,
+      "financial_Current_Liabilities": 100.0,
+      "financial_Cash_And_Equivalents": 100.0,
+      "financial_Total_Debt": 100.0,
+      "financial_Retained_Earnings": 100.0,
+      "financial_Working_Capital": 100.0,
+      "financial_Inventories": 100.0,
+      "financial_Operating_Cash_Flow": 100.0,
+      "financial_Investing_Cash_Flow": 100.0,
+      "financial_Financing_Cash_Flow": 100.0,
+      "financial_Free_Cash_Flow": 100.0,
+      "financial_Capital_Expenditure": 100.0,
+      "financial_Dividend_Paid": 100.0,
+      "financial_Repurchase_Of_Stock": 100.0,
+      "financial_Change_In_Cash": 100.0,
+      "financial_Profit_Margin": 100.0,
+      "financial_Current_Ratio": 100.0,
+      "financial_Debt_to_Equity": 100.0,
+      "financial_Asset_Turnover": 100.0,
+      "financial_ROA": 100.0,
+      "financial_ROE": 100.0
+    },
+    "overall_completeness": 100.0
+  },
+  "quality_analysis": {
+    "missing_values": {
+      "total": 0,
+      "columns_affected": 0
+    },
+    "outliers": {
+      "total": "466"
+    },
+    "temporal_integrity": {
+      "lookahead_violations": 0,
+      "avg_gap_days": 41.09274193548387,
+      "max_gap_days": 153.0
+    },
+    "feature_distributions": {
+      "returns_mean": -0.00491817354940451,
+      "returns_std": 0.04492254827366289,
+      "positive_pct": 44.623655913978496,
+      "negative_pct": 55.376344086021504
+    }
+  },
+  "phase_summary": {
+    "Phase 2A - Cleaning": {
+      "Total processed": 0,
+      "Successfully cleaned": 0,
+      "Success rate": "0.0%"
+    },
+    "Phase 2B - Segmentation": {
+      "Total processed": 917,
+      "Successfully segmented": 917,
+      "Success rate": "100.0%"
+    },
+    "Phase 2C - Normalization": {
+      "Total records": 4332,
+      "Features normalized": 34,
+      "Success rate": "100.0%"
+    },
+    "Phase 2D - Alignment": {
+      "Total transcripts": 917,
+      "Successfully aligned": 744,
+      "Success rate": "81.1%"
+    }
+  }
+}

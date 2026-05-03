@@ -1,0 +1,91 @@
+{
+  "pipeline_status": "completed_with_warnings",
+  "total_decisions": 8,
+  "phases_completed": [
+    "data_ingestion",
+    "preprocessing",
+    "feature_extraction",
+    "integration",
+    "modeling"
+  ],
+  "errors_encountered": [
+    "Insufficient cached data",
+    "Only 0.000 improvement (need >=0.02)"
+  ],
+  "performance": {
+    "baseline_auc": 0.5966145833333334,
+    "final_auc": 0.5966145833333334,
+    "improvement": 0.0,
+    "best_model": "baseline"
+  },
+  "data_quality": {
+    "parsing_success_rate": 0.8113413304252999,
+    "temporal_alignment_valid": true,
+    "feature_extraction_success": true
+  },
+  "autonomous_decisions": [
+    {
+      "timestamp": "2026-04-06T12:20:43.247066",
+      "phase": "data_ingestion",
+      "agent": "DataIngestionAgent",
+      "decision": "Insufficient cached data - reingest required",
+      "rationale": "Only 744 records found (need >=1000)"
+    },
+    {
+      "timestamp": "2026-04-06T12:20:43.265831",
+      "phase": "preprocessing",
+      "agent": "PreprocessingAgent",
+      "decision": "Parsing quality confirmed (81.1%) via aligned_data.csv",
+      "rationale": "Exceeds 80% threshold \u2014 744/917 transcripts processed"
+    },
+    {
+      "timestamp": "2026-04-06T12:20:43.583726",
+      "phase": "feature_extraction",
+      "agent": "FeatureExtractionAgent",
+      "decision": "FinBERT extraction successful (768 dimensions)",
+      "rationale": "High-quality embeddings available \u2014 using full feature set"
+    },
+    {
+      "timestamp": "2026-04-06T12:20:43.943331",
+      "phase": "integration",
+      "agent": "IntegrationAgent",
+      "decision": "Integration successful (863 features)",
+      "rationale": "Feature dimensionality acceptable (target: 796)"
+    },
+    {
+      "timestamp": "2026-04-06T12:20:43.949587",
+      "phase": "integration",
+      "agent": "IntegrationAgent",
+      "decision": "Train/test split valid (69.9%/30.1%)",
+      "rationale": "Maintains 70/30 chronological split"
+    },
+    {
+      "timestamp": "2026-04-06T12:20:43.983715",
+      "phase": "modeling",
+      "agent": "ModelingAgent",
+      "decision": "Baseline established (0.597)",
+      "rationale": "Exceeds 0.55 threshold"
+    },
+    {
+      "timestamp": "2026-04-06T12:20:44.018646",
+      "phase": "modeling",
+      "agent": "ModelingAgent",
+      "decision": "Marginal improvement (0.000)",
+      "rationale": "Below 0.02 threshold \u2014 ensemble fallback recommended for next iteration"
+    },
+    {
+      "timestamp": "2026-04-06T12:20:44.018646",
+      "phase": "modeling",
+      "agent": "ModelingAgent",
+      "decision": "Selected architecture: baseline",
+      "rationale": "Best ROC-AUC: 0.597"
+    },
+    {
+      "timestamp": "2026-04-06T12:20:44.025432",
+      "phase": "reporting",
+      "agent": "ReportingAgent",
+      "decision": "Pipeline complete with 2 warnings",
+      "rationale": "Generated comprehensive report with 8 autonomous decisions"
+    }
+  ]
+}

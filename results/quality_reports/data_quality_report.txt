@@ -1,0 +1,40 @@
+============================================================
+DATA QUALITY REPORT
+Earnings Call and Risk Intelligence Engine
+============================================================
+
+Generated: 2026-04-06 12:14:09
+
+OVERALL SUMMARY
+------------------------------------------------------------
+Total Records: 744
+Total Features: 53
+Unique Tickers: 112
+Overall Completeness: 100.0%
+
+PHASE SUMMARY
+------------------------------------------------------------
+
+Phase 2A - Cleaning:
+  Total processed: 0
+  Successfully cleaned: 0
+  Success rate: 0.0%
+
+Phase 2B - Segmentation:
+  Total processed: 917
+  Successfully segmented: 917
+  Success rate: 100.0%
+
+Phase 2C - Normalization:
+  Total records: 4332
+  Features normalized: 34
+  Success rate: 100.0%
+
+Phase 2D - Alignment:
+  Total transcripts: 917
+  Successfully aligned: 744
+  Success rate: 81.1%
+
+============================================================
+END OF REPORT
+============================================================

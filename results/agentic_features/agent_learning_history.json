@@ -1,0 +1,10 @@
+{
+  "iterations": [],
+  "best_score_per_iteration": [],
+  "features_tested": 109,
+  "features_kept": 9,
+  "baseline_auc": 0.564961515360369,
+  "enhanced_auc": 0.5473205667066227,
+  "improvement": -0.017640948653746324,
+  "improvement_pct": -3.1225044846627803
+}

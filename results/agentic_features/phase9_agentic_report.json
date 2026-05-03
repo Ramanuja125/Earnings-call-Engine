@@ -1,0 +1,68 @@
+{
+  "phase": "Phase 9: Agentic Feature Engineering",
+  "timestamp": "2026-04-06T12:19:19.318676",
+  "agent_strategies": [
+    "Interaction Discovery",
+    "Polynomial Discovery",
+    "Ratio Discovery",
+    "Aggregation Discovery"
+  ],
+  "features_tested": 109,
+  "features_discovered": 9,
+  "baseline_auc": 0.564961515360369,
+  "enhanced_auc": 0.5473205667066227,
+  "improvement": -0.017640948653746324,
+  "improvement_pct": -3.1225044846627803,
+  "top_10_features": [
+    {
+      "rank": 1,
+      "feature": "agg_financial_max",
+      "score": 0.03391377423078934
+    },
+    {
+      "rank": 2,
+      "feature": "ratio_financial_Investing_Cash_Flow_div_financial_Tax_Provision",
+      "score": 0.031713726957931954
+    },
+    {
+      "rank": 3,
+      "feature": "interact_financial_Investing_Cash_Flowxanalyst_lm_net_sentiment",
+      "score": 0.027201473894172157
+    },
+    {
+      "rank": 4,
+      "feature": "interact_financial_Dividend_Paidxmgmt_sentiment_neutral",
+      "score": 0.026481139635653683
+    },
+    {
+      "rank": 5,
+      "feature": "interact_financial_Financing_Cash_Flowxlm_uncertainty",
+      "score": 0.02625345929835632
+    },
+    {
+      "rank": 6,
+      "feature": "interact_financial_Financing_Cash_Flowxmgmt_sentiment_neutral",
+      "score": 0.02398461461638801
+    },
+    {
+      "rank": 7,
+      "feature": "ratio_financial_ROE_div_financial_Inventories",
+      "score": 0.023970728153468013
+    },
+    {
+      "rank": 8,
+      "feature": "interact_financial_Operating_Expensexanalyst_lm_net_sentiment",
+      "score": 0.02374900571234928
+    },
+    {
+      "rank": 9,
+      "feature": "interact_financial_Operating_Expensexlm_uncertainty",
+      "score": 0.02114803014730038
+    },
+    {
+      "rank": 10,
+      "feature": "ratio_mgmt_sentiment_positive_div_mgmt_sentiment_neutral",
+      "score": 0.019588191861320325
+    }
+  ]
+}

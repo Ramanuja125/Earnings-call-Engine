@@ -1,0 +1,113 @@
+{
+  "strategy_performance": {
+    "feature_engineering": [
+      0.5237477306510485,
+      0.5237477306510485
+    ],
+    "hyperparameter_tuning": [
+      0.5775308228274222,
+      0.5775308228274222,
+      0.5775308228274222,
+      0.5775308228274222
+    ],
+    "ensemble_building": [
+      0.5663864873410845,
+      0.5663864873410845
+    ],
+    "architecture_search": [
+      0.5510900152858814
+    ],
+    "threshold_optimization": [
+      0.553966106452053
+    ]
+  },
+  "best_configurations": {
+    "feature_engineering": {
+      "score": 0.5237477306510485,
+      "iteration": 1,
+      "metadata": "{'n_features_added': 15}"
+    },
+    "hyperparameter_tuning": {
+      "score": 0.5775308228274222,
+      "iteration": 2,
+      "metadata": "{'best_params': {'colsample_bytree': np.float64(0.8245108790277985), 'gamma': np.float64(0.3854835899772805), 'learning_rate': np.float64(0.10875911927287815), 'max_depth': 4, 'min_child_weight': 7, 'n_estimators': 114, 'subsample': np.float64(0.6443563283247326)}, 'model': XGBClassifier(base_score=None, booster=None, callbacks=None,\n              colsample_bylevel=None, colsample_bynode=None,\n              colsample_bytree=np.float64(0.8245108790277985), device=None,\n              early_stopping_rounds=None, enable_categorical=False,\n              eval_metric=None, feature_types=None, feature_weights=None,\n              gamma=np.float64(0.3854835899772805), grow_policy=None,\n              importance_type=None, interaction_constraints=None,\n              learning_rate=np.float64(0.10875911927287815), max_bin=None,\n              max_cat_threshold=None, max_cat_to_onehot=None,\n              max_delta_step=None, max_depth=4, max_leaves=None,\n              min_child_weight=7, missing=nan, monotone_constraints=None,\n              multi_strategy=None, n_estimators=114, n_jobs=-1,\n              num_parallel_tree=None, ...)}"
+    }
+  },
+  "insights": [
+    "Iteration 1: feature_engineering achieved new best: 0.524 (+0.524)",
+    "Iteration 2: hyperparameter_tuning achieved new best: 0.578 (+0.054)"
+  ],
+  "learning_history": [
+    {
+      "iteration": 1,
+      "strategy": "feature_engineering",
+      "score": 0.5237477306510485,
+      "was_best": true,
+      "exploration_rate": 1.0
+    },
+    {
+      "iteration": 2,
+      "strategy": "hyperparameter_tuning",
+      "score": 0.5775308228274222,
+      "was_best": true,
+      "exploration_rate": 0.85
+    },
+    {
+      "iteration": 3,
+      "strategy": "ensemble_building",
+      "score": 0.5663864873410845,
+      "was_best": false,
+      "exploration_rate": 0.7224999999999999
+    },
+    {
+      "iteration": 4,
+      "strategy": "architecture_search",
+      "score": 0.5510900152858814,
+      "was_best": false,
+      "exploration_rate": 0.6141249999999999
+    },
+    {
+      "iteration": 5,
+      "strategy": "hyperparameter_tuning",
+      "score": 0.5775308228274222,
+      "was_best": true,
+      "exploration_rate": 0.5220062499999999
+    },
+    {
+      "iteration": 6,
+      "strategy": "threshold_optimization",
+      "score": 0.553966106452053,
+      "was_best": false,
+      "exploration_rate": 0.4437053124999999
+    },
+    {
+      "iteration": 7,
+      "strategy": "hyperparameter_tuning",
+      "score": 0.5775308228274222,
+      "was_best": true,
+      "exploration_rate": 0.3771495156249999
+    },
+    {
+      "iteration": 8,
+      "strategy": "hyperparameter_tuning",
+      "score": 0.5775308228274222,
+      "was_best": true,
+      "exploration_rate": 0.32057708828124987
+    },
+    {
+      "iteration": 9,
+      "strategy": "feature_engineering",
+      "score": 0.5237477306510485,
+      "was_best": false,
+      "exploration_rate": 0.2724905250390624
+    },
+    {
+      "iteration": 10,
+      "strategy": "ensemble_building",
+      "score": 0.5663864873410845,
+      "was_best": false,
+      "exploration_rate": 0.23161694628320303
+    }
+  ],
+  "final_best_score": 0.5775308228274222
+}

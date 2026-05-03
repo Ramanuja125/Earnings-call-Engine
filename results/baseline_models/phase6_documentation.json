@@ -1,0 +1,108 @@
+{
+  "phase": "6D",
+  "timestamp": "2026-04-06T12:18:13.194474",
+  "target_metric": "ROC-AUC",
+  "target_threshold": 0.55,
+  "leak_cols_removed": [
+    "abnormal_return",
+    "alignment_timestamp",
+    "company_name",
+    "financial_DateDiff",
+    "financial_date",
+    "financial_date_diff_days",
+    "fiscal_quarter",
+    "fiscal_year",
+    "is_temporally_valid",
+    "label_binary",
+    "label_median",
+    "label_tertile",
+    "market_date_after",
+    "market_date_before",
+    "price_after_earnings",
+    "price_before_earnings",
+    "quarter",
+    "stock_return_3day",
+    "ticker",
+    "transcript_date"
+  ],
+  "results": {
+    "6A_financial_only": {
+      "feature_set": "financial_only",
+      "n_features": 34,
+      "best_roc_auc": 0.5144965277777778,
+      "meets_threshold": false,
+      "logistic_regression": {
+        "accuracy": 0.42857142857142855,
+        "precision": 0.6,
+        "recall": 0.3333333333333333,
+        "f1": 0.42857142857142855,
+        "roc_auc": 0.4996527777777778
+      },
+      "random_forest": {
+        "accuracy": 0.4419642857142857,
+        "precision": 0.6376811594202898,
+        "recall": 0.3055555555555556,
+        "f1": 0.4131455399061033,
+        "roc_auc": 0.5144965277777778
+      },
+      "ridge_regression": {
+        "rmse": 0.050410303773692794,
+        "mae": 0.03843411427239315,
+        "r2": -0.1567252041728182,
+        "direction": 0.375
+      }
+    },
+    "6B_sentiment_only": {
+      "feature_set": "sentiment_only",
+      "n_features": 50,
+      "best_roc_auc": 0.5966145833333334,
+      "meets_threshold": true,
+      "logistic_regression": {
+        "accuracy": 0.6026785714285714,
+        "precision": 0.6729559748427673,
+        "recall": 0.7430555555555556,
+        "f1": 0.7062706270627063,
+        "roc_auc": 0.5966145833333334
+      },
+      "random_forest": {
+        "accuracy": 0.5044642857142857,
+        "precision": 0.6410256410256411,
+        "recall": 0.5208333333333334,
+        "f1": 0.5747126436781609,
+        "roc_auc": 0.5100694444444445
+      },
+      "ridge_regression": {
+        "rmse": 0.049295828622774006,
+        "mae": 0.03725365296624642,
+        "r2": -0.10614462132276392,
+        "direction": 0.45982142857142855
+      }
+    },
+    "6C_combined": {
+      "feature_set": "combined",
+      "n_features": 93,
+      "best_roc_auc": 0.5670138888888889,
+      "meets_threshold": true,
+      "logistic_regression": {
+        "accuracy": 0.6071428571428571,
+        "precision": 0.6891891891891891,
+        "recall": 0.7083333333333334,
+        "f1": 0.6986301369863014,
+        "roc_auc": 0.5670138888888889
+      },
+      "random_forest": {
+        "accuracy": 0.48214285714285715,
+        "precision": 0.6555555555555556,
+        "recall": 0.4097222222222222,
+        "f1": 0.5042735042735043,
+        "roc_auc": 0.5042534722222222
+      },
+      "ridge_regression": {
+        "rmse": 0.05018805650893407,
+        "mae": 0.03872164715490227,
+        "r2": -0.1465482247532519,
+        "direction": 0.45535714285714285
+      }
+    }
+  }
+}
